@@ -1,0 +1,32 @@
+# Environment and secrets (never commit)
+.env
+.env.*
+!.env.example
+
+# Composer / PHP
+/vendor/
+
+# Node (if you add tooling later)
+node_modules/
+
+# Logs and caches
+*.log
+*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# XAMPP / local server noise (optional local files)
+*.tmp
+
+# Large video assets (GitHub blocks files over 100 MB; keep locally or use Git LFS / external hosting)
+assets/videos/*.mp4
