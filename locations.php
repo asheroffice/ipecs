@@ -1,579 +1,105 @@
+<?php
+$districts = [
+    'Malir District, Karachi',
+    'Naushahro Feroze',
+    'Sukkur',
+    'Tando Muhammad Khan',
+    'Tharparkar',
+    'Khairpur',
+    'Umerkot',
+    'Thatta',
+    'Matiari',
+    'Shaheed Benazirabad',
+    'Sanghar',
+    'Dadu',
+    'Hyderabad',
+    'Jacobabad',
+    'Mirpur Khas',
+    'Badin',
+    'Kashmore',
+    'Ghotki',
+    'Jamshoro',
+    'Sujawal',
+    'Larkana',
+    'Shikarpur',
+    'Qambar Shahdadkot',
+    'Tando Allahyar',
+];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-<title>IPECS Consulting.</title>
-    <meta name="description" content="IPECS Consulting. We believe that our commitment to our people is the guarantee of the quality of our service. We strive to pass on to our people a style of building relationships with our clients.">
-    <meta name="keywords" content="IPECS,Consulting,Training,Development,Research">
+    <title>IPECS Consulting PVT Ltd. | Locations</title>
+    <meta name="description" content="IPECS Consulting — operational presence across Sindh, Pakistan. Offices in Karachi and Hyderabad, field capacity in districts province-wide.">
+    <meta name="keywords" content="IPECS,Locations,Sindh,Karachi,Hyderabad,Consulting,Pakistan">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-    <!-- Load Require CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font CSS -->
     <link href="assets/css/boxicon.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <!-- Load Tempalte CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/templatemo.css">
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css">
-
 </head>
 
-<body>
-    <!-- Header -->
+<body class="home-page">
 
-    <?php
-            
-            include "./assets/include/header.php"
+    <?php include __DIR__ . '/assets/include/header.php'; ?>
 
-        ?>
-
-
-    <!-- Close Header -->
-
-
-    <!-- Start Banner Hero -->
-    <section class="bg-light">
-        <div class="container py-4">
-            <div class="row align-items-center justify-content-between">
-                <div class="contact-header col-lg-4">
-                    <h1 class="h2 pb-3 text-primary">IPECS PRESENCE IN SINDH</h1>
-                    <h3 class="h4 regular-400">We are proudly available in the below shared locations.</h3>
-                    <!-- <p class="light-300">
-                        Vector illustration is from <a rel="nofollow" href="https://storyset.com/" target="_blank">StorySet</a>.
-                        Incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                    </p> -->
+    <section class="contact-hero locations-page-hero">
+        <div class="contact-hero-deco" aria-hidden="true">
+            <span class="contact-hero-ring contact-hero-ring--1"></span>
+            <span class="contact-hero-ring contact-hero-ring--2"></span>
+            <span class="contact-hero-blob"></span>
+        </div>
+        <div class="container">
+            <div class="row align-items-center g-4 g-lg-5">
+                <div class="col-lg-6">
+                    <div class="contact-hero-inner">
+                        <h1 class="contact-title">IPECS presence in Sindh</h1>
+                        <p class="contact-subtitle mb-0">We work across urban and rural Sindh with permanent offices in Karachi and Hyderabad, and teams that can be mobilised at short notice. Reach out for collaboration in any of the districts below.</p>
+                    </div>
                 </div>
-                <div class="contact-img col-lg-5 align-items-end col-md-4">
-                    <img src="./assets/img/locations.svg">
+                <div class="col-lg-6 text-center text-lg-end">
+                    <img src="./assets/img/locations.svg" alt="" class="locations-hero-img" width="520" height="320" loading="eager">
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Banner Hero -->
 
+    <section class="contact-content">
+        <div class="container">
+            <h2 class="locations-section-heading">Districts &amp; areas</h2>
+            <div class="locations-intro">
+                <p>IPECS is a well-established consultancy with a strong footprint in Sindh. The firm has been active in the region since 2012 and maintains permanent offices in <strong>Hyderabad</strong> and <strong>Karachi</strong>. We have worked in all districts of Sindh, including remote areas, with experts and enumerators ready to deploy when programmes require it.</p>
+                <p>We have partnered with national and international organisations including FAO, UNDP, UNICEF, ADB, the World Bank, Save the Children, WWF, the Government of Sindh, and the Government of Balochistan, among others. For programme enquiries in a specific area, <a class="contact-link fw-semibold" href="contact.php">contact us</a>.</p>
+            </div>
 
-    <!-- Start Contact -->
-
-    <section class="container py-5">
-
-        <h1 class="h2 semi-bold-600 text-center pt-5">Our Locations:</h1>
-        <p class="text-center pb-5 light-300">
-        IPECS is a well-established consultancy firm with a strong presence in both urban and rural areas of Sindh, Pakistan. The firm has been operating in the region since 2012 and maintains permanent offices in Hyderabad and Karachi. IPECS has been working in all 25 districts of Sindh, including difficult and remote areas, and has a team of experts and enumerators that can be mobilized at short notice. 
-    </br>
-The firm has collaborated on various projects with numerous national and international organizations, including FAO, UNDP, UNICEF, ADB,  the World Bank, Save the Children, WWF, and the Government of Sindh, Government of Blocchstan  among others.</br>
-IPECS has extensive experience in the following districts/areas of Sindh:
- <a rel="nofollow" href="contact.php" target="_blank">Contact us</a>.
-            
-        </p>
-
-        <div class="row d-flex align-items-center pb-5">
-
-           
-            <div class="col-lg-6">
-
-                <!-- Start Pricing List -->
-                <div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-                    <div class="row p-2">
-                        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-                            <i class="display-3 bx bxs-buildings"></i>
-                        </div>
-                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-                            <ul class="list-unstyled text-center light-300">
-                                <li class="h5 semi-bold-600 mb-0 mt-3">Malir District, Karachi</li>
-                                
-                            </ul>
-                        </div>
-                        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-                            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-                        </div>
-                    </div>
+            <div class="row g-3 g-md-4">
+                <?php foreach ($districts as $name) :
+                    $label = 'Contact IPECS about work in ' . $name;
+                    ?>
+                <div class="col-md-6 col-xl-4">
+                    <a class="locations-district-card" href="contact.php" aria-label="<?php echo htmlspecialchars($label, ENT_QUOTES, 'UTF-8'); ?>">
+                        <span class="locations-district-icon" aria-hidden="true"><i class="bx bxs-map"></i></span>
+                        <p class="locations-district-name"><?php echo htmlspecialchars($name, ENT_QUOTES, 'UTF-8'); ?></p>
+                        <span class="locations-district-action" aria-hidden="true"><i class="bx bx-right-arrow-alt"></i></span>
+                    </a>
                 </div>
-                <!-- End Pricing List -->
-
-                <!-- Start Pricing List -->
-                <div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-                    <div class="row p-2">
-                        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-                            <i class="display-3 bx bxs-buildings"></i>
-                        </div>
-                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-                            <ul class="list-unstyled text-center light-300">
-                                <li class="h5 semi-bold-600 mb-0 mt-3">Naushahro Feroze</li>
-                                
-                            </ul>
-                        </div>
-                        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-                            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Pricing List -->
-                
-                <!-- Start Pricing List -->
-                <div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-                    <div class="row p-2">
-                        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-                            <i class="display-3 bx bxs-buildings"></i>
-                        </div>
-                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-                            <ul class="list-unstyled text-center light-300">
-                                <li class="h5 semi-bold-600 mb-0 mt-3">Sukkur</li>
-                                
-                            </ul>
-                        </div>
-                        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-                            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Pricing List -->
-
-            </div>    <div class="col-lg-6">
-
-                <!-- Start Pricing List -->
-                <div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-                    <div class="row p-2">
-                        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-                            <i class="display-3 bx bxs-buildings"></i>
-                        </div>
-                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-                            <ul class="list-unstyled text-center light-300">
-                                <li class="h5 semi-bold-600 mb-0 mt-3">Tando Muhammad Khan</li>
-                                
-                            </ul>
-                        </div>
-                        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-                            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Pricing List -->
-
-                <!-- Start Pricing List -->
-                <div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-                    <div class="row p-2">
-                        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-                            <i class="display-3 bx bxs-buildings"></i>
-                        </div>
-                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-                            <ul class="list-unstyled text-center light-300">
-                                <li class="h5 semi-bold-600 mb-0 mt-3">Tharparkar</li>
-                                
-                            </ul>
-                        </div>
-                        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-                            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Pricing List -->
-
-                <!-- Start Pricing List -->
-                <div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-                    <div class="row p-2">
-                        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-                            <i class="display-3 bx bxs-buildings"></i>
-                        </div>
-                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-                            <ul class="list-unstyled text-center light-300">
-                                <li class="h5 semi-bold-600 mb-0 mt-3">Khairpur</li>
-                                
-                            </ul>
-                        </div>
-                        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-                            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Pricing List -->
-
-
-
-                </div>    <div class="col-lg-6">
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Umerkot</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Thatta</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Matiari</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-
-</div>    <div class="col-lg-6">
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Shaheed Benazirabad</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Sanghar</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Dadu</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-
-
-
-
-
-</div>    <div class="col-lg-6">
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Hyderabad</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Jacobabad</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Mirpur Khas</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-
-
-
-</div>    <div class="col-lg-6">
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Badin</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Kashomore</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Ghotki</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-</div>    <div class="col-lg-6">
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Jamshoro</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Sujawal</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Larkana</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-</div>    <div class="col-lg-6">
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Shikarpur</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Qambar Shahdadkot</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-<!-- Start Pricing List -->
-<div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
-    <div class="row p-2">
-        <div class="pricing-list-icon col-3 text-center m-auto text-secondary ml-5 py-2">
-            <i class="display-3 bx bxs-buildings"></i>
-        </div>
-        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
-            <ul class="list-unstyled text-center light-300">
-                <li class="h5 semi-bold-600 mb-0 mt-3">Tando Allahyar</li>
-                
-            </ul>
-        </div>
-        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
-            <a href="contact.php" class="btn rounded-pill px-4 btn-primary light-300"><i class="bx bxs-phone-call"> </i></a>
-        </div>
-    </div>
-</div>
-<!-- End Pricing List -->
-
-
-</div>
+                <?php endforeach; ?>
+            </div>
         </div>
     </section>
-    <!-- End Contact -->
 
+    <?php include __DIR__ . '/assets/include/footer.php'; ?>
 
-    <!-- Start Footer -->
-    <?php
-            
-            include "./assets/include/footer.php"
-        
-    ?>
-    <!-- End Footer -->
-
-<!-- Templatemo -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/isotope.pkgd.js"></script>
     <script src="assets/js/templatemo.js"></script>
-    <!-- Custom -->
     <script src="assets/js/custom.js"></script>
-
 </body>
 
 </html>
