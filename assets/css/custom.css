@@ -1439,6 +1439,772 @@ https://templatemo.com/tm-561-purple-buzz
     padding-top: calc(var(--home-section-padding-y) * 0.85);
 }
 
+/* ============ Projects page (clean flat UI — no busy gradients) ============ */
+.home-page .projects-page-hero {
+    padding-bottom: 3rem;
+}
+
+.home-page .projects-content-section {
+    padding: var(--home-section-padding-y) 0;
+    background: #f4f6f8;
+    font-family: "Open Sans", sans-serif;
+}
+
+.home-page .projects-content-section .container > * {
+    font-family: inherit;
+}
+
+/* Projects cards: masonry gallery — each card height follows its own content */
+.home-page .projects-cards-grid {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.home-page .projects-cards-grid .projects-card-col {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.home-page .projects-cards-grid .projects-card-col--sizer {
+    height: 0 !important;
+    min-height: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    overflow: hidden;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+@media (min-width: 992px) {
+    .home-page .projects-cards-grid .projects-card-col,
+    .home-page .projects-cards-grid .projects-card-col--sizer {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-page .projects-cards-grid .projects-card-col,
+    .home-page .projects-cards-grid .projects-card-col--sizer {
+        width: 33.333%;
+    }
+}
+
+.home-page .projects-stat-card {
+    border-radius: 14px;
+    border: 1px solid #e2e6ea;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 1.35rem 1.1rem;
+    text-align: center;
+    border-top: 4px solid var(--ipecs-yellow-bar);
+}
+
+.home-page .projects-stat-card--live {
+    border-top-color: var(--ipecs-green-tag);
+}
+
+.home-page .projects-stat-card--done {
+    border-top-color: var(--ipecs-blue);
+}
+
+.home-page .projects-stat-card__icon {
+    display: block;
+    margin-bottom: 0.65rem;
+    line-height: 1;
+}
+
+.home-page .projects-stat-card__icon .bx {
+    font-size: 2rem;
+    color: var(--ipecs-navy);
+    opacity: 0.92;
+}
+
+.home-page .projects-stat-card--live .projects-stat-card__icon .bx {
+    color: var(--ipecs-green-tag);
+}
+
+.home-page .projects-stat-card--done .projects-stat-card__icon .bx {
+    color: var(--ipecs-blue);
+}
+
+.home-page .projects-stat-card__value {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: clamp(1.85rem, 4vw, 2.35rem);
+    color: var(--ipecs-navy);
+    line-height: 1.1;
+}
+
+.home-page .projects-stat-card__label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ipecs-gray);
+    margin-top: 0.35rem;
+}
+
+.home-page .projects-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.15rem 1.75rem;
+    margin-bottom: 2rem;
+    padding: 1.15rem 1.35rem;
+    border-radius: 14px;
+    background: #fff;
+    border: 1px solid #e2e6ea;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.home-page .projects-toolbar__filters,
+.home-page .projects-toolbar__views {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.55rem;
+}
+
+.home-page .projects-toolbar__legend {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.74rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ipecs-navy);
+    margin-right: 0.45rem;
+}
+
+.home-page .projects-filter-btn,
+.home-page .projects-view-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.84rem;
+    padding: 0.5rem 1.05rem;
+    border-radius: 8px;
+    border: 1px solid #cfd6dc;
+    background: #fff;
+    color: var(--ipecs-navy);
+    transition: background 0.28s ease, border-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease, transform 0.22s ease;
+}
+
+.home-page .projects-filter-btn:hover,
+.home-page .projects-view-btn:hover {
+    border-color: var(--ipecs-blue);
+    background: #f8fafc;
+}
+
+.home-page .projects-filter-btn.active {
+    background: var(--ipecs-yellow-bar);
+    border-color: #c9a82e;
+    color: var(--ipecs-navy);
+    box-shadow: none;
+}
+
+.home-page .projects-view-btn.active {
+    background: var(--ipecs-blue);
+    border-color: var(--ipecs-blue);
+    color: #fff;
+    box-shadow: none;
+}
+
+.home-page .projects-empty-msg {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.05rem;
+    color: var(--ipecs-gray);
+    padding: 2.5rem;
+}
+
+.home-page .project-card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-self: flex-start;
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid #e2e6ea;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.35s ease, opacity 0.35s ease;
+}
+
+.home-page .project-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    border-color: #cfd6dc;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-page .project-card {
+        transition: none;
+    }
+}
+
+.home-page .project-card__banner {
+    padding: 1.25rem 1.35rem 1.2rem;
+    background: #fff;
+    border-bottom: 1px solid #e8ecef;
+    border-top: 3px solid var(--ipecs-yellow-bar);
+}
+
+.home-page .project-card__banner-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.65rem;
+    margin-bottom: 0.85rem;
+}
+
+.home-page .project-card__year {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.84rem;
+    font-weight: 800;
+    color: var(--ipecs-navy);
+    line-height: 1.45;
+    max-width: 62%;
+}
+
+.home-page .project-card__badge {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    padding: 0.4rem 0.75rem;
+    border-radius: 999px;
+    flex-shrink: 0;
+}
+
+.home-page .project-card__badge--ongoing {
+    background: #ecfdf3;
+    color: #0a6b3c;
+    border: 1px solid #86efac;
+}
+
+.home-page .project-card__badge--completed {
+    background: #eef2f6;
+    color: var(--ipecs-navy);
+    border: 1px solid #cbd5e1;
+}
+
+.home-page .project-card__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: clamp(1.02rem, 1.2vw, 1.14rem);
+    line-height: 1.5;
+    color: #0f172a;
+    margin: 0;
+    letter-spacing: -0.01em;
+}
+
+.home-page .project-card__body {
+    padding: 0 1.35rem 1.35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    flex: 0 1 auto;
+    background: #fff;
+}
+
+.home-page .project-card__section {
+    margin: 0;
+    padding: 1.1rem 0;
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #e8ecef;
+}
+
+.home-page .project-card__section:last-child {
+    border-bottom: none;
+    padding-bottom: 0.25rem;
+}
+
+.home-page .project-card__section--status {
+    margin-top: 0;
+    padding-top: 1.15rem;
+}
+
+.home-page .project-card__label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ipecs-blue);
+    margin: 0 0 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.home-page .project-card__section--client .project-card__label {
+    color: #92400e;
+}
+
+.home-page .project-card__section--area .project-card__label {
+    color: #0c4a6e;
+}
+
+.home-page .project-card__section--scope .project-card__label {
+    color: #1d4ed8;
+}
+
+.home-page .project-card__section--status .project-card__label {
+    color: #0f172a;
+}
+
+.home-page .project-card__value {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.96875rem;
+    line-height: 1.68;
+    color: #1e293b;
+    margin: 0;
+}
+
+.home-page .project-card__value--muted {
+    color: var(--ipecs-muted);
+    font-weight: 600;
+}
+
+.home-page .project-card__value--status {
+    font-weight: 600;
+    color: #222;
+}
+
+.home-page .project-card__details {
+    margin: 0.35rem 0 0;
+    border-radius: 8px;
+    border: 1px solid #e2e6ea;
+    background: #f8fafc;
+    padding: 0.75rem 0.9rem;
+}
+
+.home-page .project-card__details summary {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.84rem;
+    font-weight: 700;
+    color: var(--ipecs-navy);
+    cursor: pointer;
+}
+
+.home-page .project-card__details-body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.9375rem;
+    line-height: 1.68;
+    color: #1e293b;
+    margin-top: 0.65rem;
+    padding-top: 0.65rem;
+    border-top: 1px solid #e2e6ea;
+}
+
+.home-page .project-card__details-action {
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+.home-page .project-card__section--compact {
+    padding-bottom: 0.5rem;
+}
+
+.home-page .project-details-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 0.4rem 0.85rem;
+    border-radius: 8px;
+    border: 1px solid #cfd6dc;
+    background: #fff;
+    color: var(--ipecs-navy);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.home-page .project-details-btn:hover {
+    background: #f1f5f9;
+    border-color: var(--ipecs-blue);
+    color: var(--ipecs-blue);
+}
+
+.home-page .project-details-btn .bx {
+    font-size: 1rem;
+}
+
+.home-page .project-details-btn--table {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.65rem;
+    white-space: nowrap;
+}
+
+.home-page .project-details-modal-content {
+    border: 1px solid #e2e6ea;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.home-page .project-details-modal-content .modal-header {
+    background: #fff;
+    border-bottom: 1px solid #e8ecef;
+    border-top: 3px solid var(--ipecs-yellow-bar);
+}
+
+.home-page .project-details-modal-content .modal-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.35;
+    padding-right: 1rem;
+}
+
+.home-page .project-details-modal-body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.96875rem;
+    line-height: 1.7;
+    color: #1e293b;
+}
+
+.home-page .project-details-block {
+    margin: 0;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e8ecef;
+}
+
+.home-page .project-details-block:last-child {
+    border-bottom: none;
+    padding-bottom: 0.25rem;
+}
+
+.home-page .project-details-block__label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ipecs-blue);
+    margin: 0 0 0.5rem;
+}
+
+.home-page .project-details-block__value {
+    margin: 0;
+}
+
+.home-page .project-details-block__empty {
+    color: var(--ipecs-muted);
+    font-weight: 600;
+}
+
+.home-page .projects-table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 14px;
+    border: 1px solid #e2e6ea;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.home-page .projects-data-table {
+    table-layout: fixed;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.9375rem;
+    margin-bottom: 0;
+    min-width: 920px;
+    line-height: 1.6;
+}
+
+.home-page .projects-col-year {
+    width: 11%;
+}
+
+.home-page .projects-col-title {
+    width: 22%;
+}
+
+.home-page .projects-col-client {
+    width: 28%;
+}
+
+.home-page .projects-col-status {
+    width: 22%;
+}
+
+.home-page .projects-col-details {
+    width: 17%;
+}
+
+.home-page .projects-data-table thead th {
+    font-family: "Montserrat", sans-serif;
+    background: var(--ipecs-navy);
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    font-size: 0.7rem;
+    padding: 0.95rem 0.75rem;
+    border: none;
+    border-bottom: 3px solid var(--ipecs-yellow-bar);
+    vertical-align: bottom;
+    line-height: 1.35;
+    white-space: normal;
+}
+
+.home-page .projects-data-table thead th:first-child {
+    border-top-left-radius: 13px;
+}
+
+.home-page .projects-data-table thead th:last-child {
+    border-top-right-radius: 13px;
+}
+
+.home-page .projects-data-table tbody td {
+    padding: 0.95rem 0.75rem;
+    vertical-align: top;
+    border-color: #e8ecef;
+    color: #1e293b;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.home-page .projects-data-table tbody td:first-child {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 0.82rem;
+    color: var(--ipecs-navy);
+    background: transparent;
+}
+
+.home-page .projects-data-table tbody tr:nth-child(odd) {
+    background: #fff;
+}
+
+.home-page .projects-data-table tbody tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+.home-page .projects-data-table tbody tr:hover {
+    background: #f1f5f9 !important;
+}
+
+/* ============ Clients page (matches home-page theme) ============ */
+.home-page .clients-page-hero {
+    padding-bottom: 3rem;
+}
+
+.home-page .clients-content-section {
+    padding: var(--home-section-padding-y) 0;
+    background: #f4f6f8;
+    font-family: "Open Sans", sans-serif;
+}
+
+.home-page .clients-content-section .container > * {
+    font-family: inherit;
+}
+
+.home-page .clients-intro-card,
+.home-page .clients-list-card {
+    border-radius: 14px;
+    border: 1px solid #e2e6ea;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.home-page .clients-intro-card {
+    padding: 1.35rem 1.2rem;
+    border-top: 4px solid var(--ipecs-yellow-bar);
+}
+
+.home-page .clients-intro-card__top {
+    display: grid;
+    gap: 0.25rem;
+    margin-bottom: 0.85rem;
+}
+
+.home-page .clients-intro-card__kicker {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ipecs-gray);
+}
+
+.home-page .clients-intro-card__count {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: clamp(2rem, 5vw, 2.6rem);
+    line-height: 1.05;
+    color: var(--ipecs-navy);
+}
+
+.home-page .clients-intro-card__label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.84rem;
+    color: var(--ipecs-blue);
+}
+
+.home-page .clients-intro-card__text {
+    font-size: 0.98rem;
+    line-height: 1.7;
+    color: #1e293b;
+}
+
+.home-page .clients-list-card {
+    overflow: hidden;
+}
+
+.home-page .clients-list-card__header {
+    padding: 1.15rem 1.2rem;
+    border-bottom: 1px solid #e8ecef;
+    border-top: 4px solid var(--ipecs-blue);
+}
+
+.home-page .clients-list-card__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 1.15rem;
+    color: #0f172a;
+    letter-spacing: -0.01em;
+}
+
+.home-page .clients-list-card__subtitle {
+    margin-top: 0.35rem;
+    font-size: 0.95rem;
+    color: var(--ipecs-muted);
+}
+
+.home-page .clients-list {
+    padding: 1.1rem 1.2rem 1.25rem;
+}
+
+.home-page .clients-list__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 0.85rem 0.9rem;
+    border-radius: 10px;
+    border: 1px solid #e8ecef;
+    background: #fff;
+    text-decoration: none !important;
+    color: #0f172a;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.home-page .clients-list__item:hover {
+    border-color: #cfd6dc;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    transform: translateY(-1px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-page .clients-list__item {
+        transition: none;
+    }
+    .home-page .clients-list__item:hover {
+        transform: none;
+    }
+}
+
+.home-page .clients-list__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 0.28rem;
+    background: var(--ipecs-yellow-bar);
+    box-shadow: 0 0 0 3px rgba(232, 199, 58, 0.22);
+    flex-shrink: 0;
+}
+
+.home-page .clients-list__name {
+    display: block;
+    color: #0f172a;
+    font-weight: 600;
+    line-height: 1.45;
+    flex: 1;
+}
+
+.home-page .clients-list__icon {
+    color: var(--ipecs-muted);
+    font-size: 1.15rem;
+    margin-top: 0.1rem;
+    flex-shrink: 0;
+}
+
+.home-page .clients-grid {
+    margin-top: 2.25rem;
+}
+
+.home-page .clients-grid__header {
+    margin-bottom: 1.15rem;
+}
+
+.home-page .clients-grid__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #0f172a;
+    letter-spacing: -0.01em;
+}
+
+.home-page .clients-grid__subtitle {
+    margin-top: 0.35rem;
+    font-size: 0.95rem;
+    color: var(--ipecs-muted);
+}
+
+.home-page .client-tile {
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    border: 1px solid #e2e6ea;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    height: 100%;
+}
+
+.home-page .client-tile__media {
+    min-height: 152px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    background: #fff;
+}
+
+.home-page .client-tile__img {
+    max-height: 72px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.home-page .client-tile__body {
+    padding: 0.95rem 1rem 1.05rem;
+    border-top: 1px solid #e8ecef;
+}
+
+.home-page .client-tile__name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 0.92rem;
+    color: #0f172a;
+    line-height: 1.45;
+}
+
 /* Home: header in flow at top; on scroll, .home-nav-fixed pins bar + hides topbar (sticky fails when nav is inside short .jugad) */
 .home-page .jugad {
     position: relative;
@@ -2101,14 +2867,23 @@ https://templatemo.com/tm-561-purple-buzz
     border-radius: 20px;
     overflow: hidden;
     background: #111;
+    cursor: pointer;
+    outline: none;
 }
 
-.home-page .home-video-tile video {
+.home-page .home-video-tile:focus-visible {
+    outline: 3px solid var(--ipecs-blue);
+    outline-offset: 3px;
+}
+
+.home-page .home-video-thumb {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
     aspect-ratio: 16 / 10;
+    pointer-events: none;
+    vertical-align: middle;
 }
 
 .home-page .home-video-overlay {
@@ -2119,11 +2894,6 @@ https://templatemo.com/tm-561-purple-buzz
     align-items: center;
     justify-content: center;
     pointer-events: none;
-    transition: opacity 0.2s;
-}
-
-.home-page .home-video-tile.is-playing .home-video-overlay {
-    opacity: 0;
 }
 
 .home-page .home-play-icon {
@@ -2136,10 +2906,112 @@ https://templatemo.com/tm-561-purple-buzz
     justify-content: center;
     font-size: 2rem;
     color: #222;
-    pointer-events: auto;
-    cursor: pointer;
-    border: none;
     line-height: 1;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* Full-screen video lightbox (Latest Updates) */
+.home-page .home-video-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 1060;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: max(1rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) max(1rem, env(safe-area-inset-bottom))
+        max(1rem, env(safe-area-inset-left));
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.38s ease, visibility 0.38s;
+    pointer-events: none;
+}
+
+.home-page .home-video-lightbox.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.home-page .home-video-lightbox__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(8, 20, 40, 0.92);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.home-page .home-video-lightbox__panel {
+    position: relative;
+    z-index: 1;
+    width: min(100%, 1080px);
+    max-height: min(90vh, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.45);
+    transform: scale(0.94) translateY(16px);
+    opacity: 0;
+    transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.38s ease;
+}
+
+.home-page .home-video-lightbox.is-open .home-video-lightbox__panel {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+}
+
+.home-page .home-video-lightbox__close {
+    position: absolute;
+    top: 0.65rem;
+    right: 0.65rem;
+    z-index: 2;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.home-page .home-video-lightbox__close:hover {
+    background: rgba(255, 255, 255, 0.22);
+    transform: scale(1.05);
+}
+
+.home-page .home-video-lightbox__close .bx {
+    font-size: 1.75rem;
+}
+
+.home-page .home-video-lightbox__stage {
+    position: relative;
+    width: 100%;
+    background: #000;
+}
+
+.home-page .home-video-lightbox__video {
+    display: block;
+    width: 100%;
+    max-height: min(85vh, 100%);
+    vertical-align: middle;
+}
+
+.home-page.home-video-lightbox-open {
+    overflow: hidden;
+    touch-action: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-page .home-video-lightbox,
+    .home-page .home-video-lightbox__panel {
+        transition-duration: 0.01ms !important;
+    }
 }
 
 .home-page .home-impact {

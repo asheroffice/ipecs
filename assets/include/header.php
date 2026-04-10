@@ -75,7 +75,7 @@
                             <li> <a class="dropdown-item" href="team.php"> Quality Assurance</a>
                         </ul>
 
-                    <li class="nav-item"> <a class="nav-link" href="publications.php">Publications</a> </li>
+                  
                     <li class="nav-item"> <a class="nav-link" href="contact.php">Contact</a> </li>
                 </ul>
             </div>

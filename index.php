@@ -316,34 +316,42 @@
                 <div class="col-lg-8">
                     <div class="row g-4">
                         <div class="col-md-6">
-                            <div class="home-video-tile" data-home-video>
-                                <video preload="metadata" playsinline src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4"></video>
-                                <div class="home-video-overlay">
-                                    <button type="button" class="home-play-icon" aria-label="Play video" data-play-btn>&#9654;</button>
+                            <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" tabindex="0" role="button" aria-label="Play video: Bringing light — Gajri’s story from Badin">
+                                <video class="home-video-thumb" preload="metadata" muted playsinline>
+                                    <source src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" type="video/mp4">
+                                </video>
+                                <div class="home-video-overlay" aria-hidden="true">
+                                    <span class="home-play-icon">&#9654;</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="home-video-tile" data-home-video>
-                                <video preload="metadata" playsinline src="./assets/videos/Success-Story.mp4"></video>
-                                <div class="home-video-overlay">
-                                    <button type="button" class="home-play-icon" aria-label="Play video" data-play-btn>&#9654;</button>
+                            <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Success-Story.mp4" tabindex="0" role="button" aria-label="Play video: Success story">
+                                <video class="home-video-thumb" preload="metadata" muted playsinline>
+                                    <source src="./assets/videos/Success-Story.mp4" type="video/mp4">
+                                </video>
+                                <div class="home-video-overlay" aria-hidden="true">
+                                    <span class="home-play-icon">&#9654;</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="home-video-tile" data-home-video>
-                                <video preload="metadata" playsinline src="./assets/videos/A-Light-in-the-Darkness–Maryums-Story.mp4"></video>
-                                <div class="home-video-overlay">
-                                    <button type="button" class="home-play-icon" aria-label="Play video" data-play-btn>&#9654;</button>
+                            <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/A-Light-in-the-Darkness–Maryums-Story.mp4" tabindex="0" role="button" aria-label="Play video: A light in the darkness — Maryum’s story">
+                                <video class="home-video-thumb" preload="metadata" muted playsinline>
+                                    <source src="./assets/videos/A-Light-in-the-Darkness–Maryums-Story.mp4" type="video/mp4">
+                                </video>
+                                <div class="home-video-overlay" aria-hidden="true">
+                                    <span class="home-play-icon">&#9654;</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="home-video-tile" data-home-video>
-                                <video preload="metadata" playsinline src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4"></video>
-                                <div class="home-video-overlay">
-                                    <button type="button" class="home-play-icon" aria-label="Play video" data-play-btn>&#9654;</button>
+                            <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" tabindex="0" role="button" aria-label="Play video: Bringing light — Gajri’s story from Badin">
+                                <video class="home-video-thumb" preload="metadata" muted playsinline>
+                                    <source src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" type="video/mp4">
+                                </video>
+                                <div class="home-video-overlay" aria-hidden="true">
+                                    <span class="home-play-icon">&#9654;</span>
                                 </div>
                             </div>
                         </div>
@@ -352,6 +360,19 @@
             </div>
         </div>
     </section>
+
+    <!-- Full-screen video lightbox (Latest Updates) -->
+    <div id="home-video-lightbox" class="home-video-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Video">
+        <div class="home-video-lightbox__backdrop" data-home-video-close tabindex="-1"></div>
+        <div class="home-video-lightbox__panel">
+            <button type="button" class="home-video-lightbox__close" data-home-video-close aria-label="Close video">
+                <i class="bx bx-x" aria-hidden="true"></i>
+            </button>
+            <div class="home-video-lightbox__stage">
+                <video id="home-video-lightbox-video" class="home-video-lightbox__video" controls playsinline preload="metadata"></video>
+            </div>
+        </div>
+    </div>
 
     <!-- Impact & projects — Figma node 414:1034 -->
     <section class="home-impact">
@@ -491,7 +512,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-01.jpg" alt="Accelerated Action Plan">
+                            <img src="./assets/img/recent-work-01.png" alt="Accelerated Action Plan">
                             <h3>Accelerated action plan</h3>
                         </div>
                     </a>
@@ -499,7 +520,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-02.jpg" alt="Government of Sindh">
+                            <img src="./assets/img/recent-work-02.png" alt="Government of Sindh">
                             <h3>Government of Sindh</h3>
                         </div>
                     </a>
@@ -507,7 +528,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-03.jpg" alt="Pakistan Petroleum Limited">
+                            <img src="./assets/img/recent-work-03.png" alt="Pakistan Petroleum Limited">
                             <h3>Pakistan Petroleum Limited</h3>
                         </div>
                     </a>
@@ -515,7 +536,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-04.jpg" alt="UNICEF">
+                            <img src="./assets/img/recent-work-04.png" alt="UNICEF">
                             <h3>UNICEF</h3>
                         </div>
                     </a>
@@ -523,7 +544,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-05.jpg" alt="UNDP">
+                            <img src="./assets/img/recent-work-05.png" alt="UNDP">
                             <h3>UNDP</h3>
                         </div>
                     </a>
@@ -531,7 +552,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-06.jpg" alt="SIDA">
+                            <img src="./assets/img/recent-work-06.png" alt="SIDA">
                             <h3>Sindh Irrigation &amp; Development Authority</h3>
                         </div>
                     </a>
@@ -539,7 +560,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-07.jpg" alt="ACTED">
+                            <img src="./assets/img/recent-work-07.png" alt="ACTED">
                             <h3>ACTED</h3>
                         </div>
                     </a>
@@ -547,7 +568,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-08.jpg" alt="CARE">
+                            <img src="./assets/img/recent-work-08.png" alt="CARE">
                             <h3>CARE</h3>
                         </div>
                     </a>
@@ -620,19 +641,58 @@
         }
         updateHomeHeaderScroll();
         window.addEventListener("scroll", updateHomeHeaderScroll, { passive: true });
-        document.querySelectorAll("[data-home-video]").forEach(function(tile) {
-            var v = tile.querySelector("video");
-            var btn = tile.querySelector("[data-play-btn]");
-            if (!v || !btn) return;
-            btn.addEventListener("click", function() {
-                tile.classList.add("is-playing");
-                v.setAttribute("controls", "controls");
-                v.play().catch(function() {});
+        (function homeVideoLightbox() {
+            var lb = document.getElementById("home-video-lightbox");
+            var player = document.getElementById("home-video-lightbox-video");
+            if (!lb || !player) return;
+
+            function openLightbox(src) {
+                if (!src) return;
+                player.src = src;
+                lb.setAttribute("aria-hidden", "false");
+                document.body.classList.add("home-video-lightbox-open");
+                document.body.style.overflow = "hidden";
+                requestAnimationFrame(function () {
+                    lb.classList.add("is-open");
+                });
+                player.play().catch(function () {});
+            }
+
+            function closeLightbox() {
+                lb.classList.remove("is-open");
+                player.pause();
+                player.removeAttribute("src");
+                player.load();
+                lb.setAttribute("aria-hidden", "true");
+                document.body.classList.remove("home-video-lightbox-open");
+                document.body.style.overflow = "";
+            }
+
+            document.querySelectorAll("[data-home-video-open]").forEach(function (tile) {
+                tile.addEventListener("click", function () {
+                    openLightbox(tile.getAttribute("data-video-src"));
+                });
+                tile.addEventListener("keydown", function (e) {
+                    if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        openLightbox(tile.getAttribute("data-video-src"));
+                    }
+                });
             });
-            v.addEventListener("pause", function() {
-                if (v.currentTime === 0 || v.ended) tile.classList.remove("is-playing");
+
+            lb.querySelectorAll("[data-home-video-close]").forEach(function (el) {
+                el.addEventListener("click", function (e) {
+                    e.stopPropagation();
+                    closeLightbox();
+                });
             });
-        });
+
+            document.addEventListener("keydown", function (e) {
+                if (e.key === "Escape" && lb.classList.contains("is-open")) {
+                    closeLightbox();
+                }
+            });
+        })();
 
         document.querySelectorAll(".home-project-filter").forEach(function(btn) {
             btn.addEventListener("click", function() {
@@ -679,23 +739,6 @@ if (window.innerWidth < 992) {
 // end if innerWidth
 }); 
 // DOMContentLoaded  end
-
-var mybutton = document.getElementById("btn-back-to-top");
-function scrollFunction() {
-    if (!mybutton) return;
-    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-}
-window.addEventListener("scroll", scrollFunction, { passive: true });
-if (mybutton) {
-    mybutton.addEventListener("click", function backToTop() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    });
-}
 
     </script>
 
