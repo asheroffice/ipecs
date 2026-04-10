@@ -111,6 +111,111 @@ https://templatemo.com/tm-561-purple-buzz
     --home-section-padding-y: 6rem;
 }
 
+/* Home: modern preloader + reveal animations */
+.home-page.home-preloading {
+    overflow: hidden;
+}
+
+/* Solid full-screen curtain — nothing from the page shows through */
+.home-page .home-preloader {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: grid;
+    place-items: center;
+    isolation: isolate;
+    pointer-events: auto;
+    background-color: var(--ipecs-yellow-light);
+    background-image: linear-gradient(180deg, #fdf8e4 0%, var(--ipecs-yellow-light) 45%, #f5e8a8 100%);
+    opacity: 1;
+    transition: opacity 0.45s ease, visibility 0.45s ease;
+}
+
+.home-page .home-preloader.is-hiding {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.home-page .home-preloader__inner {
+    width: min(420px, 92vw);
+    border-radius: 18px;
+    background: #fff;
+    border: 1px solid rgba(8, 75, 130, 0.12);
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.12);
+    padding: 1.35rem 1.25rem 1.2rem;
+    text-align: center;
+}
+
+.home-page .home-preloader__logo {
+    width: 140px;
+    height: auto;
+    display: block;
+    margin: 0 auto 0.85rem;
+}
+
+.home-page .home-preloader__bar {
+    height: 8px;
+    border-radius: 999px;
+    overflow: hidden;
+    background: rgba(8, 75, 130, 0.12);
+    border: 1px solid rgba(8, 75, 130, 0.1);
+}
+
+.home-page .home-preloader__bar-fill {
+    display: block;
+    height: 100%;
+    width: 45%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--ipecs-yellow-bar), var(--ipecs-blue));
+    animation: home-preloader-sweep 1.05s ease-in-out infinite;
+}
+
+.home-page .home-preloader__text {
+    margin-top: 0.85rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ipecs-navy);
+}
+
+@keyframes home-preloader-sweep {
+    0% {
+        transform: translateX(-110%);
+    }
+    50% {
+        transform: translateX(70%);
+    }
+    100% {
+        transform: translateX(210%);
+    }
+}
+
+.home-page .reveal-init {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1), transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+}
+
+.home-page .reveal-init.reveal-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-page .home-preloader__bar-fill {
+        animation: none;
+    }
+    .home-page .reveal-init {
+        transition: none;
+        opacity: 1;
+        transform: none;
+    }
+}
+
 @media (max-width: 767px) {
     .home-page {
         --home-section-padding-y: 3.5rem;

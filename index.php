@@ -24,6 +24,14 @@
 <body class="home-page">
 
 <?php include __DIR__ . '/assets/include/header.php'; ?>
+    <!-- Home preloader -->
+    <div id="home-preloader" class="home-preloader" aria-hidden="true">
+        <div class="home-preloader__inner">
+            <img class="home-preloader__logo" src="assets/img/logo.png" alt="IPECS">
+            <div class="home-preloader__bar" aria-hidden="true"><span class="home-preloader__bar-fill"></span></div>
+            <p class="home-preloader__text mb-0">Loading…</p>
+        </div>
+    </div>
     <!-- Hero (Figma) -->
     <div class="home-hero banner-wrapper p-0">
         <div id="index_banner" class="container-fluid p-0">
