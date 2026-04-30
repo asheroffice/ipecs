@@ -63,7 +63,7 @@
                         <div class="carousel-caption home-hero-caption">
                             <div class="home-hero-caption-inner">
                             <h1 class="home-hero-title">Monitoring, evaluation &amp; impact assessment at scale</h1>
-                            <a class="home-btn-navy home-hero-cta" href="services.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
+                            <a class="home-btn-navy home-hero-cta" href="sector.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                         <div class="carousel-caption home-hero-caption">
                             <div class="home-hero-caption-inner">
                             <h1 class="home-hero-title">Technology, innovation &amp; safeguards for sustainable development</h1>
-                            <a class="home-btn-navy home-hero-cta" href="services.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
+                            <a class="home-btn-navy home-hero-cta" href="sector.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                         <div class="carousel-caption home-hero-caption">
                             <div class="home-hero-caption-inner">
                             <h1 class="home-hero-title">Research, surveys &amp; field operations you can rely on</h1>
-                            <a class="home-btn-navy home-hero-cta" href="services.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
+                            <a class="home-btn-navy home-hero-cta" href="sector.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
@@ -175,96 +175,107 @@
         </div>
     </section>
 
-    <!-- Services -->
+    <!-- Sectors -->
     <section class="home-services-section">
         <div class="container">
-            <h2 class="home-section-title dark text-center d-block mb-5">Our Services</h2>
+            <h2 class="home-section-title dark text-center d-block mb-5">Our sectors</h2>
             <div class="row g-4">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
                         <img src="./assets/img/services-01.jpg" alt="">
                         <div class="card-body">
-                            <p class="home-service-label mb-1">Service</p>
-                            <h3>Institutional strengthening, training &amp; development</h3>
-                            <p class="excerpt">Capacity building is an integral part of all our work. Our philosophy is to work ourselves out of a job by empowering clients.</p>
-                            <a class="btn-read" href="services.php">Read More</a>
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Education systems strengthening &amp; skills development</h3>
+                            <p class="excerpt">Integrated education and TVET solutions from early childhood through higher education, aligned with SDG 4.</p>
+                            <a class="btn-read" href="sector-education.php">Read More</a>
                         </div>
                     </article>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
                         <img src="./assets/img/services-02.jpg" alt="">
                         <div class="card-body">
-                            <p class="home-service-label mb-1">Service</p>
-                            <h3>Monitoring &amp; impact evaluation</h3>
-                            <p class="excerpt">Conducting large scale sample data collection through surveys, KIIs, and robust quality assurance.</p>
-                            <a class="btn-read" href="services.php">Read More</a>
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Governance, policy &amp; public sector reform</h3>
+                            <p class="excerpt">Institutional diagnostics, policy design, PPP advisory, and accountability systems at all government levels.</p>
+                            <a class="btn-read" href="sector-governance.php">Read More</a>
                         </div>
                     </article>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
                         <img src="./assets/img/services-03.jpg" alt="">
                         <div class="card-body">
-                            <p class="home-service-label mb-1">Service</p>
-                            <h3>Business re-engineering &amp; process improvement</h3>
-                            <p class="excerpt">Structural and civil engineering design services with a focus on practical, sustainable delivery.</p>
-                            <a class="btn-read" href="services.php">Read More</a>
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Engineering, infrastructure &amp; urban development</h3>
+                            <p class="excerpt">Full infrastructure lifecycle: feasibility, design, supervision, and sustainable O&amp;M planning.</p>
+                            <a class="btn-read" href="sector-infrastructure.php">Read More</a>
                         </div>
                     </article>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
                         <img src="./assets/img/services-04.jpg" alt="">
                         <div class="card-body">
-                            <p class="home-service-label mb-1">Service</p>
-                            <h3>Project management &amp; implementation</h3>
-                            <p class="excerpt">Successful project management through disciplined implementation and stakeholder coordination.</p>
-                            <a class="btn-read" href="services.php">Read More</a>
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Climate-smart environment, energy &amp; resilience</h3>
+                            <p class="excerpt">Climate policy, renewable energy, CSA, NRM, DRR, and safeguards aligned with Pakistan's climate commitments.</p>
+                            <a class="btn-read" href="sector-climate.php">Read More</a>
                         </div>
                     </article>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
                         <img src="./assets/img/services-05.jpg" alt="">
                         <div class="card-body">
-                            <p class="home-service-label mb-1">Service</p>
-                            <h3>Technology &amp; innovation solutions</h3>
-                            <p class="excerpt">Technology and innovation to provide clients with efficient, modern solutions.</p>
-                            <a class="btn-read" href="services.php">Read More</a>
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Water, sanitation &amp; integrated urban services</h3>
+                            <p class="excerpt">WASH engineering, solid waste, hygiene BCC, and institutional sustainability across rural and urban contexts.</p>
+                            <a class="btn-read" href="sector-wash.php">Read More</a>
                         </div>
                     </article>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
                         <img src="./assets/img/services-06.jpg" alt="">
                         <div class="card-body">
-                            <p class="home-service-label mb-1">Service</p>
-                            <h3>Research survey design &amp; implementation</h3>
-                            <p class="excerpt">Meticulous methods across the full research lifecycle for credible, actionable insight.</p>
-                            <a class="btn-read" href="services.php">Read More</a>
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Technology, digital transformation &amp; smart systems</h3>
+                            <p class="excerpt">E-government, MIS, digital data collection, IoT, digital GRM, and analytics for evidence-based decisions.</p>
+                            <a class="btn-read" href="sector-technology.php">Read More</a>
                         </div>
                     </article>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
                         <img src="./assets/img/services-07.jpg" alt="">
                         <div class="card-body">
-                            <p class="home-service-label mb-1">Service</p>
-                            <h3>Environmental &amp; social safeguards</h3>
-                            <p class="excerpt">Safeguards integrated into programmes for sustainable, responsible development outcomes.</p>
-                            <a class="btn-read" href="services.php">Read More</a>
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Social inclusion, gender equity &amp; rural development</h3>
+                            <p class="excerpt">GESI mainstreaming, community-driven development, livelihoods, social protection, and safe programming.</p>
+                            <a class="btn-read" href="sector-inclusion.php">Read More</a>
                         </div>
                     </article>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
                         <img src="./assets/img/services-08.jpg" alt="">
                         <div class="card-body">
-                            <p class="home-service-label mb-1">Service</p>
-                            <h3>Operation &amp; maintenance services</h3>
-                            <p class="excerpt">Reliable O&amp;M to keep infrastructure and programmes performing over the long term.</p>
-                            <a class="btn-read" href="services.php">Read More</a>
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Monitoring, evaluation, learning &amp; impact</h3>
+                            <p class="excerpt">RBM, independent evaluations, third-party monitoring, surveys, and adaptive management for accountability.</p>
+                            <a class="btn-read" href="sector-meal.php">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="home-service-card">
+                        <img src="./assets/img/services-01.jpg" alt="">
+                        <div class="card-body">
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Health systems strengthening &amp; nutrition</h3>
+                            <p class="excerpt">WHO-framed health systems support, multi-sectoral nutrition, MNCH, SBCC, and community health delivery.</p>
+                            <a class="btn-read" href="sector-health.php">Read More</a>
                         </div>
                     </article>
                 </div>

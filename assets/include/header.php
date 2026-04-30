@@ -40,16 +40,19 @@
                         </ul>
 
                     <li class="nav-item dropdown" id="myDropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Services </a>
+                        <a class="nav-link dropdown-toggle" href="sector.php" data-bs-toggle="dropdown">  Sector </a>
                         <ul class="dropdown-menu">
-                            <li> <a class="dropdown-item" href="services.php"> Institutional Strengthening, Training & Development </a></li>
-                            <li> <a class="dropdown-item" href="services.php"> Monitoring & Impact Evaluation </a>
-                            <li><a class="dropdown-item" href="services.php"> Business Re-Engineering & Process Improvement </a></li>
-                            <li><a class="dropdown-item" href="services.php"> Project Management & Implementation </a></li>
-                            <li><a class="dropdown-item" href="services.php"> Technology & Innovation </a></li>
-                            <li><a class="dropdown-item" href="services.php"> Research Survey Design & Implementation </a></li>
-                            <li><a class="dropdown-item" href="services.php"> Environmental & Social Safeguards </a></li>
-                            <li><a class="dropdown-item" href="services.php"> Operation & Maintenance Services </a></li>
+                            <li><a class="dropdown-item fw-semibold" href="sector.php">All sectors — overview</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="sector-education.php">Education systems &amp; skills development</a></li>
+                            <li><a class="dropdown-item" href="sector-governance.php">Governance, policy &amp; public sector reform</a></li>
+                            <li><a class="dropdown-item" href="sector-infrastructure.php">Engineering, infrastructure &amp; urban development</a></li>
+                            <li><a class="dropdown-item" href="sector-climate.php">Climate-smart environment, energy &amp; resilience</a></li>
+                            <li><a class="dropdown-item" href="sector-wash.php">Water, sanitation &amp; integrated urban services</a></li>
+                            <li><a class="dropdown-item" href="sector-technology.php">Technology, digital transformation &amp; smart systems</a></li>
+                            <li><a class="dropdown-item" href="sector-inclusion.php">Social inclusion, gender equity &amp; rural development</a></li>
+                            <li><a class="dropdown-item" href="sector-meal.php">Monitoring, evaluation, learning &amp; impact</a></li>
+                            <li><a class="dropdown-item" href="sector-health.php">Health systems strengthening &amp; nutrition</a></li>
                         </ul>
 
                     <li class="nav-item dropdown" id="myDropdown">

@@ -45,14 +45,18 @@
                 </ul>
             </div>
             <div class="col-lg-4 col-md-6">
-                <p class="footer-heading">Services We Offer</p>
+                <p class="footer-heading">Sectors</p>
                 <ul class="list-unstyled home-footer-links">
-                    <li class="mb-2"><a class="home-footer-link" href="services.php">Training &amp; Development</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="services.php">Risk Management</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="services.php">Backstopping Consultancy</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="services.php">Project Management</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="services.php">IT Solutions</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="services.php">Social &amp; Environmental Research</a></li>
+                    <li class="mb-2"><a class="home-footer-link" href="sector.php">All sectors</a></li>
+                    <li class="mb-2"><a class="home-footer-link" href="sector-education.php">Education &amp; skills</a></li>
+                    <li class="mb-2"><a class="home-footer-link" href="sector-governance.php">Governance &amp; reform</a></li>
+                    <li class="mb-2"><a class="home-footer-link" href="sector-infrastructure.php">Engineering &amp; urban</a></li>
+                    <li class="mb-2"><a class="home-footer-link" href="sector-climate.php">Climate &amp; resilience</a></li>
+                    <li class="mb-2"><a class="home-footer-link" href="sector-wash.php">WASH &amp; urban services</a></li>
+                    <li class="mb-2"><a class="home-footer-link" href="sector-technology.php">Digital &amp; smart systems</a></li>
+                    <li class="mb-2"><a class="home-footer-link" href="sector-inclusion.php">Inclusion &amp; livelihoods</a></li>
+                    <li class="mb-2"><a class="home-footer-link" href="sector-meal.php">MEAL &amp; impact</a></li>
+                    <li class="mb-2"><a class="home-footer-link" href="sector-health.php">Health &amp; nutrition</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6">

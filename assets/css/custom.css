@@ -1106,6 +1106,1117 @@ https://templatemo.com/tm-561-purple-buzz
     color: #fff !important;
 }
 
+/* Sector detail page (long-form sectors) */
+.home-page .sector-page-list .sector-article {
+    scroll-margin-top: 6.5rem;
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(11, 74, 140, 0.12);
+    box-shadow: 0 10px 30px rgba(8, 75, 130, 0.08);
+    padding: 1.75rem 1.5rem 1.85rem;
+    margin-bottom: 2rem;
+}
+
+.home-page .sector-article-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: clamp(1.05rem, 2vw, 1.2rem);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1.35;
+    color: var(--ipecs-blue);
+    margin: 0 0 1.25rem;
+}
+
+.home-page .sector-subheading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ipecs-navy);
+    margin: 1.35rem 0 0.65rem;
+}
+
+.home-page .sector-article .sector-subheading:first-of-type {
+    margin-top: 0;
+}
+
+.home-page .sector-capability {
+    margin-bottom: 1.1rem;
+}
+
+.home-page .sector-capability-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--ipecs-text);
+    margin: 0 0 0.4rem;
+}
+
+.home-page .sector-table-wrap {
+    margin: 0.75rem 0 1.25rem;
+}
+
+.home-page .sector-table {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}
+
+.home-page .sector-table thead th {
+    background: rgba(11, 74, 140, 0.08);
+    color: var(--ipecs-navy);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+
+/* Sector hub + detail pages */
+.home-page .sector-hub-hero-inner {
+    max-width: 48rem;
+}
+
+/* Sector hub + detail: bottom contact band matches site page headers (contact-hero) */
+.home-page .sector-page-contact-hero .contact-hero-inner {
+    max-width: 44rem;
+}
+
+.home-page .sector-page-contact-hero .contact-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-page .sector-breadcrumb-nav {
+    background: #fff;
+    border-bottom: 1px solid rgba(11, 74, 140, 0.08);
+}
+
+.home-page .sector-breadcrumb {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.82rem;
+}
+
+.home-page .sector-breadcrumb .breadcrumb-item a {
+    color: var(--ipecs-blue);
+}
+
+.home-page .sector-breadcrumb .active {
+    color: var(--ipecs-muted);
+}
+
+.home-page .sector-detail-kicker {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--ipecs-yellow-bar);
+}
+
+.home-page .sector-detail-tagline {
+    max-width: 44rem;
+    line-height: 1.55;
+}
+
+.home-page .sector-hero-emoji {
+    display: block;
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    filter: drop-shadow(0 2px 8px rgba(8, 40, 80, 0.12));
+}
+
+.home-page .sector-detail-title {
+    text-wrap: balance;
+}
+
+.home-page .sector-brief-text {
+    font-size: clamp(0.92rem, 1.05vw, 0.98rem);
+    line-height: 1.65;
+}
+
+.home-page .sector-section-head {
+    max-width: 42rem;
+    margin-bottom: 2.25rem;
+}
+
+.home-page .sector-section-head .sector-section-lead {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* PDF-style key achievements matrix */
+.home-page .sector-impact-section {
+    padding: var(--home-section-padding-y) 0;
+    background: linear-gradient(180deg, var(--ipecs-sky) 0%, #fff 14%);
+    border-bottom: 1px solid rgba(11, 74, 140, 0.08);
+}
+
+.home-page .sector-impact-table-wrap {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(8, 75, 130, 0.1);
+    border: 1px solid rgba(11, 74, 140, 0.1);
+    margin-bottom: 2rem;
+}
+
+.home-page .sector-impact-table {
+    table-layout: fixed;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    --sector-impact-bg: #fafcfe;
+}
+
+.home-page .sector-impact-table thead th {
+    background: linear-gradient(160deg, var(--ipecs-blue) 0%, var(--ipecs-navy) 100%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border: none;
+    padding: 1rem 1.1rem;
+    vertical-align: middle;
+}
+
+.home-page .sector-impact-table tbody tr:nth-child(even) {
+    background: rgba(160, 216, 241, 0.12);
+}
+
+.home-page .sector-impact-table tbody tr:nth-child(odd) {
+    background: #fff;
+}
+
+.home-page .sector-impact-table tbody td {
+    border-color: rgba(11, 74, 140, 0.08);
+    padding: 0.95rem 1.1rem;
+    vertical-align: top;
+    color: var(--ipecs-text);
+    line-height: 1.55;
+}
+
+.home-page .sector-impact-th--indicator,
+.home-page .sector-impact-th--achievement {
+    width: 50%;
+}
+
+.home-page .sector-impact-td--indicator {
+    font-weight: 600;
+    color: var(--ipecs-navy);
+}
+
+.home-page .sector-impact-td--achievement-text {
+    font-weight: 500;
+    color: var(--ipecs-text);
+}
+
+/* Mobile achievement cards */
+.home-page .sector-impact-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.home-page .sector-impact-card {
+    background: #fff;
+    border-radius: 14px;
+    border: 1px solid rgba(11, 74, 140, 0.12);
+    box-shadow: 0 8px 28px rgba(8, 75, 130, 0.08);
+    padding: 1.15rem 1.2rem 1.2rem;
+}
+
+.home-page .sector-impact-card__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.88rem;
+    color: var(--ipecs-navy);
+    line-height: 1.35;
+    margin: 0 0 0.85rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--ipecs-yellow-bar);
+}
+
+.home-page .sector-impact-card__row {
+    margin-bottom: 0.65rem;
+}
+
+.home-page .sector-impact-card__row:last-child {
+    margin-bottom: 0;
+}
+
+.home-page .sector-impact-card__label {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ipecs-blue);
+    margin-bottom: 0.2rem;
+}
+
+.home-page .sector-impact-card__value {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.84rem;
+    line-height: 1.5;
+    color: var(--ipecs-text);
+}
+
+/* Contract value + partners strip */
+.home-page .sector-value-partners {
+    margin-top: 0.25rem;
+}
+
+.home-page .sector-value-partners__block {
+    border-radius: 16px;
+    padding: 1.35rem 1.4rem;
+    height: 100%;
+    border: 1px solid rgba(11, 74, 140, 0.12);
+}
+
+.home-page .sector-value-partners__block--value {
+    background: linear-gradient(145deg, rgba(232, 199, 58, 0.22) 0%, rgba(252, 243, 200, 0.55) 100%);
+    border-color: rgba(232, 199, 58, 0.45);
+}
+
+.home-page .sector-value-partners__block--partners {
+    background: linear-gradient(160deg, var(--ipecs-blue) 0%, var(--ipecs-navy) 100%);
+    color: rgba(255, 255, 255, 0.95);
+    border-color: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 14px 36px rgba(8, 40, 80, 0.22);
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.home-page .sector-value-partners__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: rgba(11, 74, 140, 0.1);
+    color: var(--ipecs-navy);
+    font-size: 1.35rem;
+    margin-bottom: 0.65rem;
+}
+
+.home-page .sector-value-partners__block--partners .sector-value-partners__icon {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+}
+
+.home-page .sector-value-partners__label {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 0.35rem;
+    opacity: 0.88;
+}
+
+.home-page .sector-value-partners__block--partners .sector-value-partners__label {
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.home-page .sector-value-partners__emphasis {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: clamp(1.25rem, 2.5vw, 1.55rem);
+    color: var(--ipecs-navy);
+    line-height: 1.2;
+}
+
+.home-page .sector-value-partners__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.94);
+}
+
+/* Partner logo carousel: Bootstrap defaults use 15% width + full-height controls — override to avoid layout break */
+.home-page .sector-partner-carousel {
+    position: relative;
+    max-width: 100%;
+    padding: 0 2.75rem 1.75rem;
+    margin-top: 0.35rem;
+    box-sizing: border-box;
+}
+
+.home-page .sector-partner-carousel--single {
+    padding-bottom: 0.25rem;
+}
+
+.home-page .sector-partner-carousel .carousel-inner {
+    overflow: hidden;
+    border-radius: 0;
+}
+
+.home-page .sector-partner-carousel__row {
+    min-height: 0;
+}
+
+.home-page .sector-partner-carousel__indicators {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.75rem 0 0;
+    padding: 0;
+    justify-content: center;
+    gap: 0.4rem;
+    list-style: none;
+}
+
+.home-page .sector-partner-carousel__indicators button {
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 999px;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.35);
+    border: none;
+    opacity: 1;
+    text-indent: 0;
+    flex-shrink: 0;
+}
+
+.home-page .sector-partner-carousel__indicators button.active {
+    background: var(--ipecs-yellow-light);
+    transform: scale(1.15);
+}
+
+.home-page .sector-partner-carousel .carousel-control-prev,
+.home-page .sector-partner-carousel .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    z-index: 4;
+    border: none;
+    background: transparent;
+    filter: none;
+}
+
+.home-page .sector-partner-carousel .carousel-control-prev .carousel-control-prev-icon,
+.home-page .sector-partner-carousel .carousel-control-next .carousel-control-next-icon {
+    display: none;
+}
+
+.home-page .sector-partner-carousel .carousel-control-prev {
+    left: 0;
+}
+
+.home-page .sector-partner-carousel .carousel-control-next {
+    right: 0;
+}
+
+@media (max-width: 575px) {
+    .home-page .sector-partner-carousel {
+        padding-left: 2.35rem;
+        padding-right: 2.35rem;
+    }
+
+    .home-page .sector-partner-carousel .carousel-control-prev,
+    .home-page .sector-partner-carousel .carousel-control-next {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+}
+
+.home-page .sector-partner-carousel__control-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    line-height: 1;
+    pointer-events: none;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.96);
+    color: var(--ipecs-navy);
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    font-size: 1.2rem;
+    transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+.home-page .sector-partner-carousel__control-inner .bx {
+    margin-top: 1px;
+}
+
+.home-page .sector-partner-carousel .carousel-control-prev:hover .sector-partner-carousel__control-inner,
+.home-page .sector-partner-carousel .carousel-control-next:hover .sector-partner-carousel__control-inner {
+    background: var(--ipecs-yellow-light);
+    color: var(--ipecs-navy);
+    border-color: rgba(11, 74, 140, 0.15);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.22);
+    transform: scale(1.05);
+}
+
+.home-page .sector-partner-carousel .carousel-control-prev:focus-visible,
+.home-page .sector-partner-carousel .carousel-control-next:focus-visible {
+    outline: none;
+}
+
+.home-page .sector-partner-carousel .carousel-control-prev:focus-visible .sector-partner-carousel__control-inner,
+.home-page .sector-partner-carousel .carousel-control-next:focus-visible .sector-partner-carousel__control-inner {
+    outline: 2px solid var(--ipecs-yellow-light);
+    outline-offset: 3px;
+}
+
+.home-page .sector-partner-carousel .carousel-control-prev:active .sector-partner-carousel__control-inner,
+.home-page .sector-partner-carousel .carousel-control-next:active .sector-partner-carousel__control-inner {
+    transform: scale(0.98);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-page .sector-partner-carousel__control-inner,
+    .home-page .sector-partner-carousel .carousel-control-prev:hover .sector-partner-carousel__control-inner,
+    .home-page .sector-partner-carousel .carousel-control-next:hover .sector-partner-carousel__control-inner,
+    .home-page .sector-partner-carousel .carousel-control-prev:active .sector-partner-carousel__control-inner,
+    .home-page .sector-partner-carousel .carousel-control-next:active .sector-partner-carousel__control-inner {
+        transition: none;
+        transform: none;
+    }
+}
+
+.home-page .sector-value-partners__block--partners .sector-partner-logo-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 0.65rem 0.5rem 0.75rem;
+    border: 1px solid rgba(11, 74, 140, 0.1);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.home-page .sector-value-partners__block--partners .sector-partner-logo-card img {
+    max-height: 52px;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    object-fit: contain;
+}
+
+.home-page .sector-value-partners__block--partners .sector-partner-logo-card h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.62rem;
+    line-height: 1.3;
+    color: var(--ipecs-navy);
+    margin: 0.45rem 0 0;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+.home-page .sector-value-partners__caption {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.72rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.78);
+    margin-top: 1rem;
+    margin-bottom: 0 !important;
+}
+
+/* Core technical capabilities: full-bleed band + 2-col grid (compact height) */
+.home-page .sector-capabilities-section {
+    padding: clamp(2rem, 4.5vw, 2.75rem) 0;
+    background: linear-gradient(180deg, #fbfdff 0%, #eef5fb 42%, #f6fafd 100%);
+    border-top: 1px solid rgba(11, 74, 140, 0.07);
+    border-bottom: 1px solid rgba(11, 74, 140, 0.07);
+}
+
+.home-page .sector-capabilities-section__fluid {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.home-page .sector-capabilities-section__head {
+    max-width: 46rem;
+    margin-bottom: clamp(1.5rem, 3vw, 2rem);
+}
+
+.home-page .sector-capabilities-section .sector-section-lead {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-page .sector-capabilities-grid {
+    --bs-gutter-x: 1.15rem;
+    --bs-gutter-y: 1.15rem;
+}
+
+.home-page .sector-capabilities-grid .sector-capability {
+    margin-bottom: 0;
+}
+
+.home-page .sector-capability--tile {
+    position: relative;
+    padding: 1.05rem 1.1rem 1.15rem 2.75rem;
+    margin: 0;
+    border-radius: 14px;
+    border: 1px solid rgba(11, 74, 140, 0.1);
+    background: #fff;
+    box-shadow: 0 2px 14px rgba(8, 75, 130, 0.06);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.home-page .sector-capability--tile:hover {
+    border-color: rgba(11, 74, 140, 0.18);
+    box-shadow: 0 8px 28px rgba(8, 75, 130, 0.1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-page .sector-capability--tile {
+        transition: none;
+    }
+}
+
+.home-page .sector-capability__index {
+    position: absolute;
+    left: 0.85rem;
+    top: 0.95rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 8px;
+    background: linear-gradient(135deg, var(--ipecs-blue) 0%, var(--ipecs-navy) 100%);
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 0.68rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    box-shadow: 0 2px 6px rgba(8, 75, 130, 0.18);
+}
+
+.home-page .sector-capability--tile .sector-capability-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.76rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.045em;
+    line-height: 1.35;
+    color: var(--ipecs-navy);
+    margin: 0 0 0.5rem;
+}
+
+.home-page .sector-capability-body {
+    line-height: 1.52;
+    font-size: 0.84rem;
+    color: var(--ipecs-text);
+}
+
+.home-page .sector-capabilities-section__clients {
+    max-width: 52rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border-top: 1px solid rgba(11, 74, 140, 0.12);
+}
+
+/* Hub: geographic reach + partners (PDF tail) */
+.home-page .sector-hub-reach-section {
+    padding: var(--home-section-padding-y) 0;
+    background: #fff;
+    border-top: 1px solid rgba(11, 74, 140, 0.08);
+}
+
+.home-page .sector-hub-ecosystem-section {
+    padding: var(--home-section-padding-y) 0;
+    background: var(--ipecs-sky);
+    border-top: 1px solid rgba(11, 74, 140, 0.08);
+}
+
+.home-page .sector-hub-quote-section {
+    padding: 3rem 0;
+    background: linear-gradient(160deg, var(--ipecs-blue) 0%, var(--ipecs-navy) 100%);
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.home-page .sector-hub-quote {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: clamp(1rem, 1.35vw, 1.15rem);
+    line-height: 1.65;
+    max-width: 46rem;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+}
+
+.home-page .sector-hub-table {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.86rem;
+    margin-bottom: 0;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 28px rgba(8, 75, 130, 0.08);
+    background: #fff;
+}
+
+.home-page .sector-hub-table thead th {
+    background: rgba(11, 74, 140, 0.1);
+    color: var(--ipecs-navy);
+    font-weight: 700;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.85rem 1rem;
+    border: none;
+}
+
+.home-page .sector-hub-table tbody td {
+    padding: 0.85rem 1rem;
+    vertical-align: top;
+    border-color: rgba(11, 74, 140, 0.08);
+    line-height: 1.5;
+}
+
+.home-page .sector-hub-table tbody tr:nth-child(even) {
+    background: rgba(160, 216, 241, 0.08);
+}
+
+.home-page .sector-offers-wrap .home-section-title {
+    text-wrap: balance;
+}
+
+/* Sector detail: title + overview on full-bleed photo band */
+.home-page .sector-overview-hero {
+    position: relative;
+    overflow: hidden;
+    padding: clamp(2.25rem, 6.5vw, 3.5rem) 0 clamp(2.75rem, 7vw, 4.25rem);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.home-page .sector-overview-hero__bg {
+    position: absolute;
+    inset: 0;
+    background-position: center 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.02);
+}
+
+.home-page .sector-overview-hero__bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        100deg,
+        rgba(6, 26, 46, 0.94) 0%,
+        rgba(11, 74, 140, 0.78) 42%,
+        rgba(11, 74, 140, 0.5) 72%,
+        rgba(11, 74, 140, 0.22) 100%
+    );
+}
+
+.home-page .sector-overview-hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+.home-page .sector-overview-hero__inner {
+    max-width: 52rem;
+    position: relative;
+}
+
+.home-page .sector-overview-hero__title {
+    color: #fff;
+    margin-bottom: 0.65rem;
+}
+
+.home-page .sector-overview-hero__tagline {
+    color: rgba(255, 255, 255, 0.84);
+    max-width: 44rem;
+}
+
+.home-page .sector-overview-hero__overview {
+    margin-top: clamp(1.65rem, 4vw, 2.15rem);
+    padding-top: clamp(1.65rem, 4vw, 2.15rem);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    max-width: 48rem;
+}
+
+.home-page .sector-overview-hero__overview-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: clamp(0.95rem, 1.15vw, 1.05rem);
+    color: var(--ipecs-yellow-bar);
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin: 0 0 1rem;
+}
+
+.home-page .sector-overview-hero__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: clamp(0.92rem, 1.05vw, 0.98rem);
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0 0 1rem;
+}
+
+.home-page .sector-overview-hero__text:last-of-type {
+    margin-bottom: 0;
+}
+
+.home-page .sector-overview-hero .sector-stat-pill {
+    background: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.home-page .sector-overview-hero .sector-stat-pill__label {
+    color: rgba(255, 255, 255, 0.88);
+    font-weight: 500;
+}
+
+.home-page .sector-stat-pill {
+    display: inline-block;
+    padding: 0.45rem 0.85rem;
+    border-radius: 999px;
+    background: rgba(11, 74, 140, 0.08);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: var(--ipecs-navy);
+}
+
+.home-page .sector-stat-pill__label {
+    font-weight: 500;
+    color: var(--ipecs-text);
+    margin-left: 0.25rem;
+}
+
+.home-page .sector-section-lead,
+.home-page .sector-hub-lead {
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(0.9rem, 1.05vw, 0.98rem);
+    line-height: 1.6;
+    color: var(--ipecs-muted);
+    max-width: 40rem;
+}
+
+.home-page .sector-offers-wrap {
+    padding: var(--home-section-padding-y) 0;
+    background: var(--ipecs-sky);
+    border-top: 1px solid rgba(11, 74, 140, 0.06);
+}
+
+.home-page .sector-work-wrap {
+    padding: var(--home-section-padding-y) 0;
+    background: #fff;
+}
+
+.home-page .sector-work-card__stat {
+    font-size: clamp(1.45rem, 3.5vw, 2rem) !important;
+}
+
+.home-page .sector-work-card__blurb {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.82rem;
+    line-height: 1.45;
+    color: var(--ipecs-text);
+    margin-top: 0.65rem;
+}
+
+/* Sector detail: “flow” navigation — dark rail, typography-led */
+.home-page .sector-flow-nav {
+    background: linear-gradient(180deg, #0a2744 0%, #061a2e 100%);
+    border-top: 3px solid var(--ipecs-yellow-bar);
+    padding: 2rem 0 2.25rem;
+    box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.12);
+}
+
+.home-page .sector-flow-nav__track {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+    align-items: center;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .home-page .sector-flow-nav__track {
+        grid-template-columns: 1fr auto 1fr;
+        gap: 1rem 1.5rem;
+    }
+}
+
+.home-page .sector-flow-nav__node {
+    display: flex;
+    align-items: center;
+    min-height: 3.5rem;
+}
+
+.home-page .sector-flow-nav__node--prev {
+    justify-content: flex-start;
+}
+
+.home-page .sector-flow-nav__node--next {
+    justify-content: flex-end;
+}
+
+.home-page .sector-flow-nav__node--hub {
+    justify-content: center;
+    gap: 0.65rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+    .home-page .sector-flow-nav__node--hub {
+        order: -1;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        margin-bottom: 0.25rem;
+    }
+}
+
+.home-page .sector-flow-nav__rail {
+    display: none;
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.22), transparent);
+    max-width: 120px;
+}
+
+@media (min-width: 768px) {
+    .home-page .sector-flow-nav__rail {
+        display: block;
+    }
+}
+
+.home-page .sector-flow-nav__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.85rem;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.95) !important;
+    transition: color 0.2s ease, transform 0.2s ease;
+    max-width: 100%;
+}
+
+.home-page .sector-flow-nav__link:hover {
+    color: #fff !important;
+}
+
+.home-page .sector-flow-nav__link--prev:hover {
+    transform: translateX(-4px);
+}
+
+.home-page .sector-flow-nav__link--next:hover {
+    transform: translateX(4px);
+}
+
+.home-page .sector-flow-nav__link--next {
+    flex-direction: row;
+    text-align: right;
+}
+
+.home-page .sector-flow-nav__link--next .sector-flow-nav__copy {
+    align-items: flex-end;
+}
+
+.home-page .sector-flow-nav__glyph {
+    flex-shrink: 0;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: var(--ipecs-yellow-bar);
+    border: 2px solid rgba(242, 208, 73, 0.45);
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.home-page .sector-flow-nav__copy {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    min-width: 0;
+    text-align: inherit;
+}
+
+.home-page .sector-flow-nav__eyebrow {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.home-page .sector-flow-nav__name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: clamp(0.92rem, 1.8vw, 1.05rem);
+    line-height: 1.3;
+    color: #fff;
+}
+
+.home-page .sector-flow-nav__mute {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 1.5rem;
+    user-select: none;
+}
+
+.home-page .sector-flow-nav__hub {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1.35rem;
+    border-radius: 999px;
+    text-decoration: none;
+    color: #0a2744 !important;
+    background: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 0.78rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.home-page .sector-flow-nav__hub:hover {
+    color: #0a2744 !important;
+    background: var(--ipecs-yellow-light);
+    transform: scale(1.04);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.3);
+}
+
+.home-page .sector-flow-nav__hub-icon {
+    font-size: 1.15rem;
+    opacity: 0.85;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-page .sector-flow-nav__link--prev:hover,
+    .home-page .sector-flow-nav__link--next:hover,
+    .home-page .sector-flow-nav__hub:hover {
+        transform: none;
+    }
+}
+
+.home-page .sector-hub-masthead {
+    position: relative;
+    overflow: hidden;
+    padding: clamp(2.5rem, 7vw, 3.75rem) 0;
+}
+
+.home-page .sector-hub-masthead__bg {
+    position: absolute;
+    inset: 0;
+    background: url("../img/about-img.jpg") center 30% / cover no-repeat;
+    transform: scale(1.02);
+}
+
+.home-page .sector-hub-masthead__bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        115deg,
+        rgba(6, 26, 46, 0.92) 0%,
+        rgba(11, 74, 140, 0.82) 45%,
+        rgba(11, 74, 140, 0.55) 100%
+    );
+}
+
+.home-page .sector-hub-masthead .container {
+    position: relative;
+    z-index: 1;
+}
+
+.home-page .sector-hub-masthead .contact-title {
+    color: #fff;
+}
+
+.home-page .sector-hub-masthead .contact-subtitle {
+    color: rgba(255, 255, 255, 0.88);
+    max-width: 38rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-page .sector-hub-grid-section .home-service-card.sector-hub-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(11, 74, 140, 0.1);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.home-page .sector-hub-grid-section .home-service-card.sector-hub-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--ipecs-blue) 0%, #5eb8e8 45%, var(--ipecs-yellow-bar) 100%);
+    z-index: 2;
+}
+
+.home-page .sector-hub-grid-section .home-service-card.sector-hub-card:hover {
+    box-shadow: 0 14px 36px rgba(8, 75, 130, 0.14);
+    transform: translateY(-3px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-page .sector-hub-grid-section .home-service-card.sector-hub-card:hover {
+        transform: none;
+    }
+}
+
+.home-page .sector-hub-grid-section .sector-hub-card-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.home-page .sector-hub-grid-section .sector-hub-card-thumb img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.home-page .sector-hub-card-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    min-width: 2rem;
+    height: 2rem;
+    padding: 0 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: linear-gradient(145deg, var(--ipecs-blue), var(--ipecs-navy));
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 0.85rem;
+    box-shadow: 0 4px 12px rgba(8, 40, 80, 0.25);
+}
+
 /* ============ Team / organization page ============ */
 .home-page .team-page-hero {
     padding-bottom: 3rem;

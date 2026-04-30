@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4fc"/>
+      <stop offset="100%" style="stop-color:#cfe8f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect x="48" y="48" width="1104" height="579" fill="none" stroke="#0b4a8c" stroke-width="2" stroke-dasharray="12 8" opacity="0.35" rx="12"/>
+  <text x="600" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="28" fill="#0b4a8c" opacity="0.55">Sector image placeholder</text>
+  <text x="600" y="365" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#0b4a8c" opacity="0.4">Replace with your photo  assets/img/sectors/</text>
+</svg>
