@@ -28,15 +28,15 @@
                     <li class="nav-item active"> <a class="nav-link" href="index.php">Home </a> </li>
 
                     <li class="nav-item dropdown" id="myDropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  About Us </a>
+                        <a class="nav-link dropdown-toggle" href="about.php" data-bs-toggle="dropdown"> Corporate profile </a>
                         <ul class="dropdown-menu">
-                            <li> <a class="dropdown-item" href="about.php#why"> Why IPECS </a></li>
-                            <li><a class="dropdown-item" href="about.php#commit"> Our Commitment </a></li>
-                            <li><a class="dropdown-item" href="about.php#key"> Our Business Focuses </a></li>
-                            <li><a class="dropdown-item" href="about.php#stat"> Mission Statement </a></li>
-                            <li><a class="dropdown-item" href="about.php#goals"> Our Goals </a></li>
-                            <li><a class="dropdown-item" href="about.php#values"> Our Values</a></li>
-                            <li><a class="dropdown-item" href="about.php#approach"> Our Approach </a></li>
+                            <li><a class="dropdown-item fw-semibold" href="about.php">Corporate profile — overview</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="about.php#foreword">Foreword from the Managing Director</a></li>
+                            <li><a class="dropdown-item" href="about.php#identity">Corporate identity &amp; overview</a></li>
+                            <li><a class="dropdown-item" href="about.php#strategic">Strategic framework</a></li>
+                            <li><a class="dropdown-item" href="about.php#operations">Operational presence &amp; geographic reach</a></li>
+                            <li><a class="dropdown-item" href="about.php#sectors">Nine sector capabilities &amp; portfolio impact</a></li>
                         </ul>
 
                     <li class="nav-item dropdown" id="myDropdown">
@@ -62,6 +62,7 @@
                             <li> <a class="dropdown-item" href="projects.php"> Completed Projects </a>
                         </ul>
 
+                    <li class="nav-item"> <a class="nav-link" href="our-impacts.php">Our impacts </a> </li>
                     <li class="nav-item"> <a class="nav-link" href="locations.php">Locations </a> </li>
                     <li class="nav-item"> <a class="nav-link" href="clients.php">Clients </a> </li>
 

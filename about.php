@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <title>IPECS Consulting PVT Ltd. | About Us</title>
-    <meta name="description" content="IPECS Consulting Pakistan — research, project management, training, and development. Learn about our commitment, values, and approach.">
-    <meta name="keywords" content="IPECS,About,Consulting,Training,Development,Research,Pakistan">
+    <title>IPECS Consulting PVT Ltd. | Corporate profile</title>
+    <meta name="description" content="IPECS Consulting — Pakistan's leading multidisciplinary development consulting firm. Corporate profile: vision, mission, strategic objectives, ISO certifications, and national footprint.">
+    <meta name="keywords" content="IPECS,About,Corporate profile,Consulting,ISO 9001,Development,Pakistan,Karachi">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
-<body class="home-page">
+<body class="home-page about-corporate-page">
 
     <?php include __DIR__ . '/assets/include/header.php'; ?>
 
@@ -27,9 +27,11 @@
             <span class="contact-hero-blob"></span>
         </div>
         <div class="container">
-            <div class="contact-hero-inner">
-                <h1 class="contact-title">About IPECS</h1>
-                <p class="contact-subtitle mb-0">Research, project management, and capacity building — delivered with rigour, partnership, and a long-term view of sustainable development.</p>
+            <div class="contact-hero-inner text-center mx-auto about-hero-head-inner">
+                <p class="about-hero-kicker mb-2">Transforming vision into excellence</p>
+                <h1 class="contact-title">IPECS Consulting Pvt. Ltd.</h1>
+                <p class="contact-subtitle mb-3">Pakistan's leading multidisciplinary development consulting firm</p>
+                <p class="about-hero-meta mb-4">Headquarters: Karachi, Pakistan · Established: 2012 · Team strength: 117+ professionals · Districts covered: 34+</p>
             </div>
             <div class="row align-items-center g-4 g-lg-5 about-hero-split">
                 <div class="col-lg-6 order-lg-2">
@@ -37,139 +39,415 @@
                         <img src="assets/img/home-main-slider/slide-002.png" alt="IPECS field and institutional work" class="about-hero-img" width="800" height="520" loading="eager">
                     </div>
                 </div>
-                <div class="col-lg-6 order-lg-1">
-                    <p class="about-hero-lead">IPECS Pakistan PVT Ltd is a reputable and well-established research and development firm based in Pakistan with over 14 years of experience. We provide a wide range of tailored services, including Project Management Consultations, Training and Development, Engineering Design, and Construction Supervision, among others. Our expertise encompasses various sectors such as project management and implementation, technology and innovation, environmental and social safeguards, business re-engineering, and more.</p>
-                    <ul class="about-hero-stats list-unstyled d-flex flex-wrap gap-2 mb-0" aria-label="Highlights">
-                        <li><span class="about-stat-pill">14+ years</span></li>
-                        <li><span class="about-stat-pill">Multi-sector</span></li>
-                        <li><span class="about-stat-pill">National &amp; international partners</span></li>
+                <div class="col-lg-6 order-lg-1 text-lg-start text-center">
+                    <p class="about-hero-lead mb-3">IPECS Consulting Pvt. Ltd. is Pakistan's leading national multidisciplinary development consulting firm, headquartered in Karachi with regional offices across Sindh and Balochistan. Established in 2012, the firm delivers technically rigorous, socially inclusive, and evidence-based solutions across Pakistan's most complex development challenges — with a cumulative contract portfolio exceeding PKR 2 billion.</p>
+                    <ul class="about-hero-stats list-unstyled d-flex flex-wrap gap-2 justify-content-lg-start justify-content-center mb-0" aria-label="Highlights">
+                        <li><span class="about-stat-pill">2012 — 14 years</span></li>
+                        <li><span class="about-stat-pill">117+ professionals</span></li>
+                        <li><span class="about-stat-pill">34+ districts</span></li>
+                        <li><span class="about-stat-pill">31+ major projects</span></li>
+                        <li><span class="about-stat-pill">PKR 2B+ portfolio</span></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="about-story-section">
+    <section class="about-foreword-section" id="foreword" aria-labelledby="about-foreword-heading">
         <div class="container">
-            <div class="row g-5 align-items-start">
-                <div class="col-lg-5">
-                    <div class="about-story-sticky">
-                        <div class="about-story-img-frame">
-                            <img src="assets/img/about-img.jpg" alt="IPECS consulting team at work" class="about-story-side-img" width="640" height="800" loading="lazy">
-                        </div>
-                    </div>
+            <div class="about-foreword-card">
+                <h2 id="about-foreword-heading" class="about-doc-block-title mb-3">Foreword from the Managing Director</h2>
+                <div class="about-prose about-prose--foreword">
+                    <p>At IPECS Consulting Pvt. Ltd., we believe that sustainable development is not merely a technical exercise. It is a deeply human endeavour. It requires listening to communities, understanding institutions, respecting the environment, and building systems that endure. Since our founding in 2012, we have pursued this belief with unwavering commitment, growing from a focused engineering and social development consultancy into one of Pakistan's most trusted, technically accomplished, and institutionally respected multidisciplinary development consulting organisations.</p>
+                    <p>We have partnered with governments at every level, United Nations agencies, international financial institutions, bilateral donors, and civil society organisations to address Pakistan's most complex and consequential development challenges. We have designed and supervised infrastructure that serves millions. We have strengthened institutions that govern the lives of communities. We have generated evidence that has shaped policy. We have empowered women, protected children, and built the resilience of communities facing poverty, climate change, and disaster.</p>
+                    <p>Our portfolio today exceeds PKR 2 billion in cumulative contracts. Our team of 117 professionals spans nine technical disciplines. Our geographic reach covers 34 districts across three provinces. And our impact, measured in lives improved, institutions strengthened, and communities empowered, continues to grow with every engagement.</p>
+                    <p>This corporate profile reflects who we are, what we stand for, and what we are capable of delivering. It is an invitation to partner with us in building a more equitable, resilient, and prosperous Pakistan.</p>
                 </div>
-                <div class="col-lg-7">
-                    <h2 class="about-section-heading">About us</h2>
-                    <div class="about-prose">
-                        <p>With our comprehensive project management approach and a team of experienced experts, we are dedicated to delivering solutions that meet the unique needs and objectives of our clients. Sustainability is a core value for us, and we adhere to local regulations and international standards to promote sustainable practices in all our projects. Building strong client relationships and offering customized solutions that align with their goals and objectives are foundational to our business approach.</p>
-                        <p>Innovation is at the heart of what we do, and we take pride in providing innovative solutions to complex challenges. Our expertise includes conducting feasibility studies and assessments, offering solutions for water supply, sanitation, and housing, and providing expertise in solar energy systems and power storage solutions. We also develop strategies for technology adoption and innovation to ensure our clients stay at the forefront of their industries.</p>
-                        <p>At IPECS, we believe in investing in research and development and providing training and development opportunities for our staff to stay updated with emerging trends and technologies. We strive to set new standards in practice management, inspire our team to provide uncompromised service, and become the professional firm of choice in Pakistan.</p>
-                        <p>We have built a strong reputation for delivering high-quality and sustainable solutions to our clients. Our technical expertise, focus on sustainability, and commitment to capacity building and institutional strengthening make us a valuable partner for clients seeking to achieve their development goals. Our rigorous project management and quality control processes adhere to international standards and best practices, reflecting our unwavering commitment to quality.</p>
-                        <p>One of the primary reasons clients choose IPECS is our team of experts in various areas. With a wealth of experience and knowledge, we have successfully executed numerous prestigious projects over the years, gaining invaluable expertise. The versatility, agility, and innovative approach of our team ensure that clients receive services that meet their unique requirements.</p>
-                        <p>Our comprehensive approach to project management advocates for a holistic perspective. We believe in taking full control of project design, cost, and time through predetermined project gates that require client approval. By customizing solutions to meet specific client needs and foreseeing potential project challenges, we ensure that our services align with clients' goals, expectations, and budget.</p>
-                        <p>Real-time monitoring and evaluation, along with efficient database management, are tools we heavily invest in to motivate all clients and team members towards project success. These tools ensure that projects are executed efficiently, within set timelines and budgets, with any deviations being promptly addressed. Clients can rely on us to deliver quality services and value for money.</p>
-                        <p>Sustainability and environmental responsibility are fundamental considerations in our work. We recognize the impact of our projects on the environment and the communities they serve. Therefore, we strive to ensure that our projects are not only economically viable but also socially and environmentally sustainable. We actively promote sustainable practices and the use of renewable energy sources, ensuring our projects comply with local regulations and international standards. This approach guarantees that our clients' projects have a positive impact on the environment and the communities in which they are implemented.</p>
-                    </div>
+                <footer class="about-foreword-sig mt-4">
+                    <strong>Engr. Rashid Ali Memon</strong>
+                    <span class="d-block text-muted small">Managing Director, IPECS Consulting Pvt. Ltd.</span>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-doc-section about-doc-section--alt" id="identity">
+        <div class="container">
+            <header class="about-doc-section-header mb-4">
+                <span class="about-doc-roman">I</span>
+                <h2 class="about-doc-section-title mb-0">Corporate identity and overview</h2>
+            </header>
+
+            <h3 class="about-subsection-title">1.1 About IPECS Consulting Pvt. Ltd.</h3>
+            <div class="about-prose mb-5">
+                <p>IPECS Consulting Pvt. Ltd. is Pakistan's leading national multidisciplinary development consulting firm, headquartered in Karachi with regional offices across Sindh and Balochistan. Established in 2012, IPECS has built over fourteen years a distinguished reputation for delivering technically rigorous, socially inclusive, institutionally anchored, and evidence-based development solutions across Pakistan's most complex and consequential development challenges.</p>
+                <p>The firm operates at the intersection of technical excellence, institutional governance, social innovation, digital transformation, and climate resilience. IPECS provides fully integrated, end-to-end consulting services spanning nine specialised technical sectors: Education Systems Strengthening and Skills Development; Institutional Governance, Policy and Public Sector Reform; Engineering, Infrastructure and Urban Development; Climate-Smart Environment, Energy, Agriculture and Resilience; Water, Sanitation and Integrated Urban Services; Technology, Digital Transformation and Smart Systems; Social Inclusion, Gender Equity, Livelihoods and Rural Development; Monitoring, Evaluation, Learning and Impact Advisory; and Health Systems Strengthening and Nutrition.</p>
+                <p>What fundamentally distinguishes IPECS from other consulting firms is its deeply integrated, systems-based approach to development, one that recognises the interdependencies between infrastructure, governance, social systems, environmental sustainability, digital innovation, and human capital. Rather than delivering isolated technical outputs, IPECS designs and implements holistic, multi-sectoral solutions that address root causes, build institutional capacity, and generate lasting development impact that endures well beyond project timelines and donor funding cycles.</p>
+                <p>IPECS's 117 multidisciplinary professionals, comprising engineers, urban planners, social scientists, economists, policy advisors, gender and inclusion specialists, digital technology experts, environmental specialists, MEAL professionals, health specialists, education specialists, legal advisors, and procurement specialists, work together as a fully integrated team to deliver solutions that are technically sound, socially inclusive, environmentally responsible, and institutionally anchored.</p>
+                <p>Since inception, IPECS has successfully implemented over 31 major projects and programmes across 34 districts in Sindh, Balochistan, and Khyber Pakhtunkhwa, with a cumulative contract portfolio exceeding PKR 2 billion. The firm's client base spans the Government of Sindh, Government of Balochistan, Government of Pakistan, World Bank, Asian Development Bank, UNDP, UNICEF, FAO, IFAD, USAID, Save the Children, Oxfam, Concern Worldwide, ACTED, HEKS/EPER, KOICA, and many others.</p>
+            </div>
+
+            <h3 class="about-subsection-title">1.2 Corporate at-a-glance</h3>
+            <div class="about-spec-table-wrap mb-5">
+                <div class="table-responsive">
+                    <table class="table about-spec-table mb-0">
+                        <tbody>
+                            <tr><th scope="row">Company name</th><td>IPECS Consulting Pvt. Ltd.</td></tr>
+                            <tr><th scope="row">Year established</th><td>2012</td></tr>
+                            <tr><th scope="row">Years of operation</th><td>14 years</td></tr>
+                            <tr><th scope="row">Head office</th><td>No. 513-A Continental Trade Center, Block-8 Main Clifton Road, Karachi, Pakistan</td></tr>
+                            <tr><th scope="row">Project office</th><td>No. 808, 8th Floor, Tower A, Saima Trade Tower, I.I. Chundrigar Road, Karachi</td></tr>
+                            <tr><th scope="row">Regional offices</th><td>Hyderabad, Sukkur, Larkana, Quetta</td></tr>
+                            <tr><th scope="row">Team strength</th><td>117+ multidisciplinary professionals</td></tr>
+                            <tr><th scope="row">Active districts</th><td>34+ districts across Sindh, Balochistan, and KPK</td></tr>
+                            <tr><th scope="row">Projects delivered</th><td>31+ major projects and programmes</td></tr>
+                            <tr><th scope="row">Cumulative contract portfolio</th><td>PKR 2 billion+</td></tr>
+                            <tr><th scope="row">Email</th><td><a href="mailto:md@ipecs.org.pk">md@ipecs.org.pk</a> · <a href="mailto:info@ipecs.org.pk">info@ipecs.org.pk</a> · <a href="mailto:ipecs.pk@gmail.com">ipecs.pk@gmail.com</a></td></tr>
+                            <tr><th scope="row">Phone</th><td><a href="tel:+92213722542">+92 213 722 542</a> · <a href="tel:+923302800660">+92 330 2800 660</a></td></tr>
+                            <tr><th scope="row">UAN</th><td>+92 21 111 737 467</td></tr>
+                            <tr><th scope="row">Golden</th><td>+92 21 333 777 77</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <h3 class="about-subsection-title">1.3 Legal registrations and certifications</h3>
+            <p class="about-lead-text mb-3">IPECS holds all required legal registrations and internationally recognised management system certifications, demonstrating its commitment to quality, environmental responsibility, and information security.</p>
+            <div class="about-prose mb-4">
+                <p>IPECS is registered with the Securities and Exchange Commission of Pakistan (SECP) as a formally incorporated private limited company, confirming its full legal standing as a national consulting firm. The firm is also registered with the Pakistan Engineering Council (PEC) as an engineering consulting firm, reflecting its professional credibility and compliance with regulated engineering practice standards. In addition, IPECS holds a National Tax Number (NTN) registered with the Federal Board of Revenue, Pakistan, confirming full tax compliance.</p>
+            </div>
+            <h4 class="about-table-caption">International management system certifications</h4>
+            <div class="about-spec-table-wrap mb-5">
+                <div class="table-responsive">
+                    <table class="table about-spec-table about-spec-table--3col mb-0">
+                        <thead>
+                            <tr>
+                                <th scope="col">Certification</th>
+                                <th scope="col">Standard</th>
+                                <th scope="col">Institutional relevance</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Quality management system</td>
+                                <td>ISO 9001:2015</td>
+                                <td>Ensures consistent, high-quality service delivery across all engagements</td>
+                            </tr>
+                            <tr>
+                                <td>Environmental management system</td>
+                                <td>ISO 14001:2015</td>
+                                <td>Demonstrates commitment to environmental stewardship and sustainability</td>
+                            </tr>
+                            <tr>
+                                <td>Information security management system</td>
+                                <td>ISO 27001:2022</td>
+                                <td>Protects client data, research information, and organisational knowledge assets</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <h3 class="about-subsection-title">1.4 International memberships and vendor registrations</h3>
+            <div class="about-spec-table-wrap mb-0">
+                <div class="table-responsive">
+                    <table class="table about-spec-table about-spec-table--3col mb-0">
+                        <thead>
+                            <tr>
+                                <th scope="col">Institution</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Reference</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>UN Global Compact</td>
+                                <td>Active member — committed to 10 principles on human rights, labour, environment, and anti-corruption</td>
+                                <td>Member No. 193891</td>
+                            </tr>
+                            <tr>
+                                <td>World Bank Group</td>
+                                <td>Registered vendor</td>
+                                <td>Active registration</td>
+                            </tr>
+                            <tr>
+                                <td>Islamic Development Bank (IsDB)</td>
+                                <td>Registered vendor</td>
+                                <td>Active registration</td>
+                            </tr>
+                            <tr>
+                                <td>Asian Development Bank (ADB)</td>
+                                <td>Registered vendor</td>
+                                <td>Active registration</td>
+                            </tr>
+                            <tr>
+                                <td>United Nations Global Marketplace (UNGM)</td>
+                                <td>Registered vendor</td>
+                                <td>Active registration</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="about-why-section" id="why">
+    <section class="about-doc-section" id="strategic">
         <div class="container">
-            <div class="about-why-inner">
-                <h2 class="about-why-heading">Why choose us?</h2>
-                <div class="about-prose about-prose--centered">
-                    <p>We believe that IPECS has the right project team blended with experience, commitment, versatility, agility and innovative approach, to provide the above-mentioned level of control and service throughout the whole project lifecycle. IPECS is a multi-disciplinary firm specializing in Project Management, Architectural &amp; Structural Design; Training and Human Capital Development for management, community and technical skills. In addition to the extensive industrial &amp; development sector experience in human resources management, we have a pool of experts in our faculty specializing in specific areas that serve numerous organizations.</p>
-                    <p>Over years of experience we have secured and successfully concluded a number of prestigious projects, such as Water Supply Sanitation Design, Disaster Resilient Housing, Environmental and Social Safeguards, Training and Human Resource Development, Climate Change, DRR, project management and others, through which we gained invaluable experience. Our success lies in our ability to continuously strive to forecast potential project challenges and believing that for every challenge there is more than one solution, making solutions more frequent than challenges.</p>
-                    <p>We transmit this attitude and mindset through the whole project team, investing heavily in real-time monitoring and evaluation, database management and e-communication which we believe is an important tool to motivate all clients and team members towards the benefit of the project. Over the years we have invested in better practice governance, academic research, training, understanding the local community and development sector and enabling in-house IT tools that are suitable for development.</p>
-                    <p>At IPECS we do not only provide systems and processes but we advocate a holistic project approach. The end result of such an approach is having better control on design, cost and time aspects of the project, simultaneously, with predetermined project gates where client approval is required. We believe that every project is unique having different requirements. We believe in a comprehensive approach – becoming a part of our client's business and knowing as much about their operations and challenges as possible. We want to support you in meeting your needs and most importantly achieving your goals in improving bottom line results and to sustain the competitive advantage.</p>
-                    <p>At IPECS, the systems fit the project and not the other way round. The above approach towards the execution of projects is in line with the company’s mission statement: setting new standards in practice management, motivating and inspiring its people to give uncompromised service to its customers; making it the professional firm of first choice to work for in national development and to be well poised to face international challenges.</p>
+            <header class="about-doc-section-header mb-4">
+                <span class="about-doc-roman">II</span>
+                <h2 class="about-doc-section-title mb-0">Strategic framework</h2>
+            </header>
+
+            <div class="row g-4 mb-5">
+                <div class="col-lg-6">
+                    <div class="about-vm-card h-100">
+                        <h3 class="about-vm-card__label">2.1 Vision</h3>
+                        <p class="about-vm-card__text mb-0">To transform institutional excellence, foster equitable and resilient progress, advance environmental sustainability, and create enduring value for society.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-vm-card about-vm-card--mission h-100">
+                        <h3 class="about-vm-card__label">2.2 Mission</h3>
+                        <p class="about-vm-card__text mb-0">To partner with governments, development institutions, and communities in strengthening public systems through evidence-based advisory, engineering innovation, digital transformation, health systems strengthening, and capacity development, advancing sustainable, climate-resilient, and institutionally anchored progress that delivers lasting, measurable impact at scale.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="about-subsection-title">2.3 Strategic objectives</h3>
+            <div class="row g-4 mb-5">
+                <div class="col-md-6 col-xl-4">
+                    <article class="about-objective-card h-100">
+                        <h4 class="about-objective-card__title">Institutional excellence</h4>
+                        <p class="about-objective-card__text mb-0">To strengthen the capacity, accountability, and performance of public institutions at all levels of government to deliver effective, equitable, and sustainable services to citizens, building systems that outlast any single project or donor funding cycle.</p>
+                    </article>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <article class="about-objective-card h-100">
+                        <h4 class="about-objective-card__title">Technical innovation</h4>
+                        <p class="about-objective-card__text mb-0">To continuously advance the application of cutting-edge technical, digital, and analytical tools to solve complex development challenges with greater efficiency, transparency, and impact, embracing artificial intelligence, IoT, and data science as enablers of development outcomes.</p>
+                    </article>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <article class="about-objective-card h-100">
+                        <h4 class="about-objective-card__title">Social transformation</h4>
+                        <p class="about-objective-card__text mb-0">To place gender equity, social inclusion, and community empowerment at the absolute centre of all development programming, ensuring that economic growth, service delivery, and institutional strengthening benefit women, youth, persons with disabilities, ethnic minorities, and historically marginalised communities.</p>
+                    </article>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <article class="about-objective-card h-100">
+                        <h4 class="about-objective-card__title">Environmental sustainability</h4>
+                        <p class="about-objective-card__text mb-0">To integrate climate resilience, environmental safeguards, and green development principles into every engagement, contributing to Pakistan's Nationally Determined Contributions, National Climate Change Policy commitments, and SDG targets.</p>
+                    </article>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <article class="about-objective-card h-100">
+                        <h4 class="about-objective-card__title">Knowledge leadership</h4>
+                        <p class="about-objective-card__text mb-0">To generate, synthesise, and disseminate high-quality evidence and knowledge to inform policy, improve practice, and strengthen the development ecosystem in Pakistan, positioning IPECS as a thought leader in Pakistan's development sector.</p>
+                    </article>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <article class="about-objective-card h-100">
+                        <h4 class="about-objective-card__title">Health and nutrition impact</h4>
+                        <p class="about-objective-card__text mb-0">To strengthen health systems, improve nutrition outcomes, and address the social determinants of health through integrated, multi-sectoral programming that bridges the gap between health service delivery, governance, community empowerment, and social protection.</p>
+                    </article>
+                </div>
+            </div>
+
+            <h3 class="about-subsection-title">2.4 Core values</h3>
+            <div class="row g-4 mb-5">
+                <div class="col-md-6">
+                    <article class="about-value-card h-100">
+                        <h4 class="about-value-card__title">Inclusion</h4>
+                        <p class="about-value-card__text mb-0">IPECS believes that sustainable development is only possible when every voice is heard and every person has equitable access to opportunities and services. The firm actively fosters the participation of women, girls, persons with disabilities, ethnic minorities, and historically marginalised communities in all programmes, ensuring that inclusion is a design principle embedded from the outset of every engagement.</p>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="about-value-card h-100">
+                        <h4 class="about-value-card__title">Innovation</h4>
+                        <p class="about-value-card__text mb-0">IPECS continuously seeks better ways to solve development challenges, embracing adaptive methodologies, digital technologies, artificial intelligence, and evidence-based approaches that push the boundaries of conventional consulting practice. Innovation at IPECS means being responsive, creative, and always learning.</p>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="about-value-card h-100">
+                        <h4 class="about-value-card__title">Collaboration</h4>
+                        <p class="about-value-card__text mb-0">IPECS recognises that complex development challenges require collective action. The firm builds open, transparent, and mutually accountable partnerships with governments, communities, donors, civil society, and the private sector, creating shared ownership of development outcomes that sustains beyond project lifecycles.</p>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="about-value-card h-100">
+                        <h4 class="about-value-card__title">Commitment</h4>
+                        <p class="about-value-card__text mb-0">IPECS takes full ownership of every engagement, delivering on promises, maintaining accountability to clients and beneficiaries, and building long-term, trust-based relationships grounded in reliability, consistency, and professional integrity.</p>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="about-value-card h-100">
+                        <h4 class="about-value-card__title">Excellence</h4>
+                        <p class="about-value-card__text mb-0">IPECS holds itself to the highest standards of professional conduct, technical quality, and development impact. The firm invests continuously in its people, systems, methodologies, and knowledge, pursuing excellence as a continuous journey of improvement and learning.</p>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="about-value-card h-100">
+                        <h4 class="about-value-card__title">Sustainability</h4>
+                        <p class="about-value-card__text mb-0">Every IPECS intervention is designed with sustainability at its core, integrating environmental safeguards, institutional capacity building, community ownership, and financial viability to ensure that development gains endure long after project completion and donor funding ends.</p>
+                    </article>
+                </div>
+            </div>
+
+            <h3 class="about-subsection-title">2.5 Strategic approach and guiding principles</h3>
+            <ol class="about-principles-list">
+                <li>
+                    <strong>Systems-based thinking.</strong> IPECS approaches every challenge through a systems lens, recognising the interdependencies between governance, infrastructure, social systems, environment, health, and human capital, and designing integrated solutions that address root causes rather than symptoms.
+                </li>
+                <li>
+                    <strong>Evidence-based practice.</strong> Rigorous data collection, analysis, and learning are embedded in every IPECS engagement, ensuring decisions are informed by evidence, outcomes are measured against clear indicators, and programmes adapt continuously based on what works.
+                </li>
+                <li>
+                    <strong>Politically informed programming.</strong> IPECS applies political economy analysis to understand the institutional, political, and social dynamics that shape development outcomes, designing interventions that are contextually grounded, politically aware, and operationally feasible within real-world constraints.
+                </li>
+                <li>
+                    <strong>Innovation and technology integration.</strong> Cutting-edge digital solutions, AI, IoT, mobile data collection, and smart governance systems are deployed as enablers of institutional performance, enhancing transparency, accountability, and operational efficiency across all programmes.
+                </li>
+                <li>
+                    <strong>Safeguards as enablers.</strong> Environmental, social, and governance safeguards, including GBV/SEA/SH prevention, OHS, ESMP, and inclusion standards, are treated not as compliance requirements but as core enablers of sustainable, ethical, and rights-based development.
+                </li>
+                <li>
+                    <strong>Capacity and knowledge transfer.</strong> Every IPECS engagement systematically builds institutional and human capacity, ensuring that knowledge, skills, and systems are transferred to local counterparts, creating lasting self-reliance and reducing dependency on external consulting support.
+                </li>
+                <li>
+                    <strong>Adaptive management.</strong> IPECS embraces adaptive management as a core operational principle, building structured learning, reflection, and course-correction mechanisms into every programme to ensure continuous improvement and responsiveness to changing contexts.
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="about-doc-section about-doc-section--alt" id="operations">
+        <div class="container">
+            <header class="about-doc-section-header mb-4">
+                <span class="about-doc-roman">III</span>
+                <h2 class="about-doc-section-title mb-0">Operational presence and geographic reach</h2>
+            </header>
+
+            <h3 class="about-subsection-title">3.1 National footprint</h3>
+            <div class="about-prose mb-5">
+                <p>IPECS maintains one of the most extensive operational footprints of any national consulting firm in Pakistan, spanning multiple provinces, diverse ecological zones, and a wide range of institutional contexts from federal ministries to remote village communities.</p>
+                <p>The firm's headquarters in Karachi serves as Pakistan's commercial capital and the primary hub for IPECS's corporate operations, business development, and senior management functions. Regional offices in Hyderabad, Sukkur, Larkana, and Quetta extend the firm's operational reach across Sindh and Balochistan, enabling decentralised programme management, faster field response, and stronger institutional relationships at the provincial and district levels.</p>
+            </div>
+
+            <h3 class="about-subsection-title">3.2 Provincial coverage</h3>
+            <div class="about-spec-table-wrap mb-5">
+                <div class="table-responsive">
+                    <table class="table about-spec-table mb-0">
+                        <thead>
+                            <tr>
+                                <th scope="col">Province</th>
+                                <th scope="col">Districts covered</th>
+                                <th scope="col">Key operational areas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sindh</td>
+                                <td>29 districts</td>
+                                <td>Karachi, Hyderabad, Sukkur, Larkana, Thatta, Badin, Tharparkar, Umerkot, Sanghar, Mirpurkhas, Nawabshah, Naushahro Feroze, Khairpur, Ghotki, Jacobabad, Kashmore, Shikarpur, Dadu, Matiari, Tando Allahyar, Tando Mohammad Khan, Sujawal, Kambar Shahdadkot, Jamshoro, and others</td>
+                            </tr>
+                            <tr>
+                                <td>Balochistan</td>
+                                <td>3 districts</td>
+                                <td>Quetta, Gwadar, Lasbela</td>
+                            </tr>
+                            <tr>
+                                <td>Khyber Pakhtunkhwa</td>
+                                <td>2 districts</td>
+                                <td>Upper Dir, Swat</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Total</strong></td>
+                                <td><strong>34+ districts</strong></td>
+                                <td>Urban, peri-urban, and remote rural contexts</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <h3 class="about-subsection-title">3.3 Field implementation capacity</h3>
+            <div class="about-prose mb-5">
+                <p>IPECS's permanent field presence enables the firm to implement programmes across the full spectrum of Pakistan's geographic and socioeconomic contexts. The firm maintains dedicated district-level field coordinators and supervisors in all active districts, supported by mobile data collection teams equipped with digital tools, tablets, and geo-referenced reporting systems. Community liaison networks and established relationships with local government, civil society, and community leaders ensure effective engagement at every level. Multilingual teams fluent in Sindhi, Balochi, Pashto, Urdu, and English ensure culturally sensitive and linguistically appropriate engagement across all operational areas. The firm also maintains rapid deployment capacity for emergency, humanitarian, and time-sensitive programme responses, and has established working relationships with district administrations, line departments, and community institutions across all operational geographies.</p>
+            </div>
+
+            <h3 class="about-subsection-title">3.4 Team composition</h3>
+            <div class="about-spec-table-wrap mb-0">
+                <div class="table-responsive">
+                    <table class="table about-spec-table about-spec-table--2col mb-0">
+                        <thead>
+                            <tr>
+                                <th scope="col">Discipline</th>
+                                <th scope="col">Specialists</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Civil, environmental and municipal engineers</td><td>12+</td></tr>
+                            <tr><td>Urban planners and infrastructure specialists</td><td>6+</td></tr>
+                            <tr><td>Social scientists and community development specialists</td><td>14+</td></tr>
+                            <tr><td>Economists and financial analysts</td><td>5+</td></tr>
+                            <tr><td>Policy advisors and governance specialists</td><td>7+</td></tr>
+                            <tr><td>Gender and social inclusion specialists</td><td>8+</td></tr>
+                            <tr><td>Digital technology, MIS and data experts</td><td>10+</td></tr>
+                            <tr><td>Environmental specialists and climate advisors</td><td>8+</td></tr>
+                            <tr><td>MEAL professionals and research specialists</td><td>12+</td></tr>
+                            <tr><td>Education and capacity development specialists</td><td>9+</td></tr>
+                            <tr><td>Health and nutrition specialists</td><td>7+</td></tr>
+                            <tr><td>Legal advisors and procurement specialists</td><td>4+</td></tr>
+                            <tr><td>Training and facilitation professionals</td><td>8+</td></tr>
+                            <tr><td>Field coordinators and supervisors</td><td>14+</td></tr>
+                            <tr><td>Finance, administration and operations</td><td>6+</td></tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="about-pillars-section">
+    <section class="about-doc-section" id="sectors">
         <div class="container">
-            <h2 class="home-section-title dark text-center mb-2">How we work</h2>
-            <p class="about-pillars-intro text-center mx-auto mb-5">Commitment, core focus areas, goals, and values — aligned with international practice and local context.</p>
-            <div class="row g-4">
-                <article id="commit" class="col-lg-4 col-md-6">
-                    <div class="about-pillar-card h-100">
-                        <div class="about-pillar-icon" aria-hidden="true"><i class="bx bxs-bulb"></i></div>
-                        <h3 class="about-pillar-title">Our commitment</h3>
-                        <p class="about-pillar-lead">To achieve desired results, our development effort extends beyond the training room. We work in partnership with our partners to:</p>
-                        <ul class="about-pillar-list">
-                            <li>Understand the business and development needs.</li>
-                            <li>Design &amp; develop climate friendly and disaster resilience initiatives and deliver high impact design, project management and training interventions.</li>
-                            <li>Develop and implement powerful reinforcement programs.</li>
-                            <li>Track and measure for continuous improvement and sustainability.</li>
-                        </ul>
-                    </div>
-                </article>
-                <article id="key" class="col-lg-4 col-md-6">
-                    <div class="about-pillar-card h-100">
-                        <div class="about-pillar-icon" aria-hidden="true"><i class="bx bx-layer"></i></div>
-                        <h3 class="about-pillar-title">Key focus areas</h3>
-                        <p class="about-pillar-lead">Our business focuses on eight core areas:</p>
-                        <ul class="about-pillar-list">
-                            <li>Project management and implementation.</li>
-                            <li>Research survey design and implementation.</li>
-                            <li>Institutional strengthening, management reforms, and training &amp; development.</li>
-                            <li>Monitoring and evaluation / impact evaluation.</li>
-                            <li>Business re-engineering and process improvement.</li>
-                            <li>Technology and innovation.</li>
-                            <li>Environmental and social safeguards.</li>
-                            <li>Operation and maintenance services.</li>
-                        </ul>
-                    </div>
-                </article>
-                <article id="goals" class="col-lg-4 col-md-6">
-                    <div class="about-pillar-card h-100">
-                        <div class="about-pillar-icon" aria-hidden="true"><i class="bx bx-flag"></i></div>
-                        <h3 class="about-pillar-title">Our goals</h3>
-                        <p class="about-pillar-lead">We pledge to achieve:</p>
-                        <ul class="about-pillar-list">
-                            <li>Attract and retain the best professionals.</li>
-                            <li>Identify and develop the capabilities of every person within the organization.</li>
-                            <li>Understand, share, and co-own the vision of our customers and provide uncompromised levels of service and quality.</li>
-                            <li>Motivate imagination, draw on experience and apply best practice to produce innovative, sustainable and economically viable solutions.</li>
-                            <li>Passionately &amp; objectively manage clients’ projects.</li>
-                        </ul>
-                    </div>
-                </article>
-                <article id="values" class="col-lg-4 col-md-6">
-                    <div class="about-pillar-card h-100">
-                        <div class="about-pillar-icon" aria-hidden="true"><i class="bx bx-group"></i></div>
-                        <h3 class="about-pillar-title">Our values</h3>
-                        <p class="about-pillar-lead">At IPECS Ethos, we are guided by the following values:</p>
-                        <ul class="about-pillar-list about-pillar-list--inline-tags">
-                            <li>Inclusion</li>
-                            <li>Innovation</li>
-                            <li>Collaboration</li>
-                            <li>Commitment</li>
-                        </ul>
-                    </div>
-                </article>
-                <article id="stat" class="col-lg-4 col-md-6">
-                    <div class="about-pillar-card about-pillar-card--featured h-100">
-                        <div class="about-pillar-icon" aria-hidden="true"><i class="bx bxs-quote-left"></i></div>
-                        <h3 class="about-pillar-title">Mission statement</h3>
-                        <blockquote class="about-pillar-quote mb-0">
-                            IPECS Ethos setting new standards in practice management, motivating and inspiring its people to give uncompromised service to its customer that will make it the professional firm of first choice to work for and within Pakistan, and to be well poised to face international challenges.
-                        </blockquote>
-                    </div>
-                </article>
-                <article id="approach" class="col-lg-4 col-md-6">
-                    <div class="about-pillar-card h-100">
-                        <div class="about-pillar-icon" aria-hidden="true"><i class="bx bx-git-merge"></i></div>
-                        <h3 class="about-pillar-title">Our approach</h3>
-                        <p class="about-pillar-lead mb-0">We develop partnerships with public and private sector organizations and other development agencies to optimize resources and to harness potential for sustainable development.</p>
-                    </div>
-                </article>
+            <header class="about-doc-section-header mb-3">
+                <span class="about-doc-roman">IV</span>
+                <h2 class="about-doc-section-title mb-0">Nine sector technical capabilities and portfolio impact</h2>
+            </header>
+            <p class="about-lead-text mb-4">IPECS's nine cross-sector capabilities represent a comprehensive, integrated suite of development consulting services. Each sector is supported by specialised technical teams, rigorous analytical frameworks, evidence-based methodologies, and a proven track record of delivery across Pakistan's most complex development contexts. The firm's cross-sector approach ensures coherence across policy, systems, and service delivery, delivering scalable, sustainable, and institutionally anchored outcomes.</p>
+            <div class="about-sectors-grid row g-3 g-lg-4 mb-2">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="about-sector-tile"><span class="about-sector-tile__n">1</span> Education systems strengthening &amp; skills development</div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="about-sector-tile"><span class="about-sector-tile__n">2</span> Institutional governance, policy &amp; public sector reform</div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="about-sector-tile"><span class="about-sector-tile__n">3</span> Engineering, infrastructure &amp; urban development</div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="about-sector-tile"><span class="about-sector-tile__n">4</span> Climate-smart environment, energy, agriculture &amp; resilience</div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="about-sector-tile"><span class="about-sector-tile__n">5</span> Water, sanitation &amp; integrated urban services</div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="about-sector-tile"><span class="about-sector-tile__n">6</span> Technology, digital transformation &amp; smart systems</div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="about-sector-tile"><span class="about-sector-tile__n">7</span> Social inclusion, gender equity, livelihoods &amp; rural development</div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="about-sector-tile"><span class="about-sector-tile__n">8</span> Monitoring, evaluation, learning &amp; impact advisory</div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="about-sector-tile"><span class="about-sector-tile__n">9</span> Health systems strengthening &amp; nutrition</div>
+                </div>
             </div>
+            <p class="text-center mb-0">
+                <a class="btn home-btn-navy" href="sector.php">Explore all sectors <i class="bx bx-right-arrow-alt" aria-hidden="true"></i></a>
+            </p>
         </div>
     </section>
 

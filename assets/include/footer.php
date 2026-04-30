@@ -37,7 +37,8 @@
                 <p class="footer-heading">Our Company</p>
                 <ul class="list-unstyled home-footer-links">
                     <li class="mb-2"><a class="home-footer-link" href="index.php">Home</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="about.php">About Us</a></li>
+                    <li class="mb-2"><a class="home-footer-link" href="about.php">Corporate profile</a></li>
+                    <li class="mb-2"><a class="home-footer-link" href="our-impacts.php">Our impacts</a></li>
                     <li class="mb-2"><a class="home-footer-link" href="projects.php">Projects</a></li>
                     <li class="mb-2"><a class="home-footer-link" href="locations.php">Locations</a></li>
                     <li class="mb-2"><a class="home-footer-link" href="clients.php">Clients</a></li>
