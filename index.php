@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- Leaflet (presence map) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
 </head>
 
@@ -147,12 +149,12 @@
         <div class="container">
             <div class="row align-items-center g-5">
                 <div class="col-lg-6 home-about-copy">
-                    <h2 class="home-about-title">IPECS Consulting Pakistan (Pvt) Ltd</h2>
-                    <p class="home-tagline">THE ART OF BEING GREATNESS</p>
+                    <h2 class="home-about-title">IPECS Consulting Pvt. Ltd.</h2>
+                    <p class="home-tagline">TRANSFORMING VISION INTO EXCELLENCE</p>
                     <div class="home-about-body mt-4">
-                        <p><strong>IPECS</strong> Pakistan PVT Ltd is a reputable and well-established research and development firm based in Pakistan with over 14 years of experience.</p>
-                        <p>We provide a wide range of tailored services, including Project Management Consultations, Training and Development, Engineering Design, and Construction Supervision, among others. Our expertise encompasses various sectors such as project management and implementation, technology and innovation, environmental and social safeguards, business re-engineering, and more.</p>
-                        <p>At <strong>IPECS,</strong> we believe in investing in research and development and providing training and development opportunities for our staff to stay updated with emerging trends and technologies. We strive to set new standards in practice management, inspire our team to provide uncompromised service, and become the professional firm of choice in Pakistan.</p>
+                        <p><strong>IPECS</strong> Consulting Pvt. Ltd. is Pakistan's leading national multidisciplinary development consulting firm, headquartered in Karachi with regional offices across Sindh and Balochistan. Established in 2012, the firm has built over fourteen years a distinguished reputation for delivering technically rigorous, socially inclusive, institutionally anchored, and evidence-based development solutions across Pakistan's most complex development challenges.</p>
+                        <p>The firm operates at the intersection of technical excellence, institutional governance, social innovation, digital transformation, and climate resilience — delivering fully integrated consulting services spanning nine specialised sectors: Education, Governance, Engineering, Climate, WASH, Technology, Social Inclusion, MEAL, and Health Systems Strengthening.</p>
+                        <p>Since inception, <strong>IPECS</strong> has successfully implemented over 31 major projects across 34 districts in Sindh, Balochistan, and Khyber Pakhtunkhwa, with a cumulative portfolio exceeding PKR 2.55 billion. Our 117+ multidisciplinary professionals deliver solutions that are technically sound, socially inclusive, and institutionally anchored.</p>
                     </div>
                     <a class="home-btn-navy home-about-cta mt-4 d-inline-flex align-items-center" href="about.php">
                         <span>Read More</span>
@@ -170,15 +172,17 @@
     <section class="home-expertise">
         <div class="container">
             <h2>Our Expertise</h2>
-            <p>Our company offers a range of specialized services, including Project Design and Preparation, Feasibility Studies, Project Management and Implementation, Architectural &amp; Structural Design, Infrastructure Development, Institutional Strengthening and Capacity Building, Management Reform and Human Resources Management, Monitoring and Evaluation/Impact Evaluation, MIS, and ICT. These services are our core competencies, and our corporate strategy is built around them. We have talented and experienced staff members who continuously enhance their skills in these competencies through training and development programs.</p>
-            <p class="mt-3">Our business strategy is focused on nine key areas, which reflect our core competencies and the experience of our talented staff. These areas include Project Management and Implementation, Business Re-engineering and Process Improvement, Technology and Innovation, Environmental and Social Safeguards, Drinking Water Supply Sanitation and Housing Solutions, Research Survey Design and Implementation, Institutional Strengthening, Management Reforms, and Training and Development, Monitoring and Evaluation/Impact Evaluation, and Operation and Maintenance Services.</p>
+            <p>IPECS's nine cross-sector capabilities represent a comprehensive, integrated suite of development consulting services. Each sector is supported by specialised technical teams, rigorous analytical frameworks, evidence-based methodologies, and a proven track record of delivery across Pakistan's most complex development contexts.</p>
+            <p class="mt-3">Our nine technical sectors span Education Systems Strengthening and Skills Development; Institutional Governance, Policy and Public Sector Reform; Engineering, Infrastructure and Urban Development; Climate-Smart Environment, Energy, Agriculture and Resilience; Water, Sanitation and Integrated Urban Services; Technology, Digital Transformation and Smart Systems; Social Inclusion, Gender Equity, Livelihoods and Rural Development; Monitoring, Evaluation, Learning and Impact Advisory; and Health Systems Strengthening and Nutrition.</p>
         </div>
     </section>
 
     <!-- Sectors -->
     <section class="home-services-section">
         <div class="container">
-            <h2 class="home-section-title dark text-center d-block mb-5">Our sectors</h2>
+            <h2 class="home-section-title dark text-center d-block mb-2">Our sectors</h2>
+            <p class="home-sectors-kicker text-center mb-3">Our sector technical capabilities and portfolio impact</p>
+            <p class="home-sectors-intro text-center mx-auto mb-5">IPECS's nine cross-sector capabilities represent a comprehensive, integrated suite of development consulting services. Each sector is supported by specialised technical teams, rigorous analytical frameworks, evidence-based methodologies, and a proven track record of delivery across Pakistan's most complex development contexts. The firm's cross-sector approach ensures coherence across policy, systems, and service delivery, delivering scalable, sustainable, and institutionally anchored outcomes.</p>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
@@ -283,42 +287,69 @@
         </div>
     </section>
 
-    <!-- Operational presence & reach — Figma Website-Design node 414:780 -->
-    <section class="home-presence bg-white">
+    <!-- Operational presence & reach -->
+    <section class="home-presence home-presence--dark">
         <div class="container">
             <div class="row g-5 align-items-center">
+
+                <!-- Left: info panel -->
                 <div class="col-lg-5">
+                    <p class="presence-section-kicker">Operational footprint</p>
                     <h2 class="home-presence-title">Our operational presence &amp; reach</h2>
+
                     <div class="home-presence-body mt-4">
-                        <div class="home-presence-block mb-4">
-                            <h3 class="home-presence-label">Headquarters:</h3>
-                            <p class="home-presence-line mb-0 d-flex align-items-start gap-2">
-                                <i class="bx bx-map-pin home-presence-pin flex-shrink-0" aria-hidden="true"></i>
-                                <span>Karachi</span>
-                            </p>
+                        <div class="presence-info-block">
+                            <div class="presence-info-icon"><i class="bx bxs-building-house" aria-hidden="true"></i></div>
+                            <div>
+                                <h3 class="presence-info-label">Headquarters</h3>
+                                <p class="presence-info-value mb-0">Karachi — Office No. 513A, Continental Trade Centre, Block 8, Clifton</p>
+                            </div>
                         </div>
-                        <div class="home-presence-block mb-4">
-                            <h3 class="home-presence-label">Regional Offices:</h3>
-                            <p class="home-presence-line mb-0 d-flex align-items-start gap-2">
-                                <i class="bx bx-map-pin home-presence-pin flex-shrink-0" aria-hidden="true"></i>
-                                <span>Hyderabad, Sukkur, Quetta</span>
-                            </p>
+                        <div class="presence-info-block">
+                            <div class="presence-info-icon"><i class="bx bx-map" aria-hidden="true"></i></div>
+                            <div>
+                                <h3 class="presence-info-label">Regional Offices</h3>
+                                <p class="presence-info-value mb-0">Hyderabad &nbsp;·&nbsp; Sukkur &nbsp;·&nbsp; Larkana &nbsp;·&nbsp; Quetta</p>
+                            </div>
                         </div>
-                        <div class="home-presence-block mb-4">
-                            <h3 class="home-presence-label">Operational Footprint:</h3>
-                            <p class="home-presence-text mb-0">Active in 34 districts across Sindh, Balochistan, and Khyber Pakhtunkhwa, delivering context-sensitive programmes across urban and rural areas.</p>
+                        <div class="presence-info-block">
+                            <div class="presence-info-icon"><i class="bx bx-globe" aria-hidden="true"></i></div>
+                            <div>
+                                <h3 class="presence-info-label">Operational Footprint</h3>
+                                <p class="presence-info-value mb-0">34 districts across Sindh, Balochistan &amp; Khyber Pakhtunkhwa</p>
+                            </div>
                         </div>
-                        <div class="home-presence-block">
-                            <h3 class="home-presence-label">Team Strength:</h3>
-                            <p class="home-presence-text mb-0">100+ multidisciplinary experts across engineering, social sciences, policy, technology, gender, and environment.</p>
+                        <div class="presence-info-block">
+                            <div class="presence-info-icon"><i class="bx bx-group" aria-hidden="true"></i></div>
+                            <div>
+                                <h3 class="presence-info-label">Team Strength</h3>
+                                <p class="presence-info-value mb-0">117+ multidisciplinary professionals</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="presence-legend mt-4">
+                        <span class="presence-legend-item">
+                            <span class="presence-legend-dot presence-legend-dot--hq"></span> Headquarters
+                        </span>
+                        <span class="presence-legend-item">
+                            <span class="presence-legend-dot presence-legend-dot--reg"></span> Regional office
+                        </span>
+                        <span class="presence-legend-item">
+                            <span class="presence-legend-dot presence-legend-dot--dist"></span> District (34+)
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Right: Pakistan-shaped map -->
+                <div class="col-lg-7">
+                    <div class="pk-map-scene">
+                        <div class="pk-map-masked">
+                            <div id="ipecs-presence-map" aria-label="Interactive map of Pakistan showing IPECS office locations"></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7">
-                    <figure class="home-presence-map mb-0">
-                        <img class="home-presence-map-img" src="./assets/img/map.png" alt="Map of Pakistan showing IPECS operational presence across provinces">
-                    </figure>
-                </div>
+
             </div>
         </div>
     </section>
@@ -399,10 +430,10 @@
             <h2 class="home-impact-title">Our work: impact &amp; innovation</h2>
             <p class="sub home-impact-sub">Building resilience and sustainable development across Sindh through partnerships, innovation, and community-driven solutions</p>
             <div class="home-impact-stats d-flex flex-wrap justify-content-center gap-3 gap-md-4 mb-5">
-                <span class="home-stat-pill">13+ districts</span>
-                <span class="home-stat-pill">2,600+ schools</span>
-                <span class="home-stat-pill">1,500+ houses</span>
-                <span class="home-stat-pill">10+ partners</span>
+                <span class="home-stat-pill">34+ districts</span>
+                <span class="home-stat-pill">31+ projects</span>
+                <span class="home-stat-pill">200,000+ families</span>
+                <span class="home-stat-pill">117+ professionals</span>
             </div>
             <div class="home-project-filters d-none flex-wrap justify-content-center gap-2 mb-4" role="tablist" aria-label="Filter projects" aria-hidden="true">
                 <button type="button" class="home-project-filter active" data-home-project-filter="all">All projects</button>
@@ -775,6 +806,156 @@ if (window.innerWidth < 992) {
           navigator.clipboard.writeText(copyText.value);
         }
         </script>
+
+    <!-- Leaflet JS (presence map) -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var mapEl = document.getElementById('ipecs-presence-map');
+        if (!mapEl) return;
+
+        /* ── Map init ── */
+        var map = L.map('ipecs-presence-map', {
+            center: [30.0, 69.5],
+            zoom: 5,
+            scrollWheelZoom: false,
+            zoomControl: false,
+            attributionControl: false
+        });
+
+        L.control.zoom({ position: 'bottomright' }).addTo(map);
+        L.control.attribution({ prefix: false, position: 'bottomright' }).addTo(map);
+        setTimeout(function () { map.invalidateSize(); }, 100);
+
+        /* CartoDB Voyager — warm, colorful, modern */
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }).addTo(map);
+
+        /* ── Province fills (coloured overlays per operational province) ── */
+        var provStyles = {
+            'Sindh':       { color: '#0369a1', weight: 1.8, opacity: 0.8, fillColor: '#38bdf8', fillOpacity: 0.22 },
+            'Balochistan': { color: '#92400e', weight: 1.8, opacity: 0.8, fillColor: '#fb923c', fillOpacity: 0.18 },
+            'KPK':         { color: '#14532d', weight: 1.8, opacity: 0.8, fillColor: '#4ade80', fillOpacity: 0.20 }
+        };
+
+        /* Sindh — local GeoJSON */
+        fetch('assets/data/sindh.geojson')
+            .then(function (r) { return r.json(); })
+            .then(function (sg) {
+                L.geoJSON({ type: 'Feature', geometry: sg }, { style: provStyles['Sindh'] }).addTo(map);
+            }).catch(function () {});
+
+        /* Balochistan + KPK — fetched from Nominatim */
+        function fetchProvince(query, style) {
+            fetch('https://nominatim.openstreetmap.org/search?q=' + encodeURIComponent(query) + '&polygon_geojson=1&format=json&limit=1', {
+                headers: { 'Accept-Language': 'en', 'User-Agent': 'IPECS-Website/1.0' }
+            })
+            .then(function (r) { return r.json(); })
+            .then(function (data) {
+                if (data && data[0] && data[0].geojson) {
+                    L.geoJSON({ type: 'Feature', geometry: data[0].geojson }, { style: style }).addTo(map);
+                }
+            }).catch(function () {});
+        }
+        fetchProvince('Balochistan Province, Pakistan',   provStyles['Balochistan']);
+        fetchProvince('Khyber Pakhtunkhwa, Pakistan',     provStyles['KPK']);
+
+        /* ── District markers (34+ districts across Pakistan) ── */
+        var districtColor = { 'Sindh': '#0369a1', 'Balochistan': '#c2410c', 'KPK': '#15803d' };
+
+        function makeDistrict(province) {
+            var c = districtColor[province] || '#0369a1';
+            var html = '<div style="width:10px;height:10px;border-radius:50%;background:' + c + ';border:2px solid #fff;box-shadow:0 0 0 1px ' + c + ',0 2px 6px rgba(0,0,0,0.28);"></div>';
+            return L.divIcon({ html: html, className: '', iconSize: [10, 10], iconAnchor: [5, 5], popupAnchor: [0, -11] });
+        }
+
+        var districts = [
+            /* Sindh — 24 districts */
+            { lat: 24.8607, lng: 67.0011, name: 'Karachi',              province: 'Sindh' },
+            { lat: 25.3960, lng: 68.3578, name: 'Hyderabad',            province: 'Sindh' },
+            { lat: 27.7244, lng: 68.8574, name: 'Sukkur',               province: 'Sindh' },
+            { lat: 27.5580, lng: 68.2120, name: 'Larkana',              province: 'Sindh' },
+            { lat: 24.7461, lng: 67.9228, name: 'Thatta',               province: 'Sindh' },
+            { lat: 24.6557, lng: 68.8375, name: 'Badin',                province: 'Sindh' },
+            { lat: 24.7163, lng: 69.7954, name: 'Tharparkar',           province: 'Sindh' },
+            { lat: 25.3618, lng: 69.7365, name: 'Umerkot',              province: 'Sindh' },
+            { lat: 26.0433, lng: 68.9478, name: 'Sanghar',              province: 'Sindh' },
+            { lat: 25.5273, lng: 69.0160, name: 'Mirpurkhas',           province: 'Sindh' },
+            { lat: 26.2442, lng: 68.4096, name: 'Nawabshah',            province: 'Sindh' },
+            { lat: 26.8417, lng: 68.1163, name: 'Naushahro Feroze',     province: 'Sindh' },
+            { lat: 27.5294, lng: 68.7576, name: 'Khairpur',             province: 'Sindh' },
+            { lat: 28.0045, lng: 69.3146, name: 'Ghotki',               province: 'Sindh' },
+            { lat: 28.2769, lng: 68.4381, name: 'Jacobabad',            province: 'Sindh' },
+            { lat: 28.4444, lng: 69.5811, name: 'Kashmore',             province: 'Sindh' },
+            { lat: 27.9559, lng: 68.6375, name: 'Shikarpur',            province: 'Sindh' },
+            { lat: 26.7322, lng: 67.7752, name: 'Dadu',                 province: 'Sindh' },
+            { lat: 25.5889, lng: 68.4617, name: 'Matiari',              province: 'Sindh' },
+            { lat: 25.4624, lng: 68.7174, name: 'Tando Allahyar',       province: 'Sindh' },
+            { lat: 25.1281, lng: 68.5367, name: 'Tando Mohammad Khan',  province: 'Sindh' },
+            { lat: 24.1367, lng: 68.1300, name: 'Sujawal',              province: 'Sindh' },
+            { lat: 27.5868, lng: 68.0065, name: 'Kambar Shahdadkot',    province: 'Sindh' },
+            { lat: 25.4346, lng: 68.2819, name: 'Jamshoro',             province: 'Sindh' },
+            /* Balochistan — 3 districts */
+            { lat: 30.1798, lng: 66.9750, name: 'Quetta',               province: 'Balochistan' },
+            { lat: 25.1264, lng: 62.3225, name: 'Gwadar',               province: 'Balochistan' },
+            { lat: 26.2175, lng: 66.0069, name: 'Lasbela',              province: 'Balochistan' },
+            /* KPK — 2 districts */
+            { lat: 35.2985, lng: 71.9225, name: 'Upper Dir',            province: 'KPK' },
+            { lat: 35.2227, lng: 72.4258, name: 'Swat',                 province: 'KPK' }
+        ];
+
+        districts.forEach(function (d) {
+            var pColor = { 'Sindh': '#0369a1', 'Balochistan': '#c2410c', 'KPK': '#15803d' }[d.province] || '#0369a1';
+            L.marker([d.lat, d.lng], { icon: makeDistrict(d.province) })
+                .addTo(map)
+                .bindPopup(
+                    '<div style="font-family:Montserrat,sans-serif;min-width:150px;">'
+                    + '<strong style="color:#111;font-size:0.82rem;display:block;margin-bottom:4px;">' + d.name + '</strong>'
+                    + '<span style="display:inline-block;font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:0.07em;color:#fff;background:' + pColor + ';border-radius:4px;padding:1px 7px;">' + d.province + '</span>'
+                    + '</div>',
+                    { maxWidth: 200, className: 'ipecs-popup' }
+                );
+        });
+
+        /* ── Pulse marker factory (offices) ── */
+        function makePulse(color, size, pulseColor) {
+            var s = size || 14;
+            var pc = pulseColor || color;
+            var html = '<div class="ipecs-marker" style="position:relative;width:' + s + 'px;height:' + s + 'px;">'
+                + '<span class="ipecs-marker__pulse" style="background:' + pc + ';"></span>'
+                + '<span class="ipecs-marker__dot" style="background:' + color + ';width:' + s + 'px;height:' + s + 'px;"></span>'
+                + '</div>';
+            return L.divIcon({ html: html, className: '', iconSize: [s, s], iconAnchor: [s/2, s/2], popupAnchor: [0, -s] });
+        }
+
+        var hqIcon  = makePulse('#084b82', 16, '#4a90d9');
+        var regIcon = makePulse('#f2a20e', 12, '#f2a20e');
+
+        /* ── Office markers (drawn on top of district dots) ── */
+        var offices = [
+            { lat: 24.8607, lng: 67.0011, icon: hqIcon,  title: 'Karachi — Headquarters', body: '513A Continental Trade Centre, Clifton<br><em style="color:#084b82;">All nine technical sectors</em>' },
+            { lat: 25.3960, lng: 68.3578, icon: regIcon, title: 'Hyderabad — Regional Office', body: 'Education · WASH · Governance · Social Inclusion' },
+            { lat: 27.7244, lng: 68.8574, icon: regIcon, title: 'Sukkur — Regional Office',    body: 'Engineering · Climate · MEAL · Health' },
+            { lat: 27.5580, lng: 68.2120, icon: regIcon, title: 'Larkana — Regional Office',   body: 'Education · WASH · Social Inclusion' },
+            { lat: 30.1798, lng: 66.9750, icon: regIcon, title: 'Quetta — Regional Office',    body: 'Climate · Engineering · Governance · Health' }
+        ];
+
+        offices.forEach(function (o) {
+            L.marker([o.lat, o.lng], { icon: o.icon })
+                .addTo(map)
+                .bindPopup(
+                    '<div style="font-family:Montserrat,sans-serif;min-width:175px;">'
+                    + '<strong style="color:#084b82;font-size:0.82rem;font-weight:700;display:block;margin-bottom:5px;border-bottom:1px solid #eef3f8;padding-bottom:5px;">' + o.title + '</strong>'
+                    + '<span style="font-size:0.74rem;color:#333;line-height:1.6;">' + o.body + '</span>'
+                    + '</div>',
+                    { maxWidth: 250, className: 'ipecs-popup' }
+                );
+        });
+    });
+    </script>
 
 </body>
 </html>
