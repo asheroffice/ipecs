@@ -114,6 +114,25 @@ $partnerLogoSlides = array_chunk($partnerLogosList, 4);
         </section>
     <?php } ?>
 
+    <?php if (!empty($sector['gallery_images'])) { ?>
+    <section class="sector-gallery-section" aria-label="Programme photography">
+        <div class="container">
+            <div class="row g-3">
+                <?php foreach ($sector['gallery_images'] as $gi => $gimg) {
+                    $colClass = $gi === 0 ? 'col-12 col-md-6' : 'col-12 col-md-3';
+                    $altText  = $h(($sector['short_title'] ?? $sector['title'] ?? 'Sector') . ' — IPECS programme delivery');
+                ?>
+                <div class="<?php echo $colClass; ?>">
+                    <div class="sector-gallery-card">
+                        <img src="<?php echo $h($gimg); ?>" class="sector-gallery-img" alt="<?php echo $altText; ?>" loading="lazy">
+                    </div>
+                </div>
+                <?php } ?>
+            </div>
+        </div>
+    </section>
+    <?php } ?>
+
     <section class="sector-impact-section">
         <div class="container">
             <div class="sector-section-head text-center mx-auto">

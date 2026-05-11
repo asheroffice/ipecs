@@ -36,7 +36,7 @@
             <div class="row align-items-center g-4 g-lg-5 about-hero-split">
                 <div class="col-lg-6 order-lg-2">
                     <div class="about-hero-img-wrap">
-                        <img src="assets/img/home-main-slider/slide-002.png" alt="IPECS field and institutional work" class="about-hero-img" width="800" height="520" loading="eager">
+                        <img src="assets/img/home-main-slider/slide-007.jpg" alt="IPECS field and institutional work" class="about-hero-img" width="800" height="520" loading="eager">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1 text-lg-start text-center">
@@ -85,6 +85,24 @@
                 <p>What fundamentally distinguishes IPECS from other consulting firms is its deeply integrated, systems-based approach to development, one that recognises the interdependencies between infrastructure, governance, social systems, environmental sustainability, digital innovation, and human capital. Rather than delivering isolated technical outputs, IPECS designs and implements holistic, multi-sectoral solutions that address root causes, build institutional capacity, and generate lasting development impact that endures well beyond project timelines and donor funding cycles.</p>
                 <p>IPECS's 117 multidisciplinary professionals, comprising engineers, urban planners, social scientists, economists, policy advisors, gender and inclusion specialists, digital technology experts, environmental specialists, MEAL professionals, health specialists, education specialists, legal advisors, and procurement specialists, work together as a fully integrated team to deliver solutions that are technically sound, socially inclusive, environmentally responsible, and institutionally anchored.</p>
                 <p>Since inception, IPECS has successfully implemented over 31 major projects and programmes across 34 districts in Sindh, Balochistan, and Khyber Pakhtunkhwa, with a cumulative contract portfolio exceeding PKR 2 billion. The firm's client base spans the Government of Sindh, Government of Balochistan, Government of Pakistan, World Bank, Asian Development Bank, UNDP, UNICEF, FAO, IFAD, USAID, Save the Children, Oxfam, Concern Worldwide, ACTED, HEKS/EPER, KOICA, and many others.</p>
+            </div>
+
+            <div class="row g-3 mb-5">
+                <div class="col-md-4">
+                    <div class="about-body-img-wrap">
+                        <img src="assets/img/services-01.jpg" class="about-body-img" alt="Education programme delivery">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="about-body-img-wrap">
+                        <img src="assets/img/services-05.jpg" class="about-body-img" alt="WASH infrastructure">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="about-body-img-wrap">
+                        <img src="assets/img/services-04.jpg" class="about-body-img" alt="Solar energy distribution — Sindh Solar Energy Project">
+                    </div>
+                </div>
             </div>
 
             <h3 class="about-subsection-title">1.2 Corporate at-a-glance</h3>
@@ -374,6 +392,10 @@
             <h3 class="about-subsection-title">3.3 Field implementation capacity</h3>
             <div class="about-prose mb-5">
                 <p>IPECS's permanent field presence enables the firm to implement programmes across the full spectrum of Pakistan's geographic and socioeconomic contexts. The firm maintains dedicated district-level field coordinators and supervisors in all active districts, supported by mobile data collection teams equipped with digital tools, tablets, and geo-referenced reporting systems. Community liaison networks and established relationships with local government, civil society, and community leaders ensure effective engagement at every level. Multilingual teams fluent in Sindhi, Balochi, Pashto, Urdu, and English ensure culturally sensitive and linguistically appropriate engagement across all operational areas. The firm also maintains rapid deployment capacity for emergency, humanitarian, and time-sensitive programme responses, and has established working relationships with district administrations, line departments, and community institutions across all operational geographies.</p>
+            </div>
+
+            <div class="about-field-img-wrap">
+                <img src="assets/img/recent-work-03.jpg" class="about-field-img" alt="IPECS field teams — community consultation across Pakistan">
             </div>
 
             <h3 class="about-subsection-title">3.4 Team composition</h3>

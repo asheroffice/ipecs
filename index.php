@@ -18,8 +18,6 @@
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css">
-    <!-- Leaflet (presence map) -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
 </head>
 
@@ -40,91 +38,101 @@
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-001.png');" role="img" aria-label="Hero slide 1"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-001.jpg');" role="img" aria-label="Solar Home System distribution"></div>
                         <div class="home-hero-gradient"></div>
                         <div class="carousel-caption home-hero-caption">
                             <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Distribution of the solar home system (SHS) under Sindh Solar Energy Project Government of Sindh</h1>
+                            <h1 class="home-hero-title">Distribution of Solar Home Systems — Sindh Solar Energy Project, Government of Sindh</h1>
                             <a class="home-btn-navy home-hero-cta" href="projects.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-002.png');" role="img" aria-label="Hero slide 2"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-002.jpg');" role="img" aria-label="Solar energy access across Sindh"></div>
                         <div class="home-hero-gradient"></div>
                         <div class="carousel-caption home-hero-caption">
                             <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Institutional strengthening &amp; capacity building across Pakistan</h1>
-                            <a class="home-btn-navy home-hero-cta" href="about.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-003.png');" role="img" aria-label="Hero slide 3"></div>
-                        <div class="home-hero-gradient"></div>
-                        <div class="carousel-caption home-hero-caption">
-                            <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Monitoring, evaluation &amp; impact assessment at scale</h1>
-                            <a class="home-btn-navy home-hero-cta" href="sector.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-004.png');" role="img" aria-label="Hero slide 4"></div>
-                        <div class="home-hero-gradient"></div>
-                        <div class="carousel-caption home-hero-caption">
-                            <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Project management &amp; implementation with international partners</h1>
+                            <h1 class="home-hero-title">Solar energy access for 200,000 families across 30 districts of Sindh</h1>
                             <a class="home-btn-navy home-hero-cta" href="projects.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-005.png');" role="img" aria-label="Hero slide 5"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-003.jpg');" role="img" aria-label="Field supervision and quality assurance"></div>
                         <div class="home-hero-gradient"></div>
                         <div class="carousel-caption home-hero-caption">
                             <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Technology, innovation &amp; safeguards for sustainable development</h1>
+                            <h1 class="home-hero-title">Field supervision &amp; quality assurance across 34+ operational districts</h1>
+                            <a class="home-btn-navy home-hero-cta" href="our-impacts.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-004.jpg');" role="img" aria-label="Community programme implementation"></div>
+                        <div class="home-hero-gradient"></div>
+                        <div class="carousel-caption home-hero-caption">
+                            <div class="home-hero-caption-inner">
+                            <h1 class="home-hero-title">Community-based programme design &amp; implementation across Pakistan</h1>
                             <a class="home-btn-navy home-hero-cta" href="sector.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-006.png');" role="img" aria-label="Hero slide 6"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-005.jpg');" role="img" aria-label="WASH and water infrastructure"></div>
                         <div class="home-hero-gradient"></div>
                         <div class="carousel-caption home-hero-caption">
                             <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Research, surveys &amp; field operations you can rely on</h1>
-                            <a class="home-btn-navy home-hero-cta" href="sector.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
+                            <h1 class="home-hero-title">Water, sanitation &amp; WASH infrastructure for rural communities</h1>
+                            <a class="home-btn-navy home-hero-cta" href="sector-wash.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-007.png');" role="img" aria-label="Hero slide 7"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-006.jpg');" role="img" aria-label="UNDP development programmes"></div>
                         <div class="home-hero-gradient"></div>
                         <div class="carousel-caption home-hero-caption">
                             <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Community engagement &amp; quality delivery in every assignment</h1>
+                            <h1 class="home-hero-title">UNDP-funded development programmes — monitoring, evaluation &amp; learning</h1>
+                            <a class="home-btn-navy home-hero-cta" href="sector-meal.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-007.jpg');" role="img" aria-label="Government stakeholder engagement"></div>
+                        <div class="home-hero-gradient"></div>
+                        <div class="carousel-caption home-hero-caption">
+                            <div class="home-hero-caption-inner">
+                            <h1 class="home-hero-title">High-level stakeholder engagement &amp; government partnership</h1>
                             <a class="home-btn-navy home-hero-cta" href="about.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-008.png');" role="img" aria-label="Hero slide 8"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-008.jpg');" role="img" aria-label="Urban development in Karachi"></div>
                         <div class="home-hero-gradient"></div>
                         <div class="carousel-caption home-hero-caption">
                             <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">IPECS Consulting Pakistan — the art of being greatness</h1>
-                            <a class="home-btn-navy home-hero-cta" href="about.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
+                            <h1 class="home-hero-title">Urban development &amp; infrastructure assessment in Karachi</h1>
+                            <a class="home-btn-navy home-hero-cta" href="sector-infrastructure.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-009.png');" role="img" aria-label="Hero slide 9"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-009.jpg');" role="img" aria-label="Gender equity and social protection"></div>
                         <div class="home-hero-gradient"></div>
                         <div class="carousel-caption home-hero-caption">
                             <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Partner with us for programmes that create lasting impact</h1>
+                            <h1 class="home-hero-title">Gender equity, social inclusion &amp; protection programmes across Sindh</h1>
+                            <a class="home-btn-navy home-hero-cta" href="sector-inclusion.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-010.jpg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-gradient"></div>
+                        <div class="carousel-caption home-hero-caption">
+                            <div class="home-hero-caption-inner">
+                            <h1 class="home-hero-title">Partner with IPECS for programmes that create lasting impact</h1>
                             <a class="home-btn-navy home-hero-cta" href="contact.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
@@ -274,7 +282,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/services-01.jpg" alt="">
+                        <img src="./assets/img/services-09.jpg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Health systems strengthening &amp; nutrition</h3>
@@ -330,22 +338,38 @@
 
                     <div class="presence-legend mt-4">
                         <span class="presence-legend-item">
-                            <span class="presence-legend-dot presence-legend-dot--hq"></span> Headquarters
+                            <span class="presence-legend-dot" style="background:#60a5fa;box-shadow:0 0 5px rgba(96,165,250,0.7);"></span> Sindh
                         </span>
                         <span class="presence-legend-item">
-                            <span class="presence-legend-dot presence-legend-dot--reg"></span> Regional office
+                            <span class="presence-legend-dot" style="background:#fb923c;box-shadow:0 0 5px rgba(251,146,60,0.7);"></span> Balochistan
                         </span>
                         <span class="presence-legend-item">
-                            <span class="presence-legend-dot presence-legend-dot--dist"></span> District (34+)
+                            <span class="presence-legend-dot" style="background:#a78bfa;box-shadow:0 0 5px rgba(167,139,250,0.7);"></span> KPK
+                        </span>
+                        <span class="presence-legend-item">
+                            <span class="presence-legend-dot" style="background:#334155;"></span> Non-operational
                         </span>
                     </div>
                 </div>
 
-                <!-- Right: Pakistan-shaped map -->
+                <!-- Right: Pakistan operational footprint infographic -->
                 <div class="col-lg-7">
-                    <div class="pk-map-scene">
-                        <div class="pk-map-masked">
-                            <div id="ipecs-presence-map" aria-label="Interactive map of Pakistan showing IPECS office locations"></div>
+                    <div class="pk-footprint-map" id="pk-footprint-map" role="img" aria-label="Map of Pakistan showing IPECS operational districts coloured by province"></div>
+                    <div class="pk-prov-stats">
+                        <div class="pk-prov-stat pk-prov-stat--sindh">
+                            <span class="pk-prov-stat__swatch"></span>
+                            <span class="pk-prov-stat__n">24</span>
+                            <span class="pk-prov-stat__label">Districts<br>Sindh</span>
+                        </div>
+                        <div class="pk-prov-stat pk-prov-stat--baloch">
+                            <span class="pk-prov-stat__swatch"></span>
+                            <span class="pk-prov-stat__n">3</span>
+                            <span class="pk-prov-stat__label">Districts<br>Balochistan</span>
+                        </div>
+                        <div class="pk-prov-stat pk-prov-stat--kpk">
+                            <span class="pk-prov-stat__swatch"></span>
+                            <span class="pk-prov-stat__n">2</span>
+                            <span class="pk-prov-stat__label">Districts<br>KPK</span>
                         </div>
                     </div>
                 </div>
@@ -450,7 +474,7 @@
                                     <div class="home-project-card h-100">
                                         <span class="tag-ongoing"><span class="home-project-tag-dot home-project-tag-dot--ongoing" aria-hidden="true"></span> Ongoing</span>
                                         <div class="home-project-card-media">
-                                            <img src="./assets/img/111.png" alt="Feasibility study project">
+                                            <img src="./assets/img/work-01.jpg" alt="Feasibility study project">
                                         </div>
                                         <div class="body">
                                             <h3 class="home-project-card-title">Feasibility study: women agricultural workers</h3>
@@ -465,7 +489,7 @@
                                     <div class="home-project-card h-100">
                                         <span class="tag-completed"><span class="home-project-tag-dot home-project-tag-dot--completed" aria-hidden="true"></span> Completed</span>
                                         <div class="home-project-card-media">
-                                            <img src="./assets/img/222.png" alt="School infrastructure programme">
+                                            <img src="./assets/img/work-02.jpg" alt="School infrastructure programme">
                                         </div>
                                         <div class="body">
                                             <h3 class="home-project-card-title">School infrastructure rehabilitation program</h3>
@@ -807,153 +831,132 @@ if (window.innerWidth < 992) {
         }
         </script>
 
-    <!-- Leaflet JS (presence map) -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Pakistan operational footprint infographic -->
     <script>
     document.addEventListener('DOMContentLoaded', function () {
-        var mapEl = document.getElementById('ipecs-presence-map');
-        if (!mapEl) return;
+        var container = document.getElementById('pk-footprint-map');
+        if (!container) return;
 
-        /* ── Map init ── */
-        var map = L.map('ipecs-presence-map', {
-            center: [30.0, 69.5],
-            zoom: 5,
-            scrollWheelZoom: false,
-            zoomControl: false,
-            attributionControl: false
-        });
-
-        L.control.zoom({ position: 'bottomright' }).addTo(map);
-        L.control.attribution({ prefix: false, position: 'bottomright' }).addTo(map);
-        setTimeout(function () { map.invalidateSize(); }, 100);
-
-        /* CartoDB Voyager — warm, colorful, modern */
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
-            subdomains: 'abcd',
-            maxZoom: 19
-        }).addTo(map);
-
-        /* ── Province fills (coloured overlays per operational province) ── */
-        var provStyles = {
-            'Sindh':       { color: '#0369a1', weight: 1.8, opacity: 0.8, fillColor: '#38bdf8', fillOpacity: 0.22 },
-            'Balochistan': { color: '#92400e', weight: 1.8, opacity: 0.8, fillColor: '#fb923c', fillOpacity: 0.18 },
-            'KPK':         { color: '#14532d', weight: 1.8, opacity: 0.8, fillColor: '#4ade80', fillOpacity: 0.20 }
+        /* Province fill colours */
+        var provFill = {
+            PKSD: '#3b82f6',  /* Sindh       — blue   */
+            PKBA: '#f97316',  /* Balochistan — orange */
+            PKKP: '#8b5cf6',  /* KPK         — purple */
+            PKPB: '#334155',  /* Punjab      — dark slate (non-operational) */
+            PKGB: '#1e3a52',  /* Gilgit-Baltistan */
+            PKJK: '#243450',  /* Azad Kashmir */
+            PKIS: '#2a3f55'   /* Islamabad   */
         };
 
-        /* Sindh — local GeoJSON */
-        fetch('assets/data/sindh.geojson')
-            .then(function (r) { return r.json(); })
-            .then(function (sg) {
-                L.geoJSON({ type: 'Feature', geometry: sg }, { style: provStyles['Sindh'] }).addTo(map);
-            }).catch(function () {});
+        /* District dot colours per province */
+        var distCol = { Sindh: '#1d4ed8', Balochistan: '#ea580c', KPK: '#6d28d9' };
 
-        /* Balochistan + KPK — fetched from Nominatim */
-        function fetchProvince(query, style) {
-            fetch('https://nominatim.openstreetmap.org/search?q=' + encodeURIComponent(query) + '&polygon_geojson=1&format=json&limit=1', {
-                headers: { 'Accept-Language': 'en', 'User-Agent': 'IPECS-Website/1.0' }
-            })
-            .then(function (r) { return r.json(); })
-            .then(function (data) {
-                if (data && data[0] && data[0].geojson) {
-                    L.geoJSON({ type: 'Feature', geometry: data[0].geojson }, { style: style }).addTo(map);
-                }
-            }).catch(function () {});
-        }
-        fetchProvince('Balochistan Province, Pakistan',   provStyles['Balochistan']);
-        fetchProvince('Khyber Pakhtunkhwa, Pakistan',     provStyles['KPK']);
-
-        /* ── District markers (34+ districts across Pakistan) ── */
-        var districtColor = { 'Sindh': '#0369a1', 'Balochistan': '#c2410c', 'KPK': '#15803d' };
-
-        function makeDistrict(province) {
-            var c = districtColor[province] || '#0369a1';
-            var html = '<div style="width:10px;height:10px;border-radius:50%;background:' + c + ';border:2px solid #fff;box-shadow:0 0 0 1px ' + c + ',0 2px 6px rgba(0,0,0,0.28);"></div>';
-            return L.divIcon({ html: html, className: '', iconSize: [10, 10], iconAnchor: [5, 5], popupAnchor: [0, -11] });
-        }
-
+        /* District list */
         var districts = [
-            /* Sindh — 24 districts */
-            { lat: 24.8607, lng: 67.0011, name: 'Karachi',              province: 'Sindh' },
-            { lat: 25.3960, lng: 68.3578, name: 'Hyderabad',            province: 'Sindh' },
-            { lat: 27.7244, lng: 68.8574, name: 'Sukkur',               province: 'Sindh' },
-            { lat: 27.5580, lng: 68.2120, name: 'Larkana',              province: 'Sindh' },
-            { lat: 24.7461, lng: 67.9228, name: 'Thatta',               province: 'Sindh' },
-            { lat: 24.6557, lng: 68.8375, name: 'Badin',                province: 'Sindh' },
-            { lat: 24.7163, lng: 69.7954, name: 'Tharparkar',           province: 'Sindh' },
-            { lat: 25.3618, lng: 69.7365, name: 'Umerkot',              province: 'Sindh' },
-            { lat: 26.0433, lng: 68.9478, name: 'Sanghar',              province: 'Sindh' },
-            { lat: 25.5273, lng: 69.0160, name: 'Mirpurkhas',           province: 'Sindh' },
-            { lat: 26.2442, lng: 68.4096, name: 'Nawabshah',            province: 'Sindh' },
-            { lat: 26.8417, lng: 68.1163, name: 'Naushahro Feroze',     province: 'Sindh' },
-            { lat: 27.5294, lng: 68.7576, name: 'Khairpur',             province: 'Sindh' },
-            { lat: 28.0045, lng: 69.3146, name: 'Ghotki',               province: 'Sindh' },
-            { lat: 28.2769, lng: 68.4381, name: 'Jacobabad',            province: 'Sindh' },
-            { lat: 28.4444, lng: 69.5811, name: 'Kashmore',             province: 'Sindh' },
-            { lat: 27.9559, lng: 68.6375, name: 'Shikarpur',            province: 'Sindh' },
-            { lat: 26.7322, lng: 67.7752, name: 'Dadu',                 province: 'Sindh' },
-            { lat: 25.5889, lng: 68.4617, name: 'Matiari',              province: 'Sindh' },
-            { lat: 25.4624, lng: 68.7174, name: 'Tando Allahyar',       province: 'Sindh' },
-            { lat: 25.1281, lng: 68.5367, name: 'Tando Mohammad Khan',  province: 'Sindh' },
-            { lat: 24.1367, lng: 68.1300, name: 'Sujawal',              province: 'Sindh' },
-            { lat: 27.5868, lng: 68.0065, name: 'Kambar Shahdadkot',    province: 'Sindh' },
-            { lat: 25.4346, lng: 68.2819, name: 'Jamshoro',             province: 'Sindh' },
-            /* Balochistan — 3 districts */
-            { lat: 30.1798, lng: 66.9750, name: 'Quetta',               province: 'Balochistan' },
-            { lat: 25.1264, lng: 62.3225, name: 'Gwadar',               province: 'Balochistan' },
-            { lat: 26.2175, lng: 66.0069, name: 'Lasbela',              province: 'Balochistan' },
-            /* KPK — 2 districts */
-            { lat: 35.2985, lng: 71.9225, name: 'Upper Dir',            province: 'KPK' },
-            { lat: 35.2227, lng: 72.4258, name: 'Swat',                 province: 'KPK' }
+            /* Sindh — 24 */
+            { lat:24.8607, lng:67.0011, name:'Karachi',             p:'Sindh' },
+            { lat:25.3960, lng:68.3578, name:'Hyderabad',           p:'Sindh' },
+            { lat:27.7244, lng:68.8574, name:'Sukkur',              p:'Sindh' },
+            { lat:27.5580, lng:68.2120, name:'Larkana',             p:'Sindh' },
+            { lat:24.7461, lng:67.9228, name:'Thatta',              p:'Sindh' },
+            { lat:24.6557, lng:68.8375, name:'Badin',               p:'Sindh' },
+            { lat:24.7163, lng:69.7954, name:'Tharparkar',          p:'Sindh' },
+            { lat:25.3618, lng:69.7365, name:'Umerkot',             p:'Sindh' },
+            { lat:26.0433, lng:68.9478, name:'Sanghar',             p:'Sindh' },
+            { lat:25.5273, lng:69.0160, name:'Mirpurkhas',          p:'Sindh' },
+            { lat:26.2442, lng:68.4096, name:'Nawabshah',           p:'Sindh' },
+            { lat:26.8417, lng:68.1163, name:'Naushahro Feroze',    p:'Sindh' },
+            { lat:27.5294, lng:68.7576, name:'Khairpur',            p:'Sindh' },
+            { lat:28.0045, lng:69.3146, name:'Ghotki',              p:'Sindh' },
+            { lat:28.2769, lng:68.4381, name:'Jacobabad',           p:'Sindh' },
+            { lat:28.4444, lng:69.5811, name:'Kashmore',            p:'Sindh' },
+            { lat:27.9559, lng:68.6375, name:'Shikarpur',           p:'Sindh' },
+            { lat:26.7322, lng:67.7752, name:'Dadu',                p:'Sindh' },
+            { lat:25.5889, lng:68.4617, name:'Matiari',             p:'Sindh' },
+            { lat:25.4624, lng:68.7174, name:'Tando Allahyar',      p:'Sindh' },
+            { lat:25.1281, lng:68.5367, name:'Tando Mohammad Khan', p:'Sindh' },
+            { lat:24.1367, lng:68.1300, name:'Sujawal',             p:'Sindh' },
+            { lat:27.5868, lng:68.0065, name:'Kambar Shahdadkot',   p:'Sindh' },
+            { lat:25.4346, lng:68.2819, name:'Jamshoro',            p:'Sindh' },
+            /* Balochistan — 3 */
+            { lat:30.1798, lng:66.9750, name:'Quetta',              p:'Balochistan' },
+            { lat:25.1264, lng:62.3225, name:'Gwadar',              p:'Balochistan' },
+            { lat:26.2175, lng:66.0069, name:'Lasbela',             p:'Balochistan' },
+            /* KPK — 2 */
+            { lat:35.2985, lng:71.9225, name:'Upper Dir',           p:'KPK' },
+            { lat:35.2227, lng:72.4258, name:'Swat',                p:'KPK' }
         ];
 
-        districts.forEach(function (d) {
-            var pColor = { 'Sindh': '#0369a1', 'Balochistan': '#c2410c', 'KPK': '#15803d' }[d.province] || '#0369a1';
-            L.marker([d.lat, d.lng], { icon: makeDistrict(d.province) })
-                .addTo(map)
-                .bindPopup(
-                    '<div style="font-family:Montserrat,sans-serif;min-width:150px;">'
-                    + '<strong style="color:#111;font-size:0.82rem;display:block;margin-bottom:4px;">' + d.name + '</strong>'
-                    + '<span style="display:inline-block;font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:0.07em;color:#fff;background:' + pColor + ';border-radius:4px;padding:1px 7px;">' + d.province + '</span>'
-                    + '</div>',
-                    { maxWidth: 200, className: 'ipecs-popup' }
-                );
-        });
-
-        /* ── Pulse marker factory (offices) ── */
-        function makePulse(color, size, pulseColor) {
-            var s = size || 14;
-            var pc = pulseColor || color;
-            var html = '<div class="ipecs-marker" style="position:relative;width:' + s + 'px;height:' + s + 'px;">'
-                + '<span class="ipecs-marker__pulse" style="background:' + pc + ';"></span>'
-                + '<span class="ipecs-marker__dot" style="background:' + color + ';width:' + s + 'px;height:' + s + 'px;"></span>'
-                + '</div>';
-            return L.divIcon({ html: html, className: '', iconSize: [s, s], iconAnchor: [s/2, s/2], popupAnchor: [0, -s] });
+        /* Lat/lng → SVG coordinate (calibrated for SimpleMaps Pakistan 1000×959) */
+        function toXY(lat, lng) {
+            var x = (lng - 60.5) / (77.5 - 60.5) * (940 - 140) + 140;
+            var y = (37.5 - lat) / (37.5 - 23.5) * (940 - 50)  + 50;
+            return [x, y];
         }
 
-        var hqIcon  = makePulse('#084b82', 16, '#4a90d9');
-        var regIcon = makePulse('#f2a20e', 12, '#f2a20e');
+        /* Load & render SVG */
+        fetch('assets/img/pk.svg')
+            .then(function (r) { return r.text(); })
+            .then(function (svgText) {
+                container.innerHTML = svgText;
+                var svg = container.querySelector('svg');
+                if (!svg) return;
 
-        /* ── Office markers (drawn on top of district dots) ── */
-        var offices = [
-            { lat: 24.8607, lng: 67.0011, icon: hqIcon,  title: 'Karachi — Headquarters', body: '513A Continental Trade Centre, Clifton<br><em style="color:#084b82;">All nine technical sectors</em>' },
-            { lat: 25.3960, lng: 68.3578, icon: regIcon, title: 'Hyderabad — Regional Office', body: 'Education · WASH · Governance · Social Inclusion' },
-            { lat: 27.7244, lng: 68.8574, icon: regIcon, title: 'Sukkur — Regional Office',    body: 'Engineering · Climate · MEAL · Health' },
-            { lat: 27.5580, lng: 68.2120, icon: regIcon, title: 'Larkana — Regional Office',   body: 'Education · WASH · Social Inclusion' },
-            { lat: 30.1798, lng: 66.9750, icon: regIcon, title: 'Quetta — Regional Office',    body: 'Climate · Engineering · Governance · Health' }
-        ];
+                /* Make SVG fully responsive */
+                svg.removeAttribute('width');
+                svg.removeAttribute('height');
+                svg.style.cssText = 'width:100%;height:auto;display:block;';
 
-        offices.forEach(function (o) {
-            L.marker([o.lat, o.lng], { icon: o.icon })
-                .addTo(map)
-                .bindPopup(
-                    '<div style="font-family:Montserrat,sans-serif;min-width:175px;">'
-                    + '<strong style="color:#084b82;font-size:0.82rem;font-weight:700;display:block;margin-bottom:5px;border-bottom:1px solid #eef3f8;padding-bottom:5px;">' + o.title + '</strong>'
-                    + '<span style="font-size:0.74rem;color:#333;line-height:1.6;">' + o.body + '</span>'
-                    + '</div>',
-                    { maxWidth: 250, className: 'ipecs-popup' }
-                );
-        });
+                /* Colour every province path */
+                Object.keys(provFill).forEach(function (id) {
+                    var el = svg.querySelector('#' + id);
+                    if (!el) return;
+                    el.style.fill        = provFill[id];
+                    el.style.stroke      = 'rgba(255,255,255,0.18)';
+                    el.style.strokeWidth = '1.5';
+                    /* Tooltip */
+                    var t = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+                    t.textContent = { PKSD:'Sindh', PKBA:'Balochistan', PKKP:'KPK',
+                                      PKPB:'Punjab', PKGB:'Gilgit-Baltistan',
+                                      PKJK:'Azad Kashmir', PKIS:'Islamabad' }[id] || id;
+                    el.insertBefore(t, el.firstChild);
+                });
+
+                /* District dot markers */
+                var ns = 'http://www.w3.org/2000/svg';
+                var g  = document.createElementNS(ns, 'g');
+                g.setAttribute('id', 'ipecs-districts');
+
+                districts.forEach(function (d) {
+                    var xy = toXY(d.lat, d.lng);
+                    var c  = distCol[d.p] || '#1d4ed8';
+
+                    /* Soft halo */
+                    var halo = document.createElementNS(ns, 'circle');
+                    halo.setAttribute('cx', xy[0]);
+                    halo.setAttribute('cy', xy[1]);
+                    halo.setAttribute('r',  '9');
+                    halo.setAttribute('fill', c);
+                    halo.setAttribute('opacity', '0.22');
+                    g.appendChild(halo);
+
+                    /* Main dot */
+                    var dot = document.createElementNS(ns, 'circle');
+                    dot.setAttribute('cx', xy[0]);
+                    dot.setAttribute('cy', xy[1]);
+                    dot.setAttribute('r',  '5');
+                    dot.setAttribute('fill', c);
+                    dot.setAttribute('stroke', '#ffffff');
+                    dot.setAttribute('stroke-width', '1.5');
+                    var tip = document.createElementNS(ns, 'title');
+                    tip.textContent = d.name + ' — ' + d.p;
+                    dot.appendChild(tip);
+                    g.appendChild(dot);
+                });
+
+                svg.appendChild(g);
+            })
+            .catch(function () {});
     });
     </script>
 
