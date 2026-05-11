@@ -55,7 +55,11 @@
         }
     }
 
-    // ---- Section reveal (first home page) ----
+    // ---- Section reveal (index page only, not inner pages) ----
+    if (document.body.className.trim() !== 'home-page') {
+        return;
+    }
+
     var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduceMotion) {
         return;
