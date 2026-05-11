@@ -1287,6 +1287,7 @@ https://templatemo.com/tm-561-purple-buzz
     .home-page .about-newsletter-input-group {
         flex-wrap: nowrap;
     }
+    
 }
 
 .home-page .about-newsletter-input {
@@ -2237,6 +2238,11 @@ https://templatemo.com/tm-561-purple-buzz
     .home-page .sector-partner-carousel .carousel-control-next {
         width: 2.2rem;
         height: 2.2rem;
+    }
+
+    .home-page .home-about-section .home-about-copy
+    {
+        padding: calc(var(--bs-gutter-x) / 2) !important;
     }
 }
 
