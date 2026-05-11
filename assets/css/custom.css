@@ -4738,13 +4738,13 @@ https://templatemo.com/tm-561-purple-buzz
 
 .home-page .home-services-section {
     background: var(--ipecs-sky);
-    padding: var(--home-section-padding-y) 0;
+    padding: clamp(3rem, 6vw, 5rem) 0;
 }
 
 .home-page .home-sectors-kicker {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: clamp(0.78rem, 1.2vw, 0.9rem);
+    font-size: clamp(0.8rem, 1.2vw, 0.92rem);
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: var(--ipecs-navy);
@@ -4762,8 +4762,8 @@ https://templatemo.com/tm-561-purple-buzz
 
 .home-page .home-service-card {
     background: #fff;
-    border-radius: 15px;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(8, 75, 130, 0.10);
     overflow: hidden;
     height: 100%;
     display: flex;
@@ -4772,19 +4772,20 @@ https://templatemo.com/tm-561-purple-buzz
 
 .home-page .home-service-card img {
     width: 100%;
-    height: 182px;
+    height: 210px;
     object-fit: cover;
 }
 
 .home-page .home-service-card .card-body {
-    padding: 1rem 1rem 1.25rem;
+    padding: 1.35rem 1.4rem 1.6rem;
     flex: 1;
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 }
 
 .home-page .home-service-label {
-    font-size: 0.65rem;
+    font-size: 0.72rem;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--ipecs-blue);
@@ -4792,16 +4793,17 @@ https://templatemo.com/tm-561-purple-buzz
 }
 
 .home-page .home-service-card h3 {
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: none;
     color: var(--ipecs-blue);
-    line-height: 1.35;
-    min-height: 2.7rem;
+    line-height: 1.4;
+    min-height: 3rem;
+    margin-bottom: 0;
 }
 
 .home-page .home-service-card .excerpt {
-    font-size: 0.625rem;
+    font-size: 0.85rem;
     color: var(--ipecs-gray);
     flex: 1;
     margin: 0.5rem 0 1rem;
@@ -4810,8 +4812,9 @@ https://templatemo.com/tm-561-purple-buzz
 
 .home-page .home-service-card .btn-read {
     align-self: flex-start;
-    padding: 0.35rem 0.85rem;
-    font-size: 0.625rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1.15rem;
+    font-size: 0.8rem;
     font-weight: 600;
     border-radius: 6px;
     background: var(--ipecs-blue);
@@ -5099,6 +5102,12 @@ https://templatemo.com/tm-561-purple-buzz
     aspect-ratio: 16 / 10;
     pointer-events: none;
     vertical-align: middle;
+    background: linear-gradient(135deg, #0b1e35 0%, #0d3255 100%);
+    transition: opacity 0.3s ease;
+}
+
+.home-page .home-video-thumb[src=""] {
+    opacity: 0.6;
 }
 
 .home-page .home-video-overlay {

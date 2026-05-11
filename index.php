@@ -391,9 +391,7 @@
                     <div class="row g-4">
                         <div class="col-md-6">
                             <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" tabindex="0" role="button" aria-label="Play video: Bringing light — Gajri’s story from Badin">
-                                <video class="home-video-thumb" preload="metadata" muted playsinline>
-                                    <source src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" type="video/mp4">
-                                </video>
+                                <img class="home-video-thumb" src="" alt="Bringing Light, Empowering Livelihoods — Gajri's Story from Badin">
                                 <div class="home-video-overlay" aria-hidden="true">
                                     <span class="home-play-icon">&#9654;</span>
                                 </div>
@@ -401,9 +399,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Success-Story.mp4" tabindex="0" role="button" aria-label="Play video: Success story">
-                                <video class="home-video-thumb" preload="metadata" muted playsinline>
-                                    <source src="./assets/videos/Success-Story.mp4" type="video/mp4">
-                                </video>
+                                <img class="home-video-thumb" src="" alt="Success Story — IPECS project delivery">
                                 <div class="home-video-overlay" aria-hidden="true">
                                     <span class="home-play-icon">&#9654;</span>
                                 </div>
@@ -411,9 +407,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/A-Light-in-the-Darkness–Maryums-Story.mp4" tabindex="0" role="button" aria-label="Play video: A light in the darkness — Maryum’s story">
-                                <video class="home-video-thumb" preload="metadata" muted playsinline>
-                                    <source src="./assets/videos/A-Light-in-the-Darkness–Maryums-Story.mp4" type="video/mp4">
-                                </video>
+                                <img class="home-video-thumb" src="" alt="A Light in the Darkness — Maryum's Story">
                                 <div class="home-video-overlay" aria-hidden="true">
                                     <span class="home-play-icon">&#9654;</span>
                                 </div>
@@ -421,9 +415,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" tabindex="0" role="button" aria-label="Play video: Bringing light — Gajri’s story from Badin">
-                                <video class="home-video-thumb" preload="metadata" muted playsinline>
-                                    <source src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" type="video/mp4">
-                                </video>
+                                <img class="home-video-thumb" src="" alt="Bringing Light, Empowering Livelihoods — Gajri's Story from Badin">
                                 <div class="home-video-overlay" aria-hidden="true">
                                     <span class="home-play-icon">&#9654;</span>
                                 </div>
@@ -765,6 +757,56 @@
                 if (e.key === "Escape" && lb.classList.contains("is-open")) {
                     closeLightbox();
                 }
+            });
+        })();
+
+        /* ---- Video thumbnail generator (canvas frame capture) ---- */
+        (function () {
+            var cache = {};
+            document.querySelectorAll('[data-home-video-open]').forEach(function (tile) {
+                var src = tile.getAttribute('data-video-src');
+                if (!src) return;
+                var img = tile.querySelector('.home-video-thumb');
+                if (!img || img.tagName !== 'IMG') return;
+
+                if (cache[src]) {
+                    if (typeof cache[src] === 'string') {
+                        img.src = cache[src];
+                    } else {
+                        cache[src].push(img);
+                    }
+                    return;
+                }
+
+                cache[src] = [img];
+
+                var vid = document.createElement('video');
+                vid.muted = true;
+                vid.playsInline = true;
+                vid.preload = 'auto';
+                vid.crossOrigin = 'anonymous';
+                vid.style.cssText = 'position:fixed;top:-9999px;left:-9999px;width:1px;height:1px;visibility:hidden;pointer-events:none';
+                document.body.appendChild(vid);
+
+                vid.addEventListener('seeked', function () {
+                    try {
+                        var c = document.createElement('canvas');
+                        c.width  = vid.videoWidth  || 640;
+                        c.height = vid.videoHeight || 360;
+                        c.getContext('2d').drawImage(vid, 0, 0, c.width, c.height);
+                        var dataUrl = c.toDataURL('image/jpeg', 0.85);
+                        cache[src].forEach(function (i) { i.src = dataUrl; });
+                        cache[src] = dataUrl;
+                    } catch (e) {}
+                    if (vid.parentNode) vid.parentNode.removeChild(vid);
+                }, { once: true });
+
+                vid.addEventListener('loadedmetadata', function () {
+                    vid.currentTime = 3;
+                }, { once: true });
+
+                vid.src = src;
+                vid.load();
             });
         })();
 
