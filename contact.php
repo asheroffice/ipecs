@@ -62,6 +62,8 @@
                         <div class="contact-card-icon"><i class="bx bx-phone"></i></div>
                         <div>
                             <h2 class="contact-card-title">Phone</h2>
+                            <p class="contact-card-text mb-0"><a class="contact-link" href="tel:+9221111737467">UAN +92 21 111 737467</a></p>
+                            <p class="contact-card-text mb-0"><a class="contact-link" href="tel:++922133377777">+92 21 33377777</a></p>
                             <p class="contact-card-text mb-1"><a class="contact-link" href="tel:+92213722542">+92 213 722 542</a></p>
                             <p class="contact-card-text mb-0"><a class="contact-link" href="tel:+923302800660">+92 330 2800 660</a></p>
                         </div>
@@ -73,6 +75,7 @@
                             <h2 class="contact-card-title">Email</h2>
                             <p class="contact-card-text mb-1"><a class="contact-link" href="mailto:md@ipecs.org.pk">md@ipecs.org.pk</a></p>
                             <p class="contact-card-text mb-0"><a class="contact-link" href="mailto:ipecs.pk@gmail.com">ipecs.pk@gmail.com</a></p>
+                            <p class="contact-card-text mb-0"><a class="contact-link" href="mailto:info@ipecs.org.pk">info@ipecs.org.pk</a></p>
                         </div>
                     </div>
 
@@ -80,7 +83,7 @@
                         <div class="contact-card-icon"><i class="bx bx-map"></i></div>
                         <div>
                             <h2 class="contact-card-title">Main Office</h2>
-                            <p class="contact-card-text mb-0">Office No. 513A, Continental Trade Center, Block 8, Clifton Main Clifton Road, Karachi, Pakistan</p>
+                            <p class="contact-card-text mb-0">Office No. 808, 8th Floor, Tower A, Saima Trade Tower, I.I Chundrigar Road, Karachi, Pakistan</p>
                         </div>
                     </div>
                 </div>

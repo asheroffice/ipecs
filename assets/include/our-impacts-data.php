@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * Content aligned with IPECS corporate profile — Our impacts (PDF).
+ * Content aligned with IPECS corporate profile - Our impacts (PDF).
  * impact_rows: [indicator, scale/reach, client/funder] → merged on the page as “Achievement”.
  */
 return [

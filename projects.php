@@ -25,9 +25,9 @@ function ipc_project_details_inner_html(array $p): string
     foreach ($blocks as $b) {
         $raw = (string) ($p[$b['key']] ?? '');
         $plain = trim(strip_tags(str_replace(["\r\n", "\r"], "\n", $raw)));
-        $isEmpty = $plain === '' || $plain === '—' || $plain === '--';
+        $isEmpty = $plain === '' || $plain === '-' || $plain === '--';
         $inner = $isEmpty
-            ? '<p class="project-details-block__empty mb-0">—</p>'
+            ? '<p class="project-details-block__empty mb-0">-</p>'
             : '<div class="project-details-block__value">' . ipc_projects_esc_nl($raw) . '</div>';
         $out .= '<section class="project-details-block" aria-label="' . htmlspecialchars($b['label'], ENT_QUOTES, 'UTF-8') . '">';
         $out .= '<h3 class="project-details-block__label">' . htmlspecialchars($b['label'], ENT_QUOTES, 'UTF-8') . '</h3>';
@@ -47,7 +47,7 @@ $count_completed = count(array_filter($projects, static fn ($p) => ($p['status_k
 
 <head>
     <title>IPECS Consulting PVT Ltd. | Projects</title>
-    <meta name="description" content="IPECS Consulting — portfolio of development, WASH, surveys, and resilience projects across Sindh and Pakistan.">
+    <meta name="description" content="IPECS Consulting - portfolio of development, WASH, surveys, and resilience projects across Sindh and Pakistan.">
     <meta name="keywords" content="IPECS,Projects,WASH,Sindh,Consulting,Monitoring">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -73,8 +73,7 @@ $count_completed = count(array_filter($projects, static fn ($p) => ($p['status_k
         <div class="container">
             <div class="contact-hero-inner">
                 <h1 class="contact-title">Our projects</h1>
-                <p class="contact-subtitle mb-0">A transparent record of assignments — from ongoing feasibility and surveys to completed WASH, housing, M&amp;E, and resilience programmes with government, donors, and partners.</p>
-            </div>
+               </div>
         </div>
     </section>
 

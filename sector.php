@@ -12,7 +12,7 @@ $sectors = $db['sectors'] ?? [];
 
 <head>
     <title>IPECS Consulting PVT Ltd. | Sectors</title>
-    <meta name="description" content="IPECS Consulting — nine technical sectors: education, governance, engineering, climate, WASH, digital, inclusion, MEAL, and health — each with dedicated expertise and portfolio.">
+    <meta name="description" content="IPECS Consulting - nine technical sectors: education, governance, engineering, climate, WASH, digital, inclusion, MEAL, and health - each with dedicated expertise and portfolio.">
     <meta name="keywords" content="IPECS,Sectors,Consulting,Education,Governance,Infrastructure,Climate,WASH,Digital,MEAL,Health,Pakistan">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,7 +34,7 @@ $sectors = $db['sectors'] ?? [];
         <div class="container">
             <div class="contact-hero-inner text-center mx-auto sector-hub-hero-inner">
                 <h1 id="sector-hub-title" class="contact-title">Our sectors</h1>
-                <p class="contact-subtitle mb-0">Nine technical sectors drawn from our portfolio documentation — full sector overview, core capabilities, cumulative impact, contract value, and key clients and funders on each page.</p>
+                <p class="contact-subtitle mb-0">Nine technical sectors drawn from our portfolio documentation - full sector overview, core capabilities, cumulative impact, contract value, and key clients and funders on each page.</p>
             </div>
         </div>
     </section>
@@ -42,7 +42,7 @@ $sectors = $db['sectors'] ?? [];
     <section class="services-intro-section">
         <div class="container">
             <div class="services-intro-inner mx-auto text-center">
-                <p class="services-intro-text mb-0">Select a sector to read the complete narrative: hero overview, detailed technical capabilities, impact table, and client ecosystem — aligned with IPECS sector briefs.</p>
+                <p class="services-intro-text mb-0">Select a sector to read the complete narrative: hero overview, detailed technical capabilities, impact table, and client ecosystem - aligned with IPECS sector briefs.</p>
             </div>
         </div>
     </section>
@@ -98,7 +98,7 @@ $sectors = $db['sectors'] ?? [];
     <section class="sector-hub-reach-section" id="reach">
         <div class="container">
             <h2 class="home-section-title dark text-center d-block mb-2">Geographic reach</h2>
-            <p class="sector-hub-lead text-center mx-auto mb-4">Operational presence across provinces — urban, peri-urban, and remote rural contexts.</p>
+            <p class="sector-hub-lead text-center mx-auto mb-4">Operational presence across provinces - urban, peri-urban, and remote rural contexts.</p>
             <div class="table-responsive">
                 <table class="table table-bordered sector-hub-table align-middle">
                     <thead>
@@ -197,7 +197,7 @@ $sectors = $db['sectors'] ?? [];
         <div class="container">
             <div class="contact-hero-inner text-center mx-auto">
                 <h2 class="contact-title">Not sure which sector fits your programme?</h2>
-                <p class="contact-subtitle mb-4">We work across boundaries every day — tell us what you are trying to achieve and we will map the right practice area.</p>
+                <p class="contact-subtitle mb-4">We work across boundaries every day - tell us what you are trying to achieve and we will map the right practice area.</p>
                 <a class="btn home-btn-navy" href="contact.php">
                     <span>Contact us</span>
                     <i class="bx bx-right-arrow-alt" aria-hidden="true"></i>

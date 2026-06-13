@@ -3,7 +3,7 @@
 
 <head>
     <title>IPECS Consulting PVT Ltd. | Organization &amp; Team</title>
-    <meta name="description" content="IPECS Consulting — organogram, team culture, HR, QHSE, integrated management policy, and quality assurance.">
+    <meta name="description" content="IPECS Consulting - organogram, team culture, HR, QHSE, integrated management policy, and quality assurance.">
     <meta name="keywords" content="IPECS,Team,Organogram,HR,QHSE,Quality,Pakistan">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,7 +29,7 @@
         <div class="container">
             <div class="contact-hero-inner">
                 <h1 class="contact-title">Organization &amp; team</h1>
-                <p class="contact-subtitle mb-0">Structure, people, and policies that support delivery — from organogram and capacity to HR, community engagement, QHSE, and quality assurance.</p>
+                <p class="contact-subtitle mb-0">Structure, people, and policies that support delivery - from organogram and capacity to HR, community engagement, QHSE, and quality assurance.</p>
             </div>
         </div>
     </section>
@@ -61,7 +61,7 @@
             <div class="text-center">
                 <h2 class="team-panel-heading">Organogram</h2>
             </div>
-            <p class="team-panel-lead text-center mx-auto">Interactive overview of governance, executive leadership, advisory bodies, and functional teams — styled to match the IPECS brand.</p>
+            <p class="team-panel-lead text-center mx-auto">Interactive overview of governance, executive leadership, advisory bodies, and functional teams - styled to match the IPECS brand.</p>
 
             <div class="team-organogram-frame team-organogram-frame--chart mx-auto">
                 <div class="org-chart-wrap" role="region" aria-label="IPECS organizational chart">
@@ -222,10 +222,10 @@
                 <div class="col-xl-10">
                     <h2 class="team-panel-heading">QHSE (quality, health, safety &amp; environment)</h2>
                     <div class="team-prose">
-                        <p><strong>Quality</strong> — IPECS’s quality management program, led by the QHSE specialist, has been developed to ensure a commitment to quality. Our commitment and the results of our quality management program are apparent to all employees, clients, design partners, and trade contractors. We are driven to constantly improve by attention to detail, safe solutions, and exceptional results on every project. We seek to exceed client satisfaction at every level.</p>
-                        <p><strong>Health</strong> — IPECS provides support programs and services that promote a healthy workforce and mitigate significant workplace health risks, including sharing information and advising employees of local resources through health fairs, presentations, and internal communication.</p>
-                        <p><strong>Safety</strong> — IPECS recognizes that its most valuable asset is its employees. We are dedicated to providing and maintaining a safe and healthy work environment for all employees. We provide equipment, training, and best practices toward our goal of zero injuries and zero incidents, and construction sites and offices undergo thorough safety inspections.</p>
-                        <p><strong>Environment</strong> — IPECS is committed to environmental principles and to minimizing impact associated with our activities. We invest in technologies that rely less on non-renewable resources. Our environmental and social safeguards team works to minimize impact through technological advancement and improved systems.</p>
+                        <p><strong>Quality</strong> - IPECS’s quality management program, led by the QHSE specialist, has been developed to ensure a commitment to quality. Our commitment and the results of our quality management program are apparent to all employees, clients, design partners, and trade contractors. We are driven to constantly improve by attention to detail, safe solutions, and exceptional results on every project. We seek to exceed client satisfaction at every level.</p>
+                        <p><strong>Health</strong> - IPECS provides support programs and services that promote a healthy workforce and mitigate significant workplace health risks, including sharing information and advising employees of local resources through health fairs, presentations, and internal communication.</p>
+                        <p><strong>Safety</strong> - IPECS recognizes that its most valuable asset is its employees. We are dedicated to providing and maintaining a safe and healthy work environment for all employees. We provide equipment, training, and best practices toward our goal of zero injuries and zero incidents, and construction sites and offices undergo thorough safety inspections.</p>
+                        <p><strong>Environment</strong> - IPECS is committed to environmental principles and to minimizing impact associated with our activities. We invest in technologies that rely less on non-renewable resources. Our environmental and social safeguards team works to minimize impact through technological advancement and improved systems.</p>
                     </div>
                 </div>
             </div>
@@ -264,11 +264,11 @@
                         <p>At IPECS, we place a high priority on delivering high-quality services that meet and exceed the needs and expectations of our clients. To achieve this, we have implemented a robust quality assurance management framework that all staff members are required to work within.</p>
                         <p>Our in-house quality assurance system includes:</p>
                         <ul class="team-csr-list">
-                            <li><strong>General editing of all reports</strong> — careful review before delivery to the client.</li>
-                            <li><strong>Double-checking of fieldwork</strong> — verification of data against sources, consistency checks, and validation of findings.</li>
-                            <li><strong>Strict data control</strong> — confidentiality, security, and controls against loss or corruption.</li>
-                            <li><strong>Scrutiny of research methodology</strong> — appropriateness for project objectives and alignment with best practice and ethics.</li>
-                            <li><strong>Expert panel review of reports</strong> — in-depth evaluation before client delivery.</li>
+                            <li><strong>General editing of all reports</strong> - careful review before delivery to the client.</li>
+                            <li><strong>Double-checking of fieldwork</strong> - verification of data against sources, consistency checks, and validation of findings.</li>
+                            <li><strong>Strict data control</strong> - confidentiality, security, and controls against loss or corruption.</li>
+                            <li><strong>Scrutiny of research methodology</strong> - appropriateness for project objectives and alignment with best practice and ethics.</li>
+                            <li><strong>Expert panel review of reports</strong> - in-depth evaluation before client delivery.</li>
                         </ul>
                         <p>Our <strong>quality assurance section</strong> is headed by highly qualified and experienced consultants who oversee the QA system and support staff. Staff undergo regular training so qualifications and experience remain fit for purpose. We frequently review our QA system so it continues to meet evolving client needs.</p>
                     </div>

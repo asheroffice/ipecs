@@ -19,7 +19,7 @@ $totalRows = count($gov) + count($un) + count($ngo);
 
 <head>
     <title>IPECS Consulting PVT Ltd. | Valued clients and partners</title>
-    <meta name="description" content="IPECS Consulting — valued clients and partner organisations: government of Sindh and Pakistan, United Nations agencies, multilateral banks, international NGOs, and private sector partners.">
+    <meta name="description" content="IPECS Consulting - valued clients and partner organisations: government of Sindh and Pakistan, United Nations agencies, multilateral banks, international NGOs, and private sector partners.">
     <meta name="keywords" content="IPECS,Clients,Partners,UNDP,World Bank,Government of Sindh,Pakistan,Consulting">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,7 +46,7 @@ $totalRows = count($gov) + count($un) + count($ngo);
             <div class="contact-hero-inner text-center mx-auto clients-pdf-hero-inner">
                 <p class="clients-pdf-kicker mb-2">VI · Valued clients and partner organisations</p>
                 <h1 class="contact-title">Our clients &amp; partners</h1>
-                <p class="contact-subtitle mb-0">Government, multilateral and bilateral partners, United Nations agencies, international NGOs, and private sector — aligned with IPECS’s corporate client documentation.</p>
+                <p class="contact-subtitle mb-0">Government, multilateral and bilateral partners, United Nations agencies, international NGOs, and private sector - aligned with IPECS’s corporate client documentation.</p>
             </div>
         </div>
     </section>
@@ -165,7 +165,7 @@ $totalRows = count($gov) + count($un) + count($ngo);
         <div class="container">
             <div class="contact-hero-inner text-center mx-auto">
                 <h2 class="contact-title">See our impact</h2>
-                <p class="contact-subtitle mb-4">Consolidated results and sector portfolio — one view across nine technical sectors.</p>
+                <p class="contact-subtitle mb-4">Consolidated results and sector portfolio - one view across nine technical sectors.</p>
                 <a class="btn home-btn-navy me-2 mb-2" href="our-impacts.php">Our impacts <i class="bx bx-right-arrow-alt" aria-hidden="true"></i></a>
                 <a class="btn clients-secondary-btn mb-2" href="contact.php">Contact</a>
             </div>

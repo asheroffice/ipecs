@@ -1,6 +1,6 @@
 <?php
 /**
- * Projects portfolio — all fields preserved from legacy projects table.
+ * Projects portfolio - all fields preserved from legacy projects table.
  * status_key: ongoing | completed (for filters)
  */
 return [
@@ -8,7 +8,7 @@ return [
         'year' => 'Jan 2024 to April 2024',
         'title' => 'Feasibility Study on Women Agricultural Workers Programme',
         'client' => "Sindh social protection authority\nSocial protection department\nGovernment of Sindh",
-        'scope' => '—',
+        'scope' => '-',
         'area' => "5 District in Sindh\nHala, District Matiari,\nChamber District TandoAllahyar\nNawabShah\nDistrict Shaheed Benazir Abad\nKandiaro\nDistrict NaushahroFeroze\nBakrani District Larkana",
         'status' => 'Ongoing',
         'status_key' => 'ongoing',
@@ -17,7 +17,7 @@ return [
         'year' => 'Jan 2024 to March 2024',
         'title' => 'Socioeconomic Survey of the Selected Old Karachi Areas',
         'client' => 'Project Implementation Unit, Competitive & Livable City of Karachi (CLICK), Local Government Department, Government of Sindh',
-        'scope' => '—',
+        'scope' => '-',
         'area' => 'Old Areas of Karachi',
         'status' => 'Ongoing',
         'status_key' => 'ongoing',
@@ -26,7 +26,7 @@ return [
         'year' => 'Nov 2021 to Dec 2022',
         'title' => 'Design and support consultant for the operations review and performance management of the WASH Program',
         'client' => "Accelerated Action Plan for Nutrition-AAP Project\nImplemented by Local Government Department Government of Sindh (WASH Component)\nFunded by World Bank",
-        'scope' => '—',
+        'scope' => '-',
         'area' => "Project districts 05\nSukkar\nNashoroferoz\nMirpurkhas\nGhotki\nKhairpur",
         'status' => 'Completed',
         'status_key' => 'completed',
@@ -35,7 +35,7 @@ return [
         'year' => 'July 2022 To December 2022',
         'title' => 'The Study is to identify opportunities for women to engage in CARE International Cash for Work(CFW) programs across Jacobabad Sindh',
         'client' => 'CARE International',
-        'scope' => '—',
+        'scope' => '-',
         'area' => 'Jacobabad Sindh',
         'status' => 'Completed',
         'status_key' => 'completed',

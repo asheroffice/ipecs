@@ -48,7 +48,7 @@
                             <li class="nav-item dropdown" id="myDropdown">
                                 <a class="nav-link dropdown-toggle" href="about.php" data-bs-toggle="dropdown"> Corporate profile </a>
                                 <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item fw-semibold" href="about.php">Corporate profile — overview</a></li>
+                                  <li><a class="dropdown-item fw-semibold" href="about.php">Corporate profile - overview</a></li>
                                   <li><hr class="dropdown-divider"></li>
                                   <li><a class="dropdown-item" href="about.php#foreword">Foreword from the Managing Director</a></li>
                                   <li><a class="dropdown-item" href="about.php#identity">Corporate identity &amp; overview</a></li>

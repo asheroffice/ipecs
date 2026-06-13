@@ -42,7 +42,7 @@
                         <div class="home-hero-gradient"></div>
                         <div class="carousel-caption home-hero-caption">
                             <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Distribution of Solar Home Systems — Sindh Solar Energy Project, Government of Sindh</h1>
+                            <h1 class="home-hero-title">Distribution of Solar Home Systems - Sindh Solar Energy Project, Government of Sindh</h1>
                             <a class="home-btn-navy home-hero-cta" href="projects.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                         <div class="home-hero-gradient"></div>
                         <div class="carousel-caption home-hero-caption">
                             <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">UNDP-funded development programmes — monitoring, evaluation &amp; learning</h1>
+                            <h1 class="home-hero-title">UNDP-funded development programmes - monitoring, evaluation &amp; learning</h1>
                             <a class="home-btn-navy home-hero-cta" href="sector-meal.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
@@ -161,7 +161,7 @@
                     <p class="home-tagline">TRANSFORMING VISION INTO EXCELLENCE</p>
                     <div class="home-about-body mt-4">
                         <p><strong>IPECS</strong> Consulting Pvt. Ltd. is Pakistan's leading national multidisciplinary development consulting firm, headquartered in Karachi with regional offices across Sindh and Balochistan. Established in 2012, the firm has built over fourteen years a distinguished reputation for delivering technically rigorous, socially inclusive, institutionally anchored, and evidence-based development solutions across Pakistan's most complex development challenges.</p>
-                        <p>The firm operates at the intersection of technical excellence, institutional governance, social innovation, digital transformation, and climate resilience — delivering fully integrated consulting services spanning nine specialised sectors: Education, Governance, Engineering, Climate, WASH, Technology, Social Inclusion, MEAL, and Health Systems Strengthening.</p>
+                        <p>The firm operates at the intersection of technical excellence, institutional governance, social innovation, digital transformation, and climate resilience - delivering fully integrated consulting services spanning nine specialised sectors: Education, Governance, Engineering, Climate, WASH, Technology, Social Inclusion, MEAL, and Health Systems Strengthening.</p>
                         <p>Since inception, <strong>IPECS</strong> has successfully implemented over 31 major projects across 34 districts in Sindh, Balochistan, and Khyber Pakhtunkhwa, with a cumulative portfolio exceeding PKR 2.55 billion. Our 117+ multidisciplinary professionals deliver solutions that are technically sound, socially inclusive, and institutionally anchored.</p>
                     </div>
                     <a class="home-btn-navy home-about-cta mt-4 d-inline-flex align-items-center" href="about.php">
@@ -190,7 +190,7 @@
         <div class="container">
             <h2 class="home-section-title dark text-center d-block mb-2">Our sectors</h2>
             <p class="home-sectors-kicker text-center mb-3">Our sector technical capabilities and portfolio impact</p>
-            <p class="home-sectors-intro text-center mx-auto mb-5">IPECS's nine cross-sector capabilities represent a comprehensive, integrated suite of development consulting services. Each sector is supported by specialised technical teams, rigorous analytical frameworks, evidence-based methodologies, and a proven track record of delivery across Pakistan's most complex development contexts. The firm's cross-sector approach ensures coherence across policy, systems, and service delivery, delivering scalable, sustainable, and institutionally anchored outcomes.</p>
+            <p class="home-sectors-intro r mx-auto mb-5">IPECS's nine cross-sector capabilities represent a comprehensive, integrated suite of development consulting services. Each sector is supported by specialised technical teams, rigorous analytical frameworks, evidence-based methodologies, and a proven track record of delivery across Pakistan's most complex development contexts. The firm's cross-sector approach ensures coherence across policy, systems, and service delivery, delivering scalable, sustainable, and institutionally anchored outcomes.</p>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
@@ -310,7 +310,7 @@
                             <div class="presence-info-icon"><i class="bx bxs-building-house" aria-hidden="true"></i></div>
                             <div>
                                 <h3 class="presence-info-label">Headquarters</h3>
-                                <p class="presence-info-value mb-0">Karachi — Office No. 513A, Continental Trade Centre, Block 8, Clifton</p>
+                                <p class="presence-info-value mb-0">Office No. 808, 8th Floor, Tower A, Saima Trade Tower, I.I Chundrigar Road, Karachi, Pakistan</p>
                             </div>
                         </div>
                         <div class="presence-info-block">
@@ -390,8 +390,8 @@
                 <div class="col-lg-8">
                     <div class="row g-4">
                         <div class="col-md-6">
-                            <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" tabindex="0" role="button" aria-label="Play video: Bringing light — Gajri’s story from Badin">
-                                <img class="home-video-thumb" src="" alt="Bringing Light, Empowering Livelihoods — Gajri's Story from Badin">
+                            <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" tabindex="0" role="button" aria-label="Play video: Bringing light - Gajri’s story from Badin">
+                                <img class="home-video-thumb" src="" alt="Bringing Light, Empowering Livelihoods - Gajri's Story from Badin">
                                 <div class="home-video-overlay" aria-hidden="true">
                                     <span class="home-play-icon">&#9654;</span>
                                 </div>
@@ -399,23 +399,23 @@
                         </div>
                         <div class="col-md-6">
                             <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Success-Story.mp4" tabindex="0" role="button" aria-label="Play video: Success story">
-                                <img class="home-video-thumb" src="" alt="Success Story — IPECS project delivery">
+                                <img class="home-video-thumb" src="" alt="Success Story - IPECS project delivery">
                                 <div class="home-video-overlay" aria-hidden="true">
                                     <span class="home-play-icon">&#9654;</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/A-Light-in-the-Darkness–Maryums-Story.mp4" tabindex="0" role="button" aria-label="Play video: A light in the darkness — Maryum’s story">
-                                <img class="home-video-thumb" src="" alt="A Light in the Darkness — Maryum's Story">
+                            <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/A-Light-in-the-Darkness–Maryums-Story.mp4" tabindex="0" role="button" aria-label="Play video: A light in the darkness - Maryum’s story">
+                                <img class="home-video-thumb" src="" alt="A Light in the Darkness - Maryum's Story">
                                 <div class="home-video-overlay" aria-hidden="true">
                                     <span class="home-play-icon">&#9654;</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" tabindex="0" role="button" aria-label="Play video: Bringing light — Gajri’s story from Badin">
-                                <img class="home-video-thumb" src="" alt="Bringing Light, Empowering Livelihoods — Gajri's Story from Badin">
+                            <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" tabindex="0" role="button" aria-label="Play video: Bringing light - Gajri’s story from Badin">
+                                <img class="home-video-thumb" src="" alt="Bringing Light, Empowering Livelihoods - Gajri's Story from Badin">
                                 <div class="home-video-overlay" aria-hidden="true">
                                     <span class="home-play-icon">&#9654;</span>
                                 </div>
@@ -440,7 +440,7 @@
         </div>
     </div>
 
-    <!-- Impact & projects — Figma node 414:1034 -->
+    <!-- Impact & projects - Figma node 414:1034 -->
     <section class="home-impact">
         <div class="container position-relative">
             <h2 class="home-impact-title">Our work: impact &amp; innovation</h2>
@@ -881,10 +881,10 @@ if (window.innerWidth < 992) {
 
         /* Province fill colours */
         var provFill = {
-            PKSD: '#3b82f6',  /* Sindh       — blue   */
-            PKBA: '#f97316',  /* Balochistan — orange */
-            PKKP: '#8b5cf6',  /* KPK         — purple */
-            PKPB: '#334155',  /* Punjab      — dark slate (non-operational) */
+            PKSD: '#3b82f6',  /* Sindh       - blue   */
+            PKBA: '#f97316',  /* Balochistan - orange */
+            PKKP: '#8b5cf6',  /* KPK         - purple */
+            PKPB: '#334155',  /* Punjab      - dark slate (non-operational) */
             PKGB: '#1e3a52',  /* Gilgit-Baltistan */
             PKJK: '#243450',  /* Azad Kashmir */
             PKIS: '#2a3f55'   /* Islamabad   */
@@ -895,7 +895,7 @@ if (window.innerWidth < 992) {
 
         /* District list */
         var districts = [
-            /* Sindh — 24 */
+            /* Sindh - 24 */
             { lat:24.8607, lng:67.0011, name:'Karachi',             p:'Sindh' },
             { lat:25.3960, lng:68.3578, name:'Hyderabad',           p:'Sindh' },
             { lat:27.7244, lng:68.8574, name:'Sukkur',              p:'Sindh' },
@@ -920,11 +920,11 @@ if (window.innerWidth < 992) {
             { lat:24.1367, lng:68.1300, name:'Sujawal',             p:'Sindh' },
             { lat:27.5868, lng:68.0065, name:'Kambar Shahdadkot',   p:'Sindh' },
             { lat:25.4346, lng:68.2819, name:'Jamshoro',            p:'Sindh' },
-            /* Balochistan — 3 */
+            /* Balochistan - 3 */
             { lat:30.1798, lng:66.9750, name:'Quetta',              p:'Balochistan' },
             { lat:25.1264, lng:62.3225, name:'Gwadar',              p:'Balochistan' },
             { lat:26.2175, lng:66.0069, name:'Lasbela',             p:'Balochistan' },
-            /* KPK — 2 */
+            /* KPK - 2 */
             { lat:35.2985, lng:71.9225, name:'Upper Dir',           p:'KPK' },
             { lat:35.2227, lng:72.4258, name:'Swat',                p:'KPK' }
         ];
@@ -991,7 +991,7 @@ if (window.innerWidth < 992) {
                     dot.setAttribute('stroke', '#ffffff');
                     dot.setAttribute('stroke-width', '1.5');
                     var tip = document.createElementNS(ns, 'title');
-                    tip.textContent = d.name + ' — ' + d.p;
+                    tip.textContent = d.name + ' - ' + d.p;
                     dot.appendChild(tip);
                     g.appendChild(dot);
                 });

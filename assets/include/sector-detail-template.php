@@ -120,7 +120,7 @@ $partnerLogoSlides = array_chunk($partnerLogosList, 4);
             <div class="row g-3">
                 <?php foreach ($sector['gallery_images'] as $gi => $gimg) {
                     $colClass = $gi === 0 ? 'col-12 col-md-6' : 'col-12 col-md-3';
-                    $altText  = $h(($sector['short_title'] ?? $sector['title'] ?? 'Sector') . ' — IPECS programme delivery');
+                    $altText  = $h(($sector['short_title'] ?? $sector['title'] ?? 'Sector') . ' - IPECS programme delivery');
                 ?>
                 <div class="<?php echo $colClass; ?>">
                     <div class="sector-gallery-card">
@@ -156,7 +156,7 @@ $partnerLogoSlides = array_chunk($partnerLogosList, 4);
                                 $c0 = (string) ($row[0] ?? '');
                                 $c1 = trim((string) ($row[1] ?? ''));
                                 $c2 = trim((string) ($row[2] ?? ''));
-                                $achievement = $c1 === '' ? $c2 : ($c2 === '' ? $c1 : $c1 . ' — ' . $c2);
+                                $achievement = $c1 === '' ? $c2 : ($c2 === '' ? $c1 : $c1 . ' - ' . $c2);
                                 ?>
                                 <tr>
                                     <td class="sector-impact-td sector-impact-td--indicator"><?php echo $h($c0); ?></td>
@@ -173,7 +173,7 @@ $partnerLogoSlides = array_chunk($partnerLogosList, 4);
                     $c0 = (string) ($row[0] ?? '');
                     $c1 = trim((string) ($row[1] ?? ''));
                     $c2 = trim((string) ($row[2] ?? ''));
-                    $achievement = $c1 === '' ? $c2 : ($c2 === '' ? $c1 : $c1 . ' — ' . $c2);
+                    $achievement = $c1 === '' ? $c2 : ($c2 === '' ? $c1 : $c1 . ' - ' . $c2);
                     ?>
                     <article class="sector-impact-card">
                         <h3 class="sector-impact-card__title"><?php echo $h($c0); ?></h3>
@@ -274,7 +274,7 @@ $partnerLogoSlides = array_chunk($partnerLogosList, 4);
                             </span>
                         </a>
                     <?php } else { ?>
-                        <span class="sector-flow-nav__mute" aria-hidden="true">—</span>
+                        <span class="sector-flow-nav__mute" aria-hidden="true">-</span>
                     <?php } ?>
                 </div>
                 <div class="sector-flow-nav__node sector-flow-nav__node--hub">
@@ -295,7 +295,7 @@ $partnerLogoSlides = array_chunk($partnerLogosList, 4);
                             <span class="sector-flow-nav__glyph" aria-hidden="true"><i class="bx bx-right-arrow-alt"></i></span>
                         </a>
                     <?php } else { ?>
-                        <span class="sector-flow-nav__mute" aria-hidden="true">—</span>
+                        <span class="sector-flow-nav__mute" aria-hidden="true">-</span>
                     <?php } ?>
                 </div>
             </div>

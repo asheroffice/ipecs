@@ -12,7 +12,7 @@ $mergeAchievement = static function (array $row): string {
     $c1 = trim((string) ($row[1] ?? ''));
     $c2 = trim((string) ($row[2] ?? ''));
 
-    return $c1 === '' ? $c2 : ($c2 === '' ? $c1 : $c1 . ' — ' . $c2);
+    return $c1 === '' ? $c2 : ($c2 === '' ? $c1 : $c1 . ' - ' . $c2);
 };
 
 $sectors = $data['sectors'] ?? [];
@@ -23,7 +23,7 @@ $sectors = $data['sectors'] ?? [];
 
 <head>
     <title>IPECS Consulting PVT Ltd. | Our impacts</title>
-    <meta name="description" content="IPECS consolidated development impact across nine sectors — portfolio value, geographic reach, and sector-wise achievements aligned with our corporate profile.">
+    <meta name="description" content="IPECS consolidated development impact across nine sectors - portfolio value, geographic reach, and sector-wise achievements aligned with our corporate profile.">
     <meta name="keywords" content="IPECS,Impact,Development,Portfolio,Sindh,Pakistan,UNDP,World Bank">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,7 +50,7 @@ $sectors = $data['sectors'] ?? [];
             <div class="contact-hero-inner text-center mx-auto our-impacts-hero-inner">
                 <p class="our-impacts-hero-kicker mb-2"><?php echo $h($data['hero_tagline'] ?? ''); ?></p>
                 <h1 class="contact-title">Our impacts</h1>
-                <p class="contact-subtitle mb-2">Consolidated development impact across Pakistan — one firm, nine sectors, measurable results.</p>
+                <p class="contact-subtitle mb-2">Consolidated development impact across Pakistan - one firm, nine sectors, measurable results.</p>
                 <p class="our-impacts-hero-meta mb-0"><?php echo $h($data['hero_sub'] ?? ''); ?></p>
             </div>
         </div>

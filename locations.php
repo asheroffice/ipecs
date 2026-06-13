@@ -31,7 +31,7 @@ $districts = [
 
 <head>
     <title>IPECS Consulting PVT Ltd. | Locations</title>
-    <meta name="description" content="IPECS Consulting — operational presence across Sindh, Pakistan. Offices in Karachi and Hyderabad, field capacity in districts province-wide.">
+    <meta name="description" content="IPECS Consulting - operational presence across Sindh, Pakistan. Offices in Karachi and Hyderabad, field capacity in districts province-wide.">
     <meta name="keywords" content="IPECS,Locations,Sindh,Karachi,Hyderabad,Consulting,Pakistan">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -3,7 +3,7 @@
 
 <head>
     <title>IPECS Consulting PVT Ltd. | Corporate profile</title>
-    <meta name="description" content="IPECS Consulting — Pakistan's leading multidisciplinary development consulting firm. Corporate profile: vision, mission, strategic objectives, ISO certifications, and national footprint.">
+    <meta name="description" content="IPECS Consulting - Pakistan's leading multidisciplinary development consulting firm. Corporate profile: vision, mission, strategic objectives, ISO certifications, and national footprint.">
     <meta name="keywords" content="IPECS,About,Corporate profile,Consulting,ISO 9001,Development,Pakistan,Karachi">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,9 +40,9 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1 text-lg-start text-center">
-                    <p class="about-hero-lead mb-3">IPECS Consulting Pvt. Ltd. is Pakistan's leading national multidisciplinary development consulting firm, headquartered in Karachi with regional offices across Sindh and Balochistan. Established in 2012, the firm delivers technically rigorous, socially inclusive, and evidence-based solutions across Pakistan's most complex development challenges — with a cumulative contract portfolio exceeding PKR 2 billion.</p>
+                    <p class="about-hero-lead mb-3">IPECS Consulting Pvt. Ltd. is Pakistan's leading national multidisciplinary development consulting firm, headquartered in Karachi with regional offices across Sindh and Balochistan. Established in 2012, the firm delivers technically rigorous, socially inclusive, and evidence-based solutions across Pakistan's most complex development challenges - with a cumulative contract portfolio exceeding PKR 2 billion.</p>
                     <ul class="about-hero-stats list-unstyled d-flex flex-wrap gap-2 justify-content-lg-start justify-content-center mb-0" aria-label="Highlights">
-                        <li><span class="about-stat-pill">2012 — 14 years</span></li>
+                        <li><span class="about-stat-pill">2012 - 14 years</span></li>
                         <li><span class="about-stat-pill">117+ professionals</span></li>
                         <li><span class="about-stat-pill">34+ districts</span></li>
                         <li><span class="about-stat-pill">31+ major projects</span></li>
@@ -56,7 +56,7 @@
     <section class="about-foreword-section" id="foreword" aria-labelledby="about-foreword-heading">
         <div class="container">
             <div class="about-foreword-card">
-                <h2 id="about-foreword-heading" class="about-doc-block-title mb-3">Foreword from the Managing Director</h2>
+                <h2 id="about-foreword-heading" class="about-doc-block-title mb-3">Message from the Managing Director</h2>
                 <div class="about-prose about-prose--foreword">
                     <p>At IPECS Consulting Pvt. Ltd., we believe that sustainable development is not merely a technical exercise. It is a deeply human endeavour. It requires listening to communities, understanding institutions, respecting the environment, and building systems that endure. Since our founding in 2012, we have pursued this belief with unwavering commitment, growing from a focused engineering and social development consultancy into one of Pakistan's most trusted, technically accomplished, and institutionally respected multidisciplinary development consulting organisations.</p>
                     <p>We have partnered with governments at every level, United Nations agencies, international financial institutions, bilateral donors, and civil society organisations to address Pakistan's most complex and consequential development challenges. We have designed and supervised infrastructure that serves millions. We have strengthened institutions that govern the lives of communities. We have generated evidence that has shaped policy. We have empowered women, protected children, and built the resilience of communities facing poverty, climate change, and disaster.</p>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="about-body-img-wrap">
-                        <img src="assets/img/services-04.jpg" class="about-body-img" alt="Solar energy distribution — Sindh Solar Energy Project">
+                        <img src="assets/img/services-04.jpg" class="about-body-img" alt="Solar energy distribution - Sindh Solar Energy Project">
                     </div>
                 </div>
             </div>
@@ -180,7 +180,7 @@
                         <tbody>
                             <tr>
                                 <td>UN Global Compact</td>
-                                <td>Active member — committed to 10 principles on human rights, labour, environment, and anti-corruption</td>
+                                <td>Active member - committed to 10 principles on human rights, labour, environment, and anti-corruption</td>
                                 <td>Member No. 193891</td>
                             </tr>
                             <tr>
@@ -395,7 +395,7 @@
             </div>
 
             <div class="about-field-img-wrap">
-                <img src="assets/img/recent-work-03.jpg" class="about-field-img" alt="IPECS field teams — community consultation across Pakistan">
+                <img src="assets/img/recent-work-03.jpg" class="about-field-img" alt="IPECS field teams - community consultation across Pakistan">
             </div>
 
             <h3 class="about-subsection-title">3.4 Team composition</h3>

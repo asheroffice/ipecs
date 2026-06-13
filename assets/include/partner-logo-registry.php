@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * Partner / funder tiles — images match home page “Our Partners” (recent-work-*.png).
+ * Partner / funder tiles - images match home page “Our Partners” (recent-work-*.png).
  * Swap files under assets/img/ later for organisation-specific marks; labels are shown under each tile.
  */
 return [

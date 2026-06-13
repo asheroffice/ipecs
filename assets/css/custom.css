@@ -84,7 +84,7 @@ https://templatemo.com/tm-561-purple-buzz
     }
 }
 
-/* ============ Home page (Figma Website-Design — Desktop 1) ============ */
+/* ============ Home page (Figma Website-Design - Desktop 1) ============ */
 :root {
     /* Figma palette */
     --ipecs-yellow: #f2d049;
@@ -107,7 +107,7 @@ https://templatemo.com/tm-561-purple-buzz
 
 .home-page {
     font-family: "Montserrat", "Open Sans", sans-serif;
-    /* Same vertical rhythm as About — all main sections use this */
+    /* Same vertical rhythm as About - all main sections use this */
     --home-section-padding-y: 6rem;
 }
 
@@ -116,7 +116,7 @@ https://templatemo.com/tm-561-purple-buzz
     overflow: hidden;
 }
 
-/* Solid full-screen curtain — nothing from the page shows through */
+/* Solid full-screen curtain - nothing from the page shows through */
 .home-page .home-preloader {
     position: fixed;
     inset: 0;
@@ -243,7 +243,7 @@ https://templatemo.com/tm-561-purple-buzz
         );
 }
 
-/* Fine mesh + diagonal sheen — stays on-brand, reads as “structure / connectivity” */
+/* Fine mesh + diagonal sheen - stays on-brand, reads as “structure / connectivity” */
 .home-page .contact-hero::before {
     content: "";
     position: absolute;
@@ -2146,7 +2146,7 @@ https://templatemo.com/tm-561-purple-buzz
     color: rgba(255, 255, 255, 0.94);
 }
 
-/* Partner logo carousel: Bootstrap defaults use 15% width + full-height controls — override to avoid layout break */
+/* Partner logo carousel: Bootstrap defaults use 15% width + full-height controls - override to avoid layout break */
 .home-page .sector-partner-carousel {
     position: relative;
     max-width: 100%;
@@ -2645,7 +2645,7 @@ https://templatemo.com/tm-561-purple-buzz
     margin-top: 0.65rem;
 }
 
-/* Sector detail: “flow” navigation — dark rail, typography-led */
+/* Sector detail: “flow” navigation - dark rail, typography-led */
 .home-page .sector-flow-nav {
     background: linear-gradient(180deg, #0a2744 0%, #061a2e 100%);
     border-top: 3px solid var(--ipecs-yellow-bar);
@@ -3366,7 +3366,7 @@ https://templatemo.com/tm-561-purple-buzz
     padding-top: calc(var(--home-section-padding-y) * 0.85);
 }
 
-/* ============ Projects page (clean flat UI — no busy gradients) ============ */
+/* ============ Projects page (clean flat UI - no busy gradients) ============ */
 .home-page .projects-page-hero {
     padding-bottom: 3rem;
 }
@@ -3381,7 +3381,7 @@ https://templatemo.com/tm-561-purple-buzz
     font-family: inherit;
 }
 
-/* Projects cards: masonry gallery — each card height follows its own content */
+/* Projects cards: masonry gallery - each card height follows its own content */
 .home-page .projects-cards-grid {
     margin-left: -12px;
     margin-right: -12px;
@@ -4132,7 +4132,7 @@ https://templatemo.com/tm-561-purple-buzz
     line-height: 1.45;
 }
 
-/* Clients page — PDF-aligned tables */
+/* Clients page - PDF-aligned tables */
 .home-page .clients-pdf-hero-inner {
     max-width: 44rem;
 }
@@ -4422,7 +4422,7 @@ https://templatemo.com/tm-561-purple-buzz
     display: block !important;
 }
 
-/* Slide caption reveal — stagger heading then CTA */
+/* Slide caption reveal - stagger heading then CTA */
 .home-page .home-hero .carousel-item .home-hero-title,
 .home-page .home-hero .carousel-item .home-hero-cta {
     opacity: 0;
@@ -4577,7 +4577,7 @@ https://templatemo.com/tm-561-purple-buzz
     z-index: 1;
 }
 
-/* Figma: dot texture (bg-dot.png). % height on ::before collapses when parent has no explicit height — use rem. */
+/* Figma: dot texture (bg-dot.png). % height on ::before collapses when parent has no explicit height - use rem. */
 .home-page .home-about-section .home-about-copy::before {
     content: "";
     position: absolute;
@@ -4643,7 +4643,7 @@ https://templatemo.com/tm-561-purple-buzz
     letter-spacing: 0.06em;
 }
 
-/* About block only — lighter blue subheading per Figma */
+/* About block only - lighter blue subheading per Figma */
 
 .home-page .home-about-section {
     padding: var(--home-section-padding-y) 0;
@@ -4680,7 +4680,7 @@ https://templatemo.com/tm-561-purple-buzz
     color: var(--ipecs-text);
 }
 
-/* Read More — navy button + circular arrow (Figma) */
+/* Read More - navy button + circular arrow (Figma) */
 .home-page .home-about-cta {
     border-radius: 5px;
     padding: 0.65rem 1rem 0.65rem 1.25rem;
@@ -4730,7 +4730,9 @@ https://templatemo.com/tm-561-purple-buzz
 .home-page .home-expertise p {
     max-width: 75rem;
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
+
     font-size: 16px;
     line-height: 1.6;
     color: var(--ipecs-text);
@@ -4758,6 +4760,8 @@ https://templatemo.com/tm-561-purple-buzz
     line-height: 1.7;
     color: var(--ipecs-navy);
     max-width: 960px;
+    text-align: justify;
+    text-align-last: center;
 }
 
 .home-page .home-service-card {
@@ -4828,7 +4832,7 @@ https://templatemo.com/tm-561-purple-buzz
     color: #fff !important;
 }
 
-/* ============ Presence & reach — Dark redesign ============ */
+/* ============ Presence & reach - Dark redesign ============ */
 .home-page .home-presence {
     padding: var(--home-section-padding-y) 0;
 }
@@ -5450,7 +5454,7 @@ https://templatemo.com/tm-561-purple-buzz
     margin-bottom: 0;
 }
 
-/* Figma 414:1034 — square green arrows, white chevrons */
+/* Figma 414:1034 - square green arrows, white chevrons */
 .home-page .home-project-carousel {
     position: relative;
     padding: 0 clamp(2.5rem, 5vw, 3.75rem);
@@ -5687,7 +5691,7 @@ https://templatemo.com/tm-561-purple-buzz
     }
 }
 
-/* ===== Sector detail page — photo gallery ===== */
+/* ===== Sector detail page - photo gallery ===== */
 .sector-detail-page .sector-gallery-section {
     padding: 3rem 0;
     background: #f3f7fb;
@@ -5723,7 +5727,7 @@ https://templatemo.com/tm-561-purple-buzz
     }
 }
 
-/* ===== About corporate page — inline images ===== */
+/* ===== About corporate page - inline images ===== */
 .about-corporate-page .about-body-img-wrap {
     border-radius: 10px;
     overflow: hidden;
