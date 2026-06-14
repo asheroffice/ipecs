@@ -26,7 +26,19 @@
             <div class="collapse navbar-collapse flex-grow-1" id="navbar-toggler-success">
                 <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 flex-wrap">
                     <li class="nav-item active"> <a class="nav-link" href="index.php">Home </a> </li>
-
+                    <li class="nav-item dropdown" id="myDropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  About Us </a>
+                        <ul class="dropdown-menu">
+                            <li> <a class="dropdown-item" href="team.php"> Organogram </a></li>
+                            <li> <a class="dropdown-item" href="team.php"> Our Team </a>
+                            <li> <a class="dropdown-item" href="team.php"> IPECS Capacity </a>
+                            <li> <a class="dropdown-item" href="team.php"> Human Resources </a>
+                            <li> <a class="dropdown-item" href="team.php"> Community Engagement </a>
+                            <li> <a class="dropdown-item" href="team.php"> Quality, Health, Safety & Environment</a>
+                            <li> <a class="dropdown-item" href="team.php"> Integrated Management Policy</a>
+                            <li> <a class="dropdown-item" href="team.php"> Quality Assurance</a>
+                        </ul>
+                    </li>
                     <li class="nav-item dropdown" id="myDropdown">
                         <a class="nav-link dropdown-toggle" href="about.php" data-bs-toggle="dropdown"> Corporate profile </a>
                         <ul class="dropdown-menu">
@@ -67,18 +79,6 @@
                     <li class="nav-item"> <a class="nav-link" href="clients.php">Clients </a> </li>
                     <li class="nav-item"> <a class="nav-link" href="gallery.php">Gallery</a> </li>
 
-                    <li class="nav-item dropdown" id="myDropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Organization </a>
-                        <ul class="dropdown-menu">
-                            <li> <a class="dropdown-item" href="team.php"> Organogram </a></li>
-                            <li> <a class="dropdown-item" href="team.php"> Our Team </a>
-                            <li> <a class="dropdown-item" href="team.php"> IPECS Capacity </a>
-                            <li> <a class="dropdown-item" href="team.php"> Human Resources </a>
-                            <li> <a class="dropdown-item" href="team.php"> Community Engagement </a>
-                            <li> <a class="dropdown-item" href="team.php"> Quality, Health, Safety & Environment</a>
-                            <li> <a class="dropdown-item" href="team.php"> Integrated Management Policy</a>
-                            <li> <a class="dropdown-item" href="team.php"> Quality Assurance</a>
-                        </ul>
 
                   
                     <li class="nav-item"> <a class="nav-link" href="contact.php">Contact</a> </li>

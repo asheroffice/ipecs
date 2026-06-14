@@ -876,9 +876,10 @@ https://templatemo.com/tm-561-purple-buzz
 .home-page .about-hero-kicker {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 0.72rem;
+    font-size: 0.85rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
+    font-style: italic;
     color: var(--ipecs-blue);
 }
 
@@ -4345,8 +4346,8 @@ https://templatemo.com/tm-561-purple-buzz
 }
 
 .home-page #main_nav .nav-item .nav-link {
-    margin: 3px;
-    padding: 8px 10px;
+    margin: 0px;
+    padding: 8px 8px;
     background-color: transparent;
     border-radius: 0;
     color: var(--ipecs-blue) !important;
@@ -5706,7 +5707,7 @@ https://templatemo.com/tm-561-purple-buzz
 
 .sector-detail-page .sector-gallery-img {
     width: 100%;
-    height: 260px;
+    height: 280px;
     object-fit: cover;
     display: block;
     transition: transform 0.45s ease;
@@ -5717,7 +5718,7 @@ https://templatemo.com/tm-561-purple-buzz
 }
 
 .sector-detail-page .col-md-6 .sector-gallery-img {
-    height: 260px;
+    height: 280px;
 }
 
 @media (max-width: 767px) {

@@ -28,11 +28,10 @@
         </div>
         <div class="container">
             <div class="contact-hero-inner text-center mx-auto about-hero-head-inner">
-                <p class="about-hero-kicker mb-2">Transforming vision into excellence</p>
+            
                 <h1 class="contact-title">IPECS Consulting Pvt. Ltd.</h1>
-                <p class="contact-subtitle mb-3">Pakistan's leading multidisciplinary development consulting firm</p>
-                <p class="about-hero-meta mb-4">Headquarters: Karachi, Pakistan · Established: 2012 · Team strength: 117+ professionals · Districts covered: 34+</p>
-            </div>
+                    <p class="about-hero-kicker mb-2">Transforming vision into excellence</p>
+             </div>
             <div class="row align-items-center g-4 g-lg-5 about-hero-split">
                 <div class="col-lg-6 order-lg-2">
                     <div class="about-hero-img-wrap">

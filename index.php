@@ -38,104 +38,99 @@
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-001.jpg');" role="img" aria-label="Solar Home System distribution"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/1.jpeg');" role="img" aria-label="Solar Home System distribution"></div>
                         <div class="home-hero-gradient"></div>
-                        <div class="carousel-caption home-hero-caption">
-                            <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Distribution of Solar Home Systems - Sindh Solar Energy Project, Government of Sindh</h1>
-                            <a class="home-btn-navy home-hero-cta" href="projects.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-002.jpg');" role="img" aria-label="Solar energy access across Sindh"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/2.jpeg');" role="img" aria-label="Solar energy access across Sindh"></div>
                         <div class="home-hero-gradient"></div>
-                        <div class="carousel-caption home-hero-caption">
-                            <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Solar energy access for 200,000 families across 30 districts of Sindh</h1>
-                            <a class="home-btn-navy home-hero-cta" href="projects.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-003.jpg');" role="img" aria-label="Field supervision and quality assurance"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/3.jpeg');" role="img" aria-label="Field supervision and quality assurance"></div>
                         <div class="home-hero-gradient"></div>
-                        <div class="carousel-caption home-hero-caption">
-                            <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Field supervision &amp; quality assurance across 34+ operational districts</h1>
-                            <a class="home-btn-navy home-hero-cta" href="our-impacts.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-004.jpg');" role="img" aria-label="Community programme implementation"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/4.jpeg');" role="img" aria-label="Community programme implementation"></div>
                         <div class="home-hero-gradient"></div>
-                        <div class="carousel-caption home-hero-caption">
-                            <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Community-based programme design &amp; implementation across Pakistan</h1>
-                            <a class="home-btn-navy home-hero-cta" href="sector.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-005.jpg');" role="img" aria-label="WASH and water infrastructure"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/5.jpeg');" role="img" aria-label="WASH and water infrastructure"></div>
                         <div class="home-hero-gradient"></div>
-                        <div class="carousel-caption home-hero-caption">
-                            <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Water, sanitation &amp; WASH infrastructure for rural communities</h1>
-                            <a class="home-btn-navy home-hero-cta" href="sector-wash.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-006.jpg');" role="img" aria-label="UNDP development programmes"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/6.jpeg');" role="img" aria-label="UNDP development programmes"></div>
                         <div class="home-hero-gradient"></div>
-                        <div class="carousel-caption home-hero-caption">
-                            <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">UNDP-funded development programmes - monitoring, evaluation &amp; learning</h1>
-                            <a class="home-btn-navy home-hero-cta" href="sector-meal.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-007.jpg');" role="img" aria-label="Government stakeholder engagement"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/7.jpeg');" role="img" aria-label="Government stakeholder engagement"></div>
                         <div class="home-hero-gradient"></div>
-                        <div class="carousel-caption home-hero-caption">
-                            <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">High-level stakeholder engagement &amp; government partnership</h1>
-                            <a class="home-btn-navy home-hero-cta" href="about.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-008.jpg');" role="img" aria-label="Urban development in Karachi"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/8.jpg');" role="img" aria-label="Urban development in Karachi"></div>
                         <div class="home-hero-gradient"></div>
-                        <div class="carousel-caption home-hero-caption">
-                            <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Urban development &amp; infrastructure assessment in Karachi</h1>
-                            <a class="home-btn-navy home-hero-cta" href="sector-infrastructure.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-009.jpg');" role="img" aria-label="Gender equity and social protection"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/9.jpeg');" role="img" aria-label="Gender equity and social protection"></div>
                         <div class="home-hero-gradient"></div>
-                        <div class="carousel-caption home-hero-caption">
-                            <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Gender equity, social inclusion &amp; protection programmes across Sindh</h1>
-                            <a class="home-btn-navy home-hero-cta" href="sector-inclusion.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/home-main-slider/slide-010.jpg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/10.jpeg');" role="img" aria-label="IPECS field operations"></div>
                         <div class="home-hero-gradient"></div>
-                        <div class="carousel-caption home-hero-caption">
-                            <div class="home-hero-caption-inner">
-                            <h1 class="home-hero-title">Partner with IPECS for programmes that create lasting impact</h1>
-                            <a class="home-btn-navy home-hero-cta" href="contact.php">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/11.jpeg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-gradient"></div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/12.jpeg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-gradient"></div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/13.jpeg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-gradient"></div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/14.jpg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-gradient"></div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/15.jpg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-gradient"></div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/16.jpg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-gradient"></div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/17.jpg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-gradient"></div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/18.jpg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-gradient"></div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/19.jpg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-gradient"></div>
+
                     </div>
                 </div>
                 <div class="home-hero-arrows" aria-label="Slider navigation">
@@ -170,7 +165,7 @@
                     </a>
                 </div>
                 <div class="col-lg-6">
-                    <img class="home-about-img" src="./assets/img/about-img.jpg" alt="IPECS consulting team">
+                    <img class="home-about-img" src="./assets/img/about-img.jpeg" alt="IPECS consulting team">
                 </div>
             </div>
         </div>
@@ -205,7 +200,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/services-02.jpg" alt="">
+                        <img src="./assets/img/governance/1.jpeg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Governance, policy &amp; public sector reform</h3>
@@ -216,7 +211,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/services-03.jpg" alt="">
+                        <img src="./assets/img/engineering/1.jpeg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Engineering, infrastructure &amp; urban development</h3>
@@ -227,7 +222,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/services-04.jpg" alt="">
+                        <img src="./assets/img/climate/1.jpeg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Climate-smart environment, energy &amp; resilience</h3>
@@ -238,7 +233,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/services-05.jpg" alt="">
+                        <img src="./assets/img/home-main-slider/slide-005.jpg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Water, sanitation &amp; integrated urban services</h3>
@@ -249,7 +244,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/services-06.jpg" alt="">
+                        <img src="./assets/img/technology/4.webp" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Technology, digital transformation &amp; smart systems</h3>
@@ -271,7 +266,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/services-08.jpg" alt="">
+                        <img src="./assets/img/monitoring/1.jpg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Monitoring, evaluation, learning &amp; impact</h3>
@@ -282,7 +277,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/services-09.jpg" alt="">
+                        <img src="./assets/img/health/1.jpeg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Health systems strengthening &amp; nutrition</h3>

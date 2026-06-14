@@ -7,7 +7,6 @@
                     <img src="assets/img/logo.png" alt="IPECS logo">
                 </div>
                 <p class="home-footer-about mt-3 mb-0">
-                    We believe that our commitment to our people is the guarantee of the quality of our service.
                 </p>
                 <p class="home-footer-follow mt-4 mb-2">Follow Us</p>
                 <ul class="list-inline footer-icons mb-0">
@@ -48,7 +47,6 @@
             <div class="col-lg-4 col-md-6">
                 <p class="footer-heading">Sectors</p>
                 <ul class="list-unstyled home-footer-links">
-                    <li class="mb-2"><a class="home-footer-link" href="sector.php">All sectors</a></li>
                     <li class="mb-2"><a class="home-footer-link" href="sector-education.php">Education &amp; skills</a></li>
                     <li class="mb-2"><a class="home-footer-link" href="sector-governance.php">Governance &amp; reform</a></li>
                     <li class="mb-2"><a class="home-footer-link" href="sector-infrastructure.php">Engineering &amp; urban</a></li>
@@ -61,7 +59,7 @@
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6">
-                <p class="footer-heading">Get in Touch</p>
+                <p class="footer-heading">Contact</p>
                 <ul class="list-unstyled home-footer-contact">
                     <li class="d-flex gap-2 mb-3">
                         <i class='bx bx-phone bx-sm flex-shrink-0 mt-1'></i>
@@ -79,17 +77,16 @@
                         <i class='bx bx-envelope bx-sm flex-shrink-0 mt-1'></i>
                         <span><a class="home-footer-link" href="mailto:ipecs.pk@gmail.com">ipecs.pk@gmail.com</a></span>
                     </li>
-                    <li class="d-flex gap-2">
-                        <i class='bx bx-map bx-sm flex-shrink-0 mt-1'></i>
-                        <span>Main Office:<br>Office No. 513A, Continental Trade Center, Block 8, Clifton Main Clifton Road, Karachi, Pakistan</span>
-                    </li>
+                   
                 </ul>
             </div>
         </div>
     </div>
-    <div class="footer-bottom text-center">
+    <div class="footer-bottom"  style="text-align: justify; text-align-last: center;">
         <div class="container">
-            <p class="mb-0">© Copyright 2026 IPECS Consulting. All Rights Reserved.</p>
+            <!-- <p class="mb-0">© Copyright 2026 IPECS Consulting. All Rights Reserved.</p> -->
+            <p class="mb-0">IPECS Consulting Pvt. Ltd.-registered firm under the Companies Act, 2017 with is a SECP. The Firm is PEC-registered, and certified under ISO 9001:2015, ISO 14001:2015, and ISO 27001:2022.  Working since 2012. Moreover, it is associated with international development and sustainability platforms, including the World Bank, ADB, IsDB, and the UN Global Compact as Member No. 193891.
+.</p>
         </div>
     </div>
     <button type="button" class="btn btn-light btn-floating btn-lg shadow border-0" style="position:fixed;bottom:20px;right:20px;z-index:1040;display:none;" id="btn-back-to-top" aria-label="Back to top">

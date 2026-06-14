@@ -1,0 +1,388 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1300" width="100%" height="100%">
+  <defs>
+    <!-- Drop Shadow Filter for Modern Depth -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.12" />
+    </filter>
+    
+    <!-- Stylesheet for clean rendering -->
+    <style>
+      .title-main {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        fill: #0d2b5c;
+        letter-spacing: 1.5px;
+      }
+      .text-white-bold {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        fill: #ffffff;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+      .text-dark-bold {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        fill: #1e293b;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+      .text-dark-medium {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 11.5px;
+        font-weight: 600;
+        fill: #334155;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+      .text-gold-bold {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 800;
+        fill: #513c06;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+      .text-gold-sub {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #684f10;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+      .line-connector {
+        stroke: #64748b;
+        stroke-width: 2;
+        fill: none;
+      }
+      .line-connector-thin {
+        stroke: #94a3b8;
+        stroke-width: 1.5;
+        fill: none;
+      }
+      
+      /* Card Colors */
+      .bg-dark-blue {
+        fill: #0d2b5c;
+        stroke: #071d3d;
+        stroke-width: 1.5;
+      }
+      .bg-med-blue {
+        fill: #1d70b8;
+        stroke: #12538c;
+        stroke-width: 1.5;
+      }
+      .bg-gold {
+        fill: #e5b83b;
+        stroke: #b58d1b;
+        stroke-width: 1.5;
+      }
+      .bg-light-gray {
+        fill: #f8fafc;
+        stroke: #cbd5e1;
+        stroke-width: 1.5;
+      }
+      .bg-theme-gray {
+        fill: #f1f5f9;
+        stroke: #94a3b8;
+        stroke-width: 1.5;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- ==================== HEADER ==================== -->
+  <g transform="translate(900, 65)" text-anchor="middle">
+    <text class="title-main" y="0">IPECS ORGANIZATIONAL STRUCTURE</text>
+  </g>
+
+  <!-- ==================== CONNECTOR LINES (TOP) ==================== -->
+  <!-- MD to Board -->
+  <line x1="900" y1="185" x2="900" y2="225" class="line-connector" />
+  
+  <!-- MD to Corporate Support -->
+  <line x1="900" y1="295" x2="900" y2="420" class="line-connector" />
+  
+  <!-- Advisory & Compliance Horizontal Branch -->
+  <line x1="480" y1="360" x2="1320" y2="360" class="line-connector" />
+  <line x1="480" y1="360" x2="480" y2="330" class="line-connector" />
+  <line x1="1320" y1="360" x2="1320" y2="330" class="line-connector" />
+
+  <!-- Corporate Support to Bus Line -->
+  <line x1="900" y1="490" x2="900" y2="530" class="line-connector" />
+
+  <!-- Main Horizontal Bus Line for 9 Columns -->
+  <line x1="140" y1="530" x2="1660" y2="530" class="line-connector" />
+
+  <!-- ==================== GOVERNANCE & EXECUTIVE ==================== -->
+  <!-- Board of Directors -->
+  <g filter="url(#shadow)">
+    <rect x="740" y="115" width="320" height="70" rx="8" class="bg-dark-blue" />
+    <text x="900" y="150" class="text-white-bold" font-size="14" letter-spacing="1">BOARD OF DIRECTORS</text>
+  </g>
+
+  <!-- Managing Director -->
+  <g filter="url(#shadow)">
+    <rect x="740" y="225" width="320" height="70" rx="8" class="bg-dark-blue" />
+    <text x="900" y="260" class="text-white-bold" font-size="14" letter-spacing="1">MANAGING DIRECTOR</text>
+  </g>
+
+  <!-- Technical Advisory Panel -->
+  <g filter="url(#shadow)">
+    <rect x="330" y="330" width="300" height="60" rx="8" class="bg-med-blue" />
+    <text x="480" y="360" class="text-white-bold">Technical Advisory Panel</text>
+  </g>
+
+  <!-- Quality & Compliance Unit -->
+  <g filter="url(#shadow)">
+    <rect x="1170" y="330" width="300" height="60" rx="8" class="bg-med-blue" />
+    <text x="1320" y="360" class="text-white-bold">Quality &amp; Compliance Unit</text>
+  </g>
+
+  <!-- Corporate Support Functions -->
+  <g filter="url(#shadow)">
+    <rect x="245" y="420" width="1310" height="70" rx="8" class="bg-gold" />
+    <text x="900" y="445" class="text-gold-bold">CORPORATE SUPPORT FUNCTIONS</text>
+    <text x="900" y="468" class="text-gold-sub">(Finance | HR | Procurement | Legal | IT | Communications | Logistics)</text>
+  </g>
+
+
+  <!-- ==================== 9 COLUMNS GENERATION ==================== -->
+  <!-- 
+    Column Centers:
+    C1: 140, C2: 330, C3: 520, C4: 710, C5: 900, C6: 1090, C7: 1280, C8: 1470, C9: 1660
+    Width: 170, Gap: 20
+  -->
+
+  <!-- Column 1: WASH -->
+  <g>
+    <line x1="140" y1="530" x2="140" y2="560" class="line-connector" />
+    <line x1="140" y1="650" x2="140" y2="1080" class="line-connector-thin" />
+    <!-- Dept -->
+    <rect x="55" y="560" width="170" height="90" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="140" y="595" class="text-dark-bold"><tspan x="140" dy="0">Water, Sanitation</tspan><tspan x="140" dy="18">&amp; Hygiene (WASH)</tspan></text>
+    <!-- GM -->
+    <rect x="55" y="680" width="170" height="70" rx="6" class="bg-dark-blue" filter="url(#shadow)" />
+    <text x="140" y="715" class="text-white-bold">GM WASH</text>
+    <!-- TL -->
+    <rect x="55" y="780" width="170" height="70" rx="6" class="bg-med-blue" filter="url(#shadow)" />
+    <text x="140" y="807" class="text-white-bold"><tspan x="140" dy="0">Team Leader</tspan><tspan x="140" dy="16">WASH</tspan></text>
+    <!-- Sr. Spec -->
+    <rect x="55" y="880" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="140" y="907" class="text-dark-bold"><tspan x="140" dy="0">Sr. WASH</tspan><tspan x="140" dy="16">Specialist</tspan></text>
+    <!-- Spec -->
+    <rect x="55" y="980" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="140" y="1007" class="text-dark-medium"><tspan x="140" dy="0">WASH</tspan><tspan x="140" dy="16">Specialist</tspan></text>
+    <!-- Officer -->
+    <rect x="55" y="1080" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="140" y="1107" class="text-dark-medium"><tspan x="140" dy="0">WASH</tspan><tspan x="140" dy="16">Officer</tspan></text>
+  </g>
+
+  <!-- Column 2: Education -->
+  <g>
+    <line x1="330" y1="530" x2="330" y2="560" class="line-connector" />
+    <line x1="330" y1="650" x2="330" y2="1080" class="line-connector-thin" />
+    <!-- Dept -->
+    <rect x="245" y="560" width="170" height="90" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="330" y="595" class="text-dark-bold"><tspan x="330" dy="0">Education &amp;</tspan><tspan x="330" dy="18">Capacity Building</tspan></text>
+    <!-- GM -->
+    <rect x="245" y="680" width="170" height="70" rx="6" class="bg-dark-blue" filter="url(#shadow)" />
+    <text x="330" y="715" class="text-white-bold">GM Education</text>
+    <!-- TL -->
+    <rect x="245" y="780" width="170" height="70" rx="6" class="bg-med-blue" filter="url(#shadow)" />
+    <text x="330" y="807" class="text-white-bold"><tspan x="330" dy="0">Team Leader</tspan><tspan x="330" dy="16">Education</tspan></text>
+    <!-- Sr. Spec -->
+    <rect x="245" y="880" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="330" y="907" class="text-dark-bold"><tspan x="330" dy="0">Sr. Education</tspan><tspan x="330" dy="16">Specialist</tspan></text>
+    <!-- Spec -->
+    <rect x="245" y="980" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="330" y="1007" class="text-dark-medium"><tspan x="330" dy="0">Education</tspan><tspan x="330" dy="16">Specialist</tspan></text>
+    <!-- Officer -->
+    <rect x="245" y="1080" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="330" y="1107" class="text-dark-medium"><tspan x="330" dy="0">Education</tspan><tspan x="330" dy="16">Officer</tspan></text>
+  </g>
+
+  <!-- Column 3: Health -->
+  <g>
+    <line x1="520" y1="530" x2="520" y2="560" class="line-connector" />
+    <line x1="520" y1="650" x2="520" y2="1080" class="line-connector-thin" />
+    <!-- Dept -->
+    <rect x="435" y="560" width="170" height="90" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="520" y="595" class="text-dark-bold"><tspan x="520" dy="0">Health &amp;</tspan><tspan x="520" dy="18">Nutrition</tspan></text>
+    <!-- GM -->
+    <rect x="435" y="680" width="170" height="70" rx="6" class="bg-dark-blue" filter="url(#shadow)" />
+    <text x="520" y="715" class="text-white-bold">GM Health</text>
+    <!-- TL -->
+    <rect x="435" y="780" width="170" height="70" rx="6" class="bg-med-blue" filter="url(#shadow)" />
+    <text x="520" y="807" class="text-white-bold"><tspan x="520" dy="0">Team Leader</tspan><tspan x="520" dy="16">Health</tspan></text>
+    <!-- Sr. Spec -->
+    <rect x="435" y="880" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="520" y="907" class="text-dark-bold"><tspan x="520" dy="0">Sr. Public Health</tspan><tspan x="520" dy="16">Specialist</tspan></text>
+    <!-- Spec -->
+    <rect x="435" y="980" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="520" y="1007" class="text-dark-medium"><tspan x="520" dy="0">Health</tspan><tspan x="520" dy="16">Specialist</tspan></text>
+    <!-- Officer -->
+    <rect x="435" y="1080" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="520" y="1107" class="text-dark-medium"><tspan x="520" dy="0">Health</tspan><tspan x="520" dy="16">Officer</tspan></text>
+  </g>
+
+  <!-- Column 4: Infrastructure -->
+  <g>
+    <line x1="710" y1="530" x2="710" y2="560" class="line-connector" />
+    <line x1="710" y1="650" x2="710" y2="1080" class="line-connector-thin" />
+    <!-- Dept -->
+    <rect x="625" y="560" width="170" height="90" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="710" y="595" class="text-dark-bold"><tspan x="710" dy="0">Infrastructure &amp;</tspan><tspan x="710" dy="18">Engineering</tspan></text>
+    <!-- GM -->
+    <rect x="625" y="680" width="170" height="70" rx="6" class="bg-dark-blue" filter="url(#shadow)" />
+    <text x="710" y="715" class="text-white-bold">GM Infrastructure</text>
+    <!-- TL -->
+    <rect x="625" y="780" width="170" height="70" rx="6" class="bg-med-blue" filter="url(#shadow)" />
+    <text x="710" y="807" class="text-white-bold"><tspan x="710" dy="0">Team Leader</tspan><tspan x="710" dy="16">Engineering</tspan></text>
+    <!-- Sr. Spec -->
+    <rect x="625" y="880" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="710" y="907" class="text-dark-bold"><tspan x="710" dy="0">Sr. Civil</tspan><tspan x="710" dy="16">Engineer</tspan></text>
+    <!-- Spec -->
+    <rect x="625" y="980" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="710" y="1015" class="text-dark-medium">Civil Engineer</text>
+    <!-- Officer -->
+    <rect x="625" y="1080" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="710" y="1115" class="text-dark-medium">Site Engineer</text>
+  </g>
+
+  <!-- Column 5: Environment -->
+  <g>
+    <line x1="900" y1="530" x2="900" y2="560" class="line-connector" />
+    <line x1="900" y1="650" x2="900" y2="1080" class="line-connector-thin" />
+    <!-- Dept -->
+    <rect x="815" y="560" width="170" height="90" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="900" y="595" class="text-dark-bold"><tspan x="900" dy="0">Environment &amp;</tspan><tspan x="900" dy="18">Climate Change</tspan></text>
+    <!-- GM -->
+    <rect x="815" y="680" width="170" height="70" rx="6" class="bg-dark-blue" filter="url(#shadow)" />
+    <text x="900" y="715" class="text-white-bold">GM Environment</text>
+    <!-- TL -->
+    <rect x="815" y="780" width="170" height="70" rx="6" class="bg-med-blue" filter="url(#shadow)" />
+    <text x="900" y="807" class="text-white-bold"><tspan x="900" dy="0">Team Leader</tspan><tspan x="900" dy="16">Climate</tspan></text>
+    <!-- Sr. Spec -->
+    <rect x="815" y="880" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="900" y="907" class="text-dark-bold"><tspan x="900" dy="0">Sr. Environment</tspan><tspan x="900" dy="16">Specialist</tspan></text>
+    <!-- Spec -->
+    <rect x="815" y="980" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="900" y="1007" class="text-dark-medium"><tspan x="900" dy="0">Environment</tspan><tspan x="900" dy="16">Specialist</tspan></text>
+    <!-- Officer -->
+    <rect x="815" y="1080" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="900" y="1107" class="text-dark-medium"><tspan x="900" dy="0">Environment</tspan><tspan x="900" dy="16">Officer</tspan></text>
+  </g>
+
+  <!-- Column 6: Agriculture -->
+  <g>
+    <line x1="1090" y1="530" x2="1090" y2="560" class="line-connector" />
+    <line x1="1090" y1="650" x2="1090" y2="1080" class="line-connector-thin" />
+    <!-- Dept -->
+    <rect x="1005" y="560" width="170" height="90" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1090" y="595" class="text-dark-bold"><tspan x="1090" dy="0">Agriculture &amp;</tspan><tspan x="1090" dy="18">Livelihoods</tspan></text>
+    <!-- GM -->
+    <rect x="1005" y="680" width="170" height="70" rx="6" class="bg-dark-blue" filter="url(#shadow)" />
+    <text x="1090" y="715" class="text-white-bold">GM Agriculture</text>
+    <!-- TL -->
+    <rect x="1005" y="780" width="170" height="70" rx="6" class="bg-med-blue" filter="url(#shadow)" />
+    <text x="1090" y="807" class="text-white-bold"><tspan x="1090" dy="0">Team Leader</tspan><tspan x="1090" dy="16">Livelihoods</tspan></text>
+    <!-- Sr. Spec -->
+    <rect x="1005" y="880" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1090" y="907" class="text-dark-bold"><tspan x="1090" dy="0">Sr. Agriculture</tspan><tspan x="1090" dy="16">Specialist</tspan></text>
+    <!-- Spec -->
+    <rect x="1005" y="980" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1090" y="1007" class="text-dark-medium"><tspan x="1090" dy="0">Agriculture</tspan><tspan x="1090" dy="16">Specialist</tspan></text>
+    <!-- Officer -->
+    <rect x="1005" y="1080" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1090" y="1107" class="text-dark-medium"><tspan x="1090" dy="0">Agriculture</tspan><tspan x="1090" dy="16">Officer</tspan></text>
+  </g>
+
+  <!-- Column 7: Social Dev -->
+  <g>
+    <line x1="1280" y1="530" x2="1280" y2="560" class="line-connector" />
+    <line x1="1280" y1="650" x2="1280" y2="1080" class="line-connector-thin" />
+    <!-- Dept -->
+    <rect x="1195" y="560" width="170" height="90" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1280" y="595" class="text-dark-bold"><tspan x="1280" dy="0">Social Dev.</tspan><tspan x="1280" dy="18">&amp; GESI</tspan></text>
+    <!-- GM -->
+    <rect x="1195" y="680" width="170" height="70" rx="6" class="bg-dark-blue" filter="url(#shadow)" />
+    <text x="1280" y="715" class="text-white-bold">GM Social Dev.</text>
+    <!-- TL -->
+    <rect x="1195" y="780" width="170" height="70" rx="6" class="bg-med-blue" filter="url(#shadow)" />
+    <text x="1280" y="807" class="text-white-bold"><tspan x="1280" dy="0">Team Leader</tspan><tspan x="1280" dy="16">Social</tspan></text>
+    <!-- Sr. Spec -->
+    <rect x="1195" y="880" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1280" y="907" class="text-dark-bold"><tspan x="1280" dy="0">Sr. Social</tspan><tspan x="1280" dy="16">Safeguards Sp.</tspan></text>
+    <!-- Spec -->
+    <rect x="1195" y="980" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1280" y="1015" class="text-dark-medium">Gender Specialist</text>
+    <!-- Officer -->
+    <rect x="1195" y="1080" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1280" y="1115" class="text-dark-medium">Social Mobilizer</text>
+  </g>
+
+  <!-- Column 8: DRR -->
+  <g>
+    <line x1="1470" y1="530" x2="1470" y2="560" class="line-connector" />
+    <line x1="1470" y1="650" x2="1470" y2="1080" class="line-connector-thin" />
+    <!-- Dept -->
+    <rect x="1385" y="560" width="170" height="90" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1470" y="595" class="text-dark-bold"><tspan x="1470" dy="0">Disaster Risk</tspan><tspan x="1470" dy="18">Reduction</tspan></text>
+    <!-- GM -->
+    <rect x="1385" y="680" width="170" height="70" rx="6" class="bg-dark-blue" filter="url(#shadow)" />
+    <text x="1470" y="715" class="text-white-bold">GM DRR</text>
+    <!-- TL -->
+    <rect x="1385" y="780" width="170" height="70" rx="6" class="bg-med-blue" filter="url(#shadow)" />
+    <text x="1470" y="807" class="text-white-bold"><tspan x="1470" dy="0">Team Leader</tspan><tspan x="1470" dy="16">DRR</tspan></text>
+    <!-- Sr. Spec -->
+    <rect x="1385" y="880" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1470" y="907" class="text-dark-bold"><tspan x="1470" dy="0">Sr. DRR</tspan><tspan x="1470" dy="16">Specialist</tspan></text>
+    <!-- Spec -->
+    <rect x="1385" y="980" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1470" y="1007" class="text-dark-medium"><tspan x="1470" dy="0">DRR</tspan><tspan x="1470" dy="16">Specialist</tspan></text>
+    <!-- Officer -->
+    <rect x="1385" y="1080" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1470" y="1107" class="text-dark-medium"><tspan x="1470" dy="0">DRR</tspan><tspan x="1470" dy="16">Officer</tspan></text>
+  </g>
+
+  <!-- Column 9: MEAL -->
+  <g>
+    <line x1="1660" y1="530" x2="1660" y2="560" class="line-connector" />
+    <line x1="1660" y1="650" x2="1660" y2="1080" class="line-connector-thin" />
+    <!-- Dept -->
+    <rect x="1575" y="560" width="170" height="90" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1660" y="595" class="text-dark-bold"><tspan x="1660" dy="0">MEAL &amp;</tspan><tspan x="1660" dy="18">Digital MIS</tspan></text>
+    <!-- GM -->
+    <rect x="1575" y="680" width="170" height="70" rx="6" class="bg-dark-blue" filter="url(#shadow)" />
+    <text x="1660" y="715" class="text-white-bold">GM MEAL &amp; MIS</text>
+    <!-- TL -->
+    <rect x="1575" y="780" width="170" height="70" rx="6" class="bg-med-blue" filter="url(#shadow)" />
+    <text x="1660" y="807" class="text-white-bold"><tspan x="1660" dy="0">Team Leader</tspan><tspan x="1660" dy="16">MEAL</tspan></text>
+    <!-- Sr. Spec -->
+    <rect x="1575" y="880" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1660" y="927" class="text-dark-bold"><tspan x="1660" dy="0">Sr. MIS</tspan><tspan x="1660" dy="16">Specialist</tspan></text>
+    <!-- Spec -->
+    <rect x="1575" y="980" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1660" y="1027" class="text-dark-medium"><tspan x="1660" dy="0">M&amp;E</tspan><tspan x="1660" dy="16">Specialist</tspan></text>
+    <!-- Officer -->
+    <rect x="1575" y="1080" width="170" height="70" rx="6" class="bg-light-gray" filter="url(#shadow)" />
+    <text x="1660" y="1107" class="text-dark-medium"><tspan x="1660" dy="0">M&amp;E</tspan><tspan x="1660" dy="16">Officer</tspan></text>
+  </g>
+
+
+  <!-- ==================== FOOTER (THEMES) ==================== -->
+  <g filter="url(#shadow)">
+    <rect x="150" y="1190" width="1500" height="60" rx="30" class="bg-theme-gray" />
+    <text x="900" y="1223" class="text-dark-bold" font-size="13.5" letter-spacing="0.3">
+      CROSS-CUTTING THEMES: Environmental &amp; Social Safeguards | Gender Equality &amp; Social Inclusion (GESI) | Community Mobilization
+    </text>
+  </g>
+
+</svg>

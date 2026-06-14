@@ -64,7 +64,8 @@
             <p class="team-panel-lead text-center mx-auto">Interactive overview of governance, executive leadership, advisory bodies, and functional teams - styled to match the IPECS brand.</p>
 
             <div class="team-organogram-frame team-organogram-frame--chart mx-auto">
-                <div class="org-chart-wrap" role="region" aria-label="IPECS organizational chart">
+                <img class="team-organogram-placeholder" src="assets/img/Organogram.svg" alt="IPECS organizational chart placeholder">
+                <div class="org-chart-wrap" role="region" aria-label="IPECS organizational chart" style="display: none">
                     <div class="org-chart">
 
                         <div class="org-top">
