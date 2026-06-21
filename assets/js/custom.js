@@ -48,15 +48,15 @@
             }, wait);
         }
 
-        if (document.readyState === "complete") {
+        if (document.readyState !== "loading") {
             hidePreloader();
         } else {
-            window.addEventListener("load", hidePreloader, { once: true });
+            document.addEventListener("DOMContentLoaded", hidePreloader, { once: true });
         }
     }
 
     // ---- Section reveal (index page only, not inner pages) ----
-    if (document.body.className.trim() !== 'home-page') {
+    if (!document.querySelector(".home-hero")) {
         return;
     }
 

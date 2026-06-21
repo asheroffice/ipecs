@@ -11,14 +11,39 @@ function ipc_projects_esc_nl(?string $text): string
 }
 
 /**
- * Markup for “full details” modal (Client, Area, Scope, Status).
+ * Markup for a "Label: description" task line as a bulleted key-tasks list.
+ */
+function ipc_project_tasks_html(string $raw): string
+{
+    $lines = preg_split('/\r\n|\r|\n/', $raw);
+    $items = '';
+    foreach ($lines as $line) {
+        $line = trim($line);
+        if ($line === '') {
+            continue;
+        }
+        $sep = strpos($line, ': ');
+        if ($sep !== false) {
+            $label = substr($line, 0, $sep + 1);
+            $rest = trim(substr($line, $sep + 2));
+            $items .= '<li><span class="project-task-label">' . htmlspecialchars($label, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '</span> ' . htmlspecialchars($rest, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '</li>';
+        } else {
+            $items .= '<li>' . htmlspecialchars($line, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '</li>';
+        }
+    }
+
+    return $items === '' ? '' : '<ul class="project-tasks-list">' . $items . '</ul>';
+}
+
+/**
+ * Markup for “full details” modal (Client, Area, Key Tasks, Status).
  */
 function ipc_project_details_inner_html(array $p): string
 {
     $blocks = [
         ['label' => 'Client', 'key' => 'client'],
         ['label' => 'Area of project', 'key' => 'area'],
-        ['label' => 'Scope of work', 'key' => 'scope'],
+        ['label' => 'Key Tasks Performed by IPECS', 'key' => 'scope'],
         ['label' => 'Status', 'key' => 'status'],
     ];
     $out = '';
@@ -26,9 +51,13 @@ function ipc_project_details_inner_html(array $p): string
         $raw = (string) ($p[$b['key']] ?? '');
         $plain = trim(strip_tags(str_replace(["\r\n", "\r"], "\n", $raw)));
         $isEmpty = $plain === '' || $plain === '-' || $plain === '--';
-        $inner = $isEmpty
-            ? '<p class="project-details-block__empty mb-0">-</p>'
-            : '<div class="project-details-block__value">' . ipc_projects_esc_nl($raw) . '</div>';
+        if ($isEmpty) {
+            $inner = '<p class="project-details-block__empty mb-0">-</p>';
+        } elseif ($b['key'] === 'scope') {
+            $inner = ipc_project_tasks_html($raw);
+        } else {
+            $inner = '<div class="project-details-block__value">' . ipc_projects_esc_nl($raw) . '</div>';
+        }
         $out .= '<section class="project-details-block" aria-label="' . htmlspecialchars($b['label'], ENT_QUOTES, 'UTF-8') . '">';
         $out .= '<h3 class="project-details-block__label">' . htmlspecialchars($b['label'], ENT_QUOTES, 'UTF-8') . '</h3>';
         $out .= $inner;
@@ -320,10 +349,7 @@ $count_completed = count(array_filter($projects, static fn ($p) => ($p['status_k
                             gutter: 0
                         },
                         percentPosition: true,
-                        transitionDuration: reduceMotion ? 0 : '0.45s',
-                        stagger: reduceMotion ? 0 : 24,
-                        hiddenStyle: { opacity: 0 },
-                        visibleStyle: { opacity: 1 }
+                        transitionDuration: reduceMotion ? 0 : '0.45s'
                     });
                     hasIso = true;
                     $grid.on('arrangeComplete', function () {
