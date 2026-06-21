@@ -291,7 +291,7 @@
     </section>
 
     <!-- Operational presence & reach -->
-    <section class="home-presence home-presence--dark">
+    <section class="home-presence home-presence--light">
         <div class="container">
             <div class="row g-5 align-items-center">
 
@@ -330,42 +330,12 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="presence-legend mt-4">
-                        <span class="presence-legend-item">
-                            <span class="presence-legend-dot" style="background:#60a5fa;box-shadow:0 0 5px rgba(96,165,250,0.7);"></span> Sindh
-                        </span>
-                        <span class="presence-legend-item">
-                            <span class="presence-legend-dot" style="background:#fb923c;box-shadow:0 0 5px rgba(251,146,60,0.7);"></span> Balochistan
-                        </span>
-                        <span class="presence-legend-item">
-                            <span class="presence-legend-dot" style="background:#a78bfa;box-shadow:0 0 5px rgba(167,139,250,0.7);"></span> KPK
-                        </span>
-                        <span class="presence-legend-item">
-                            <span class="presence-legend-dot" style="background:#334155;"></span> Non-operational
-                        </span>
-                    </div>
                 </div>
 
-                <!-- Right: Pakistan operational footprint infographic -->
+                <!-- Right: Pakistan operational footprint map -->
                 <div class="col-lg-7">
-                    <div class="pk-footprint-map" id="pk-footprint-map" role="img" aria-label="Map of Pakistan showing IPECS operational districts coloured by province"></div>
-                    <div class="pk-prov-stats">
-                        <div class="pk-prov-stat pk-prov-stat--sindh">
-                            <span class="pk-prov-stat__swatch"></span>
-                            <span class="pk-prov-stat__n">24</span>
-                            <span class="pk-prov-stat__label">Districts<br>Sindh</span>
-                        </div>
-                        <div class="pk-prov-stat pk-prov-stat--baloch">
-                            <span class="pk-prov-stat__swatch"></span>
-                            <span class="pk-prov-stat__n">3</span>
-                            <span class="pk-prov-stat__label">Districts<br>Balochistan</span>
-                        </div>
-                        <div class="pk-prov-stat pk-prov-stat--kpk">
-                            <span class="pk-prov-stat__swatch"></span>
-                            <span class="pk-prov-stat__n">2</span>
-                            <span class="pk-prov-stat__label">Districts<br>KPK</span>
-                        </div>
+                    <div class="home-presence-map">
+                        <img class="home-presence-map-img" src="assets/img/map_image.png" alt="Map of Pakistan showing IPECS active project districts, head office in Karachi, and regional offices in Hyderabad, Larkana &amp; Quetta">
                     </div>
                 </div>
 
@@ -868,134 +838,6 @@ if (window.innerWidth < 992) {
         }
         </script>
 
-    <!-- Pakistan operational footprint infographic -->
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var container = document.getElementById('pk-footprint-map');
-        if (!container) return;
-
-        /* Province fill colours */
-        var provFill = {
-            PKSD: '#3b82f6',  /* Sindh       - blue   */
-            PKBA: '#f97316',  /* Balochistan - orange */
-            PKKP: '#8b5cf6',  /* KPK         - purple */
-            PKPB: '#334155',  /* Punjab      - dark slate (non-operational) */
-            PKGB: '#1e3a52',  /* Gilgit-Baltistan */
-            PKJK: '#243450',  /* Azad Kashmir */
-            PKIS: '#2a3f55'   /* Islamabad   */
-        };
-
-        /* District dot colours per province */
-        var distCol = { Sindh: '#1d4ed8', Balochistan: '#ea580c', KPK: '#6d28d9' };
-
-        /* District list */
-        var districts = [
-            /* Sindh - 24 */
-            { lat:24.8607, lng:67.0011, name:'Karachi',             p:'Sindh' },
-            { lat:25.3960, lng:68.3578, name:'Hyderabad',           p:'Sindh' },
-            { lat:27.7244, lng:68.8574, name:'Sukkur',              p:'Sindh' },
-            { lat:27.5580, lng:68.2120, name:'Larkana',             p:'Sindh' },
-            { lat:24.7461, lng:67.9228, name:'Thatta',              p:'Sindh' },
-            { lat:24.6557, lng:68.8375, name:'Badin',               p:'Sindh' },
-            { lat:24.7163, lng:69.7954, name:'Tharparkar',          p:'Sindh' },
-            { lat:25.3618, lng:69.7365, name:'Umerkot',             p:'Sindh' },
-            { lat:26.0433, lng:68.9478, name:'Sanghar',             p:'Sindh' },
-            { lat:25.5273, lng:69.0160, name:'Mirpurkhas',          p:'Sindh' },
-            { lat:26.2442, lng:68.4096, name:'Nawabshah',           p:'Sindh' },
-            { lat:26.8417, lng:68.1163, name:'Naushahro Feroze',    p:'Sindh' },
-            { lat:27.5294, lng:68.7576, name:'Khairpur',            p:'Sindh' },
-            { lat:28.0045, lng:69.3146, name:'Ghotki',              p:'Sindh' },
-            { lat:28.2769, lng:68.4381, name:'Jacobabad',           p:'Sindh' },
-            { lat:28.4444, lng:69.5811, name:'Kashmore',            p:'Sindh' },
-            { lat:27.9559, lng:68.6375, name:'Shikarpur',           p:'Sindh' },
-            { lat:26.7322, lng:67.7752, name:'Dadu',                p:'Sindh' },
-            { lat:25.5889, lng:68.4617, name:'Matiari',             p:'Sindh' },
-            { lat:25.4624, lng:68.7174, name:'Tando Allahyar',      p:'Sindh' },
-            { lat:25.1281, lng:68.5367, name:'Tando Mohammad Khan', p:'Sindh' },
-            { lat:24.1367, lng:68.1300, name:'Sujawal',             p:'Sindh' },
-            { lat:27.5868, lng:68.0065, name:'Kambar Shahdadkot',   p:'Sindh' },
-            { lat:25.4346, lng:68.2819, name:'Jamshoro',            p:'Sindh' },
-            /* Balochistan - 3 */
-            { lat:30.1798, lng:66.9750, name:'Quetta',              p:'Balochistan' },
-            { lat:25.1264, lng:62.3225, name:'Gwadar',              p:'Balochistan' },
-            { lat:26.2175, lng:66.0069, name:'Lasbela',             p:'Balochistan' },
-            /* KPK - 2 */
-            { lat:35.2985, lng:71.9225, name:'Upper Dir',           p:'KPK' },
-            { lat:35.2227, lng:72.4258, name:'Swat',                p:'KPK' }
-        ];
-
-        /* Lat/lng → SVG coordinate (calibrated for SimpleMaps Pakistan 1000×959) */
-        function toXY(lat, lng) {
-            var x = (lng - 60.5) / (77.5 - 60.5) * (940 - 140) + 140;
-            var y = (37.5 - lat) / (37.5 - 23.5) * (940 - 50)  + 50;
-            return [x, y];
-        }
-
-        /* Load & render SVG */
-        fetch('assets/img/pk.svg')
-            .then(function (r) { return r.text(); })
-            .then(function (svgText) {
-                container.innerHTML = svgText;
-                var svg = container.querySelector('svg');
-                if (!svg) return;
-
-                /* Make SVG fully responsive */
-                svg.removeAttribute('width');
-                svg.removeAttribute('height');
-                svg.style.cssText = 'width:100%;height:auto;display:block;';
-
-                /* Colour every province path */
-                Object.keys(provFill).forEach(function (id) {
-                    var el = svg.querySelector('#' + id);
-                    if (!el) return;
-                    el.style.fill        = provFill[id];
-                    el.style.stroke      = 'rgba(255,255,255,0.18)';
-                    el.style.strokeWidth = '1.5';
-                    /* Tooltip */
-                    var t = document.createElementNS('http://www.w3.org/2000/svg', 'title');
-                    t.textContent = { PKSD:'Sindh', PKBA:'Balochistan', PKKP:'KPK',
-                                      PKPB:'Punjab', PKGB:'Gilgit-Baltistan',
-                                      PKJK:'Azad Kashmir', PKIS:'Islamabad' }[id] || id;
-                    el.insertBefore(t, el.firstChild);
-                });
-
-                /* District dot markers */
-                var ns = 'http://www.w3.org/2000/svg';
-                var g  = document.createElementNS(ns, 'g');
-                g.setAttribute('id', 'ipecs-districts');
-
-                districts.forEach(function (d) {
-                    var xy = toXY(d.lat, d.lng);
-                    var c  = distCol[d.p] || '#1d4ed8';
-
-                    /* Soft halo */
-                    var halo = document.createElementNS(ns, 'circle');
-                    halo.setAttribute('cx', xy[0]);
-                    halo.setAttribute('cy', xy[1]);
-                    halo.setAttribute('r',  '9');
-                    halo.setAttribute('fill', c);
-                    halo.setAttribute('opacity', '0.22');
-                    g.appendChild(halo);
-
-                    /* Main dot */
-                    var dot = document.createElementNS(ns, 'circle');
-                    dot.setAttribute('cx', xy[0]);
-                    dot.setAttribute('cy', xy[1]);
-                    dot.setAttribute('r',  '5');
-                    dot.setAttribute('fill', c);
-                    dot.setAttribute('stroke', '#ffffff');
-                    dot.setAttribute('stroke-width', '1.5');
-                    var tip = document.createElementNS(ns, 'title');
-                    tip.textContent = d.name + ' - ' + d.p;
-                    dot.appendChild(tip);
-                    g.appendChild(dot);
-                });
-
-                svg.appendChild(g);
-            })
-            .catch(function () {});
-    });
-    </script>
 
 </body>
 </html>
