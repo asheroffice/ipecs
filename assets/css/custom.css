@@ -5561,6 +5561,17 @@ https://templatemo.com/tm-561-purple-buzz
     background: var(--ipecs-yellow) !important;
     padding-top: 3.75rem;
     padding-bottom: 0;
+    position: relative;
+}
+
+.home-page footer.home-footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--ipecs-yellow-bar), var(--ipecs-blue));
 }
 
 .home-page footer.home-footer .text-light {
@@ -5577,8 +5588,21 @@ https://templatemo.com/tm-561-purple-buzz
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
     color: var(--ipecs-blue) !important;
+    position: relative;
+    padding-bottom: 0.6rem;
+}
+
+.home-page footer.home-footer .footer-heading::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2.25rem;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--ipecs-blue);
 }
 
 .home-page footer.home-footer .home-footer-about {
@@ -5605,28 +5629,33 @@ https://templatemo.com/tm-561-purple-buzz
 .home-page footer.home-footer .home-footer-link {
     color: #000 !important;
     text-decoration: none;
+    transition: color 0.2s ease, padding-left 0.2s ease;
 }
 
 .home-page footer.home-footer .home-footer-link:hover {
-    text-decoration: underline;
-    text-underline-offset: 3px;
+    color: var(--ipecs-blue) !important;
+    padding-left: 0.2rem;
+    text-decoration: none;
 }
 
 .home-page footer.home-footer .home-footer-contact i {
-    color: #000;
+    color: var(--ipecs-blue);
 }
 
 .home-page footer.home-footer .footer-icons .home-footer-social {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #fff;
     text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .home-page footer.home-footer .footer-icons .home-footer-social i {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1;
 }
 
@@ -5641,7 +5670,8 @@ https://templatemo.com/tm-561-purple-buzz
 }
 
 .home-page footer.home-footer .footer-icons .home-footer-social:hover {
-    opacity: 0.9;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(8, 75, 130, 0.25);
 }
 
 .home-page footer.home-footer .footer-logo-wrap {
@@ -5662,11 +5692,20 @@ https://templatemo.com/tm-561-purple-buzz
     border-top: 1px solid rgba(8, 75, 130, 0.12);
     margin-top: 2rem;
     padding: 1.25rem 0;
+    text-align: center;
 }
 
 .home-page footer.home-footer .footer-bottom p,
 .home-page footer.home-footer .footer-bottom a {
     color: #000 !important;
+}
+
+.home-page footer.home-footer .footer-bottom p {
+    font-size: 0.85rem;
+    line-height: 1.7;
+    max-width: 60rem;
+    margin-inline: auto;
+    opacity: 0.85;
 }
 
 .home-page .home-hero-caption-inner {

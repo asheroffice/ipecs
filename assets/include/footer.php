@@ -2,12 +2,10 @@
 <footer class="home-footer">
     <div class="container">
         <div class="row gy-5">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <div class="footer-logo-wrap">
                     <img src="assets/img/logo.png" alt="IPECS logo">
                 </div>
-                <p class="home-footer-about mt-3 mb-0">
-                </p>
                 <p class="home-footer-follow mt-4 mb-2">Follow Us</p>
                 <ul class="list-inline footer-icons mb-0">
                     <li class="list-inline-item m-0 me-2">
@@ -32,7 +30,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <p class="footer-heading">Our Company</p>
                 <ul class="list-unstyled home-footer-links">
                     <li class="mb-2"><a class="home-footer-link" href="index.php">Home</a></li>
@@ -45,20 +43,6 @@
                 </ul>
             </div>
             <div class="col-lg-4 col-md-6">
-                <p class="footer-heading">Sectors</p>
-                <ul class="list-unstyled home-footer-links">
-                    <li class="mb-2"><a class="home-footer-link" href="sector-education.php">Education &amp; skills</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="sector-governance.php">Governance &amp; reform</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="sector-infrastructure.php">Engineering &amp; urban</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="sector-climate.php">Climate &amp; resilience</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="sector-wash.php">WASH &amp; urban services</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="sector-technology.php">Digital &amp; smart systems</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="sector-inclusion.php">Inclusion &amp; livelihoods</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="sector-meal.php">MEAL &amp; impact</a></li>
-                    <li class="mb-2"><a class="home-footer-link" href="sector-health.php">Health &amp; nutrition</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-6">
                 <p class="footer-heading">Contact</p>
                 <ul class="list-unstyled home-footer-contact">
                     <li class="d-flex gap-2 mb-3">
@@ -82,11 +66,10 @@
             </div>
         </div>
     </div>
-    <div class="footer-bottom"  style="text-align: justify; text-align-last: center;">
+    <div class="footer-bottom">
         <div class="container">
             <!-- <p class="mb-0">© Copyright 2026 IPECS Consulting. All Rights Reserved.</p> -->
-            <p class="mb-0">IPECS Consulting Pvt. Ltd.-registered firm under the Companies Act, 2017 with is a SECP. The Firm is PEC-registered, and certified under ISO 9001:2015, ISO 14001:2015, and ISO 27001:2022.  Working since 2012. Moreover, it is associated with international development and sustainability platforms, including the World Bank, ADB, IsDB, and the UN Global Compact as Member No. 193891.
-.</p>
+            <p class="mb-0">IPECS Consulting Pvt. Ltd.-registered firm under the Companies Act, 2017 with is a SECP. The Firm is PEC-registered, and certified under ISO 9001:2015, ISO 14001:2015, and ISO 27001:2022.  Working since 2012. Moreover, it is associated with international development and sustainability platforms, including the World Bank, ADB, IsDB, and the UN Global Compact as Member No. 193891.</p>
         </div>
     </div>
     <button type="button" class="btn btn-light btn-floating btn-lg shadow border-0" style="position:fixed;bottom:20px;right:20px;z-index:1040;display:none;" id="btn-back-to-top" aria-label="Back to top">
