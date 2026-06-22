@@ -52,45 +52,105 @@ $sectors = $db['sectors'] ?? [];
             <h2 class="home-section-title dark text-center d-block mb-2">Explore by sector</h2>
             <p class="sector-hub-lead text-center mx-auto mb-5">Each card previews the opening lines of that sector’s overview; open the page for the full PDF-aligned content.</p>
             <div class="row g-4">
-                <?php
-                $imgs = ['services-01', 'services-02', 'services-03', 'services-04', 'services-05', 'services-06', 'services-07', 'services-08', 'services-01'];
-                $i = 0;
-                foreach ($order as $key) {
-                    if (!isset($sectors[$key])) {
-                        continue;
-                    }
-                    $s = $sectors[$key];
-                    $page = htmlspecialchars((string) ($s['page'] ?? 'sector.php'), ENT_QUOTES, 'UTF-8');
-                    $title = htmlspecialchars((string) ($s['title'] ?? ''), ENT_QUOTES, 'UTF-8');
-                    $excerptRaw = (string) ($s['tagline'] ?? '');
-                    if ($excerptRaw === '') {
-                        $bp = $s['brief_paras'] ?? [];
-                        $excerptRaw = isset($bp[0]) ? (string) $bp[0] : '';
-                    }
-                    if (function_exists('mb_strlen') && function_exists('mb_substr') && mb_strlen($excerptRaw, 'UTF-8') > 220) {
-                        $excerptRaw = mb_substr($excerptRaw, 0, 217, 'UTF-8') . '…';
-                    } elseif (strlen($excerptRaw) > 220) {
-                        $excerptRaw = substr($excerptRaw, 0, 217) . '…';
-                    }
-                    $tag = htmlspecialchars($excerptRaw, ENT_QUOTES, 'UTF-8');
-                    $imgFile = $imgs[$i % count($imgs)] ?? 'services-01';
-                    $i++;
-                    ?>
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <article class="home-service-card w-100 sector-hub-card">
-                            <div class="sector-hub-card-thumb">
-                                <img src="./assets/img/<?php echo $imgFile; ?>.jpg" alt="" width="640" height="400" loading="lazy">
-                                <span class="sector-hub-card-badge"><?php echo (int) $i; ?></span>
-                            </div>
-                            <div class="card-body d-flex flex-column">
-                                <p class="home-service-label mb-1">Sector</p>
-                                <h3><?php echo $title; ?></h3>
-                                <p class="excerpt flex-grow-1"><?php echo $tag; ?></p>
-                                <a class="btn-read mt-2 align-self-start" href="<?php echo $page; ?>">View sector</a>
-                            </div>
-                        </article>
-                    </div>
-                <?php } ?>
+                <div class="col-lg-4 col-md-6">
+                    <article class="home-service-card">
+                        <img src="./assets/img/services-01.jpg" alt="">
+                        <div class="card-body">
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Education systems strengthening &amp; skills development</h3>
+                            <p class="excerpt">Integrated education and TVET solutions from early childhood through higher education, aligned with SDG 4.</p>
+                            <a class="btn-read" href="sector-education.php">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="home-service-card">
+                        <img src="./assets/img/governance/1.jpeg" alt="">
+                        <div class="card-body">
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Governance, policy &amp; public sector reform</h3>
+                            <p class="excerpt">Institutional diagnostics, policy design, PPP advisory, and accountability systems at all government levels.</p>
+                            <a class="btn-read" href="sector-governance.php">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="home-service-card">
+                        <img src="./assets/img/engineering/1.jpeg" alt="">
+                        <div class="card-body">
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Engineering, infrastructure &amp; urban development</h3>
+                            <p class="excerpt">Full infrastructure lifecycle: feasibility, design, supervision, and sustainable O&amp;M planning.</p>
+                            <a class="btn-read" href="sector-infrastructure.php">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="home-service-card">
+                        <img src="./assets/img/climate/1.jpeg" alt="">
+                        <div class="card-body">
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Climate-smart environment, energy &amp; resilience</h3>
+                            <p class="excerpt">Climate policy, renewable energy, CSA, NRM, DRR, and safeguards aligned with Pakistan's climate commitments.</p>
+                            <a class="btn-read" href="sector-climate.php">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="home-service-card">
+                        <img src="./assets/img/home-main-slider/slide-005.jpg" alt="">
+                        <div class="card-body">
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Water, sanitation &amp; integrated urban services</h3>
+                            <p class="excerpt">WASH engineering, solid waste, hygiene BCC, and institutional sustainability across rural and urban contexts.</p>
+                            <a class="btn-read" href="sector-wash.php">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="home-service-card">
+                        <img src="./assets/img/technology/4.webp" alt="">
+                        <div class="card-body">
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Technology, digital transformation &amp; smart systems</h3>
+                            <p class="excerpt">E-government, MIS, digital data collection, IoT, digital GRM, and analytics for evidence-based decisions.</p>
+                            <a class="btn-read" href="sector-technology.php">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="home-service-card">
+                        <img src="./assets/img/services-07.jpg" alt="">
+                        <div class="card-body">
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Social inclusion, gender equity &amp; rural development</h3>
+                            <p class="excerpt">GESI mainstreaming, community-driven development, livelihoods, social protection, and safe programming.</p>
+                            <a class="btn-read" href="sector-inclusion.php">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="home-service-card">
+                        <img src="./assets/img/monitoring/1.jpg" alt="">
+                        <div class="card-body">
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Monitoring, evaluation, learning &amp; impact</h3>
+                            <p class="excerpt">RBM, independent evaluations, third-party monitoring, surveys, and adaptive management for accountability.</p>
+                            <a class="btn-read" href="sector-meal.php">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="home-service-card">
+                        <img src="./assets/img/health/1.jpeg" alt="">
+                        <div class="card-body">
+                            <p class="home-service-label mb-1">Sector</p>
+                            <h3>Health systems strengthening &amp; nutrition</h3>
+                            <p class="excerpt">WHO-framed health systems support, multi-sectoral nutrition, MNCH, SBCC, and community health delivery.</p>
+                            <a class="btn-read" href="sector-health.php">Read More</a>
+                        </div>
+                    </article>
+                </div>
             </div>
         </div>
     </section>
