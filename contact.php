@@ -1,3 +1,52 @@
+<?php
+
+declare(strict_types=1);
+
+require_once __DIR__ . '/assets/include/mailer.php';
+
+$formErrors = [];
+$formValues = [
+    'name' => '',
+    'email' => '',
+    'phone' => '',
+    'company' => '',
+    'subject' => '',
+    'message' => '',
+];
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['inputname'])) {
+    // Honeypot: real visitors never see or fill this field.
+    if (trim((string) ($_POST['website'] ?? '')) !== '') {
+        header('Location: contact.php?sent=1#contact-form');
+        exit;
+    }
+
+    $formValues['name'] = trim((string) ($_POST['inputname'] ?? ''));
+    $formValues['email'] = trim((string) ($_POST['inputemail'] ?? ''));
+    $formValues['phone'] = trim((string) ($_POST['inputphone'] ?? ''));
+    $formValues['company'] = trim((string) ($_POST['inputcompany'] ?? ''));
+    $formValues['subject'] = trim((string) ($_POST['inputsubject'] ?? ''));
+    $formValues['message'] = trim((string) ($_POST['message'] ?? ''));
+
+    if ($formValues['name'] === '') {
+        $formErrors['name'] = 'Please enter your name.';
+    }
+    if ($formValues['email'] === '' || !filter_var($formValues['email'], FILTER_VALIDATE_EMAIL)) {
+        $formErrors['email'] = 'Please enter a valid email address.';
+    }
+    if ($formValues['message'] === '') {
+        $formErrors['message'] = 'Please enter a message.';
+    }
+
+    if (!$formErrors) {
+        $sentOk = ipc_send_contact_mail($formValues);
+        header('Location: contact.php?sent=' . ($sentOk ? '1' : '0') . '#contact-form');
+        exit;
+    }
+}
+
+$sentStatus = $_GET['sent'] ?? null;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -89,40 +138,54 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <div class="contact-form-wrap">
+                    <div class="contact-form-wrap" id="contact-form">
                         <h2 class="contact-form-title">Send us a message</h2>
                         <p class="contact-form-sub mb-4">Tell us what you’re looking for and we’ll respond shortly.</p>
 
-                        <form class="contact-form row g-3" method="post" action="#" role="form">
+                        <?php if ($sentStatus === '1') : ?>
+                            <div class="alert alert-success" role="status">Thank you! Your message has been sent — we'll get back to you soon.</div>
+                        <?php elseif ($sentStatus === '0') : ?>
+                            <div class="alert alert-danger" role="alert">Sorry, something went wrong sending your message. Please try again, or email us directly at <a href="mailto:ipecs.pk@gmail.com">ipecs.pk@gmail.com</a>.</div>
+                        <?php endif; ?>
+
+                        <form class="contact-form row g-3" method="post" action="contact.php#contact-form" role="form" novalidate>
+
+                            <div class="ipc-hp" aria-hidden="true">
+                                <label for="website">Website</label>
+                                <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                            </div>
 
                             <div class="col-lg-6">
                                 <label class="form-label contact-label" for="floatingname">Name</label>
-                                <input type="text" class="form-control contact-input" id="floatingname" name="inputname" placeholder="Your name">
+                                <input type="text" class="form-control contact-input<?php echo isset($formErrors['name']) ? ' is-invalid' : ''; ?>" id="floatingname" name="inputname" placeholder="Your name" value="<?php echo htmlspecialchars($formValues['name'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                                <?php if (isset($formErrors['name'])) : ?><div class="invalid-feedback d-block"><?php echo htmlspecialchars($formErrors['name'], ENT_QUOTES, 'UTF-8'); ?></div><?php endif; ?>
                             </div>
 
                             <div class="col-lg-6">
                                 <label class="form-label contact-label" for="floatingemail">Email</label>
-                                <input type="email" class="form-control contact-input" id="floatingemail" name="inputemail" placeholder="name@example.com">
+                                <input type="email" class="form-control contact-input<?php echo isset($formErrors['email']) ? ' is-invalid' : ''; ?>" id="floatingemail" name="inputemail" placeholder="name@example.com" value="<?php echo htmlspecialchars($formValues['email'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                                <?php if (isset($formErrors['email'])) : ?><div class="invalid-feedback d-block"><?php echo htmlspecialchars($formErrors['email'], ENT_QUOTES, 'UTF-8'); ?></div><?php endif; ?>
                             </div>
 
                             <div class="col-lg-6">
                                 <label class="form-label contact-label" for="floatingphone">Phone</label>
-                                <input type="tel" class="form-control contact-input" id="floatingphone" name="inputphone" placeholder="+92 ...">
+                                <input type="tel" class="form-control contact-input" id="floatingphone" name="inputphone" placeholder="+92 ..." value="<?php echo htmlspecialchars($formValues['phone'], ENT_QUOTES, 'UTF-8'); ?>">
                             </div>
 
                             <div class="col-lg-6">
                                 <label class="form-label contact-label" for="floatingcompany">Organization</label>
-                                <input type="text" class="form-control contact-input" id="floatingcompany" name="inputcompany" placeholder="Company / Organization">
+                                <input type="text" class="form-control contact-input" id="floatingcompany" name="inputcompany" placeholder="Company / Organization" value="<?php echo htmlspecialchars($formValues['company'], ENT_QUOTES, 'UTF-8'); ?>">
                             </div>
 
                             <div class="col-12">
                                 <label class="form-label contact-label" for="floatingsubject">Subject</label>
-                                <input type="text" class="form-control contact-input" id="floatingsubject" name="inputsubject" placeholder="How can we help?">
+                                <input type="text" class="form-control contact-input" id="floatingsubject" name="inputsubject" placeholder="How can we help?" value="<?php echo htmlspecialchars($formValues['subject'], ENT_QUOTES, 'UTF-8'); ?>">
                             </div>
 
                             <div class="col-12">
                                 <label class="form-label contact-label" for="floatingtextarea">Message</label>
-                                <textarea class="form-control contact-input contact-textarea" rows="6" placeholder="Write your message..." id="floatingtextarea" name="message"></textarea>
+                                <textarea class="form-control contact-input contact-textarea<?php echo isset($formErrors['message']) ? ' is-invalid' : ''; ?>" rows="6" placeholder="Write your message..." id="floatingtextarea" name="message" required><?php echo htmlspecialchars($formValues['message'], ENT_QUOTES, 'UTF-8'); ?></textarea>
+                                <?php if (isset($formErrors['message'])) : ?><div class="invalid-feedback d-block"><?php echo htmlspecialchars($formErrors['message'], ENT_QUOTES, 'UTF-8'); ?></div><?php endif; ?>
                             </div>
 
                             <div class="col-12 d-flex justify-content-end pt-2">
