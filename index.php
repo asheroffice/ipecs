@@ -9,11 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="preload" as="image" href="assets/img/slider/1.jpeg" fetchpriority="high">
     <!-- Load Require CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font CSS -->
     <link href="assets/css/boxicon.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Load Tempalte CSS -->
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <!-- Custom CSS -->
@@ -108,12 +111,12 @@
 
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/15.jpg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/15.jpeg');" role="img" aria-label="IPECS field operations"></div>
                         <div class="home-hero-gradient"></div>
 
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/16.jpg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/16.jpeg');" role="img" aria-label="IPECS field operations"></div>
                         <div class="home-hero-gradient"></div>
 
                     </div>
@@ -123,12 +126,12 @@
 
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/18.jpg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/18.jpeg');" role="img" aria-label="IPECS field operations"></div>
                         <div class="home-hero-gradient"></div>
 
                     </div>
                     <div class="carousel-item">
-                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/19.jpg');" role="img" aria-label="IPECS field operations"></div>
+                        <div class="home-hero-slide" style="background-image:url('./assets/img/slider/19.jpeg');" role="img" aria-label="IPECS field operations"></div>
                         <div class="home-hero-gradient"></div>
 
                     </div>
@@ -165,7 +168,7 @@
                     </a>
                 </div>
                 <div class="col-lg-6">
-                    <img class="home-about-img" src="./assets/img/about-img.jpeg" alt="IPECS consulting team">
+                    <img loading="lazy" decoding="async" class="home-about-img" src="./assets/img/about-img.jpeg" alt="IPECS consulting team">
                 </div>
             </div>
         </div>
@@ -189,7 +192,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/services-01.jpg" alt="">
+                        <img loading="lazy" decoding="async" src="./assets/img/services-01.jpg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Education systems strengthening &amp; skills development</h3>
@@ -200,7 +203,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/governance/1.jpeg" alt="">
+                        <img loading="lazy" decoding="async" src="./assets/img/governance/1.jpeg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Governance, policy &amp; public sector reform</h3>
@@ -211,7 +214,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/engineering/1.jpeg" alt="">
+                        <img loading="lazy" decoding="async" src="./assets/img/engineering/1.jpeg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Engineering, infrastructure &amp; urban development</h3>
@@ -222,7 +225,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/climate/1.jpeg" alt="">
+                        <img loading="lazy" decoding="async" src="./assets/img/climate/1.jpeg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Climate-smart environment, energy &amp; resilience</h3>
@@ -233,7 +236,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/home-main-slider/slide-005.jpg" alt="">
+                        <img loading="lazy" decoding="async" src="./assets/img/home-main-slider/slide-005.jpg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Water, sanitation &amp; integrated urban services</h3>
@@ -244,7 +247,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/technology/4.webp" alt="">
+                        <img loading="lazy" decoding="async" src="./assets/img/technology/4.webp" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Technology, digital transformation &amp; smart systems</h3>
@@ -255,7 +258,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/services-07.jpg" alt="">
+                        <img loading="lazy" decoding="async" src="./assets/img/services-07.jpg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Social inclusion, gender equity &amp; rural development</h3>
@@ -266,7 +269,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/monitoring/1.jpg" alt="">
+                        <img loading="lazy" decoding="async" src="./assets/img/monitoring/1.jpg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Monitoring, evaluation, learning &amp; impact</h3>
@@ -277,7 +280,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <article class="home-service-card">
-                        <img src="./assets/img/health/1.jpeg" alt="">
+                        <img loading="lazy" decoding="async" src="./assets/img/health/1.jpeg" alt="">
                         <div class="card-body">
                             <p class="home-service-label mb-1">Sector</p>
                             <h3>Health systems strengthening &amp; nutrition</h3>
@@ -335,7 +338,7 @@
                 <!-- Right: Pakistan operational footprint map -->
                 <div class="col-lg-7">
                     <div class="home-presence-map">
-                        <img class="home-presence-map-img" src="assets/img/map_image.png" alt="Map of Pakistan showing IPECS active project districts, head office in Karachi, and regional offices in Hyderabad, Larkana &amp; Quetta">
+                        <img loading="lazy" decoding="async" class="home-presence-map-img" src="assets/img/map_image.webp" alt="Map of Pakistan showing IPECS active project districts, head office in Karachi, and regional offices in Hyderabad, Larkana &amp; Quetta">
                     </div>
                 </div>
 
@@ -356,7 +359,7 @@
                     <div class="row g-4">
                         <div class="col-md-6">
                             <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" tabindex="0" role="button" aria-label="Play video: Bringing light - Gajri’s story from Badin">
-                                <img class="home-video-thumb" src="" alt="Bringing Light, Empowering Livelihoods - Gajri's Story from Badin">
+                                <img class="home-video-thumb" src="assets/img/video-posters/gajri-story.jpg" width="800" height="450" loading="lazy" alt="Bringing Light, Empowering Livelihoods - Gajri's Story from Badin">
                                 <div class="home-video-overlay" aria-hidden="true">
                                     <span class="home-play-icon">&#9654;</span>
                                 </div>
@@ -364,15 +367,15 @@
                         </div>
                         <div class="col-md-6">
                             <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Success-Story.mp4" tabindex="0" role="button" aria-label="Play video: Success story">
-                                <img class="home-video-thumb" src="" alt="Success Story - IPECS project delivery">
+                                <img class="home-video-thumb" src="assets/img/video-posters/success-story.jpg" width="800" height="450" loading="lazy" alt="Success Story - IPECS project delivery">
                                 <div class="home-video-overlay" aria-hidden="true">
                                     <span class="home-play-icon">&#9654;</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/A-Light-in-the-Darkness–Maryums-Story.mp4" tabindex="0" role="button" aria-label="Play video: A light in the darkness - Maryum’s story">
-                                <img class="home-video-thumb" src="" alt="A Light in the Darkness - Maryum's Story">
+                            <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/A-Light-in-the-Darkness-Maryums-Story.mp4" tabindex="0" role="button" aria-label="Play video: A light in the darkness - Maryum’s story">
+                                <img class="home-video-thumb" src="assets/img/video-posters/maryum-story.jpg" width="800" height="450" loading="lazy" alt="A Light in the Darkness - Maryum's Story">
                                 <div class="home-video-overlay" aria-hidden="true">
                                     <span class="home-play-icon">&#9654;</span>
                                 </div>
@@ -380,7 +383,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="home-video-tile" data-home-video-open data-video-src="./assets/videos/Bringing-Light,-Empowering-Livelihoods-Gajris-Story-from-Badin.mp4" tabindex="0" role="button" aria-label="Play video: Bringing light - Gajri’s story from Badin">
-                                <img class="home-video-thumb" src="" alt="Bringing Light, Empowering Livelihoods - Gajri's Story from Badin">
+                                <img class="home-video-thumb" src="assets/img/video-posters/gajri-story.jpg" width="800" height="450" loading="lazy" alt="Bringing Light, Empowering Livelihoods - Gajri's Story from Badin">
                                 <div class="home-video-overlay" aria-hidden="true">
                                     <span class="home-play-icon">&#9654;</span>
                                 </div>
@@ -431,7 +434,7 @@
                                     <div class="home-project-card h-100">
                                         <span class="tag-ongoing"><span class="home-project-tag-dot home-project-tag-dot--ongoing" aria-hidden="true"></span> Ongoing</span>
                                         <div class="home-project-card-media">
-                                            <img src="./assets/img/work-01.jpg" alt="Feasibility study project">
+                                            <img loading="lazy" decoding="async" src="./assets/img/work-01.jpg" alt="Feasibility study project">
                                         </div>
                                         <div class="body">
                                             <h3 class="home-project-card-title">Feasibility study: women agricultural workers</h3>
@@ -446,7 +449,7 @@
                                     <div class="home-project-card h-100">
                                         <span class="tag-completed"><span class="home-project-tag-dot home-project-tag-dot--completed" aria-hidden="true"></span> Completed</span>
                                         <div class="home-project-card-media">
-                                            <img src="./assets/img/work-02.jpg" alt="School infrastructure programme">
+                                            <img loading="lazy" decoding="async" src="./assets/img/work-02.jpg" alt="School infrastructure programme">
                                         </div>
                                         <div class="body">
                                             <h3 class="home-project-card-title">School infrastructure rehabilitation program</h3>
@@ -461,7 +464,7 @@
                                     <div class="home-project-card h-100">
                                         <span class="tag-completed"><span class="home-project-tag-dot home-project-tag-dot--completed" aria-hidden="true"></span> Completed</span>
                                         <div class="home-project-card-media">
-                                            <img src="./assets/img/recent-work-03.jpg" alt="Community housing reconstruction">
+                                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-03.jpg" alt="Community housing reconstruction">
                                         </div>
                                         <div class="body">
                                             <h3 class="home-project-card-title">Community-led housing reconstruction</h3>
@@ -480,7 +483,7 @@
                                     <div class="home-project-card h-100">
                                         <span class="tag-ongoing"><span class="home-project-tag-dot home-project-tag-dot--ongoing" aria-hidden="true"></span> Ongoing</span>
                                         <div class="home-project-card-media">
-                                            <img src="./assets/img/recent-work-02.jpg" alt="">
+                                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-02.jpg" alt="">
                                         </div>
                                         <div class="body">
                                             <h3 class="home-project-card-title">Institutional strengthening programme</h3>
@@ -495,7 +498,7 @@
                                     <div class="home-project-card h-100">
                                         <span class="tag-completed"><span class="home-project-tag-dot home-project-tag-dot--completed" aria-hidden="true"></span> Completed</span>
                                         <div class="home-project-card-media">
-                                            <img src="./assets/img/recent-work-05.jpg" alt="">
+                                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-05.jpg" alt="">
                                         </div>
                                         <div class="body">
                                             <h3 class="home-project-card-title">Development initiative with UNDP</h3>
@@ -510,7 +513,7 @@
                                     <div class="home-project-card h-100">
                                         <span class="tag-completed"><span class="home-project-tag-dot home-project-tag-dot--completed" aria-hidden="true"></span> Completed</span>
                                         <div class="home-project-card-media">
-                                            <img src="./assets/img/recent-work-06.jpg" alt="">
+                                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-06.jpg" alt="">
                                         </div>
                                         <div class="body">
                                             <h3 class="home-project-card-title">Irrigation &amp; development support</h3>
@@ -543,7 +546,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-01.png" alt="Accelerated Action Plan">
+                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-01.png" alt="Accelerated Action Plan">
                             <h3>Accelerated action plan</h3>
                         </div>
                     </a>
@@ -551,7 +554,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-02.png" alt="Government of Sindh">
+                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-02.png" alt="Government of Sindh">
                             <h3>Government of Sindh</h3>
                         </div>
                     </a>
@@ -559,7 +562,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-03.png" alt="Pakistan Petroleum Limited">
+                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-03.png" alt="Pakistan Petroleum Limited">
                             <h3>Pakistan Petroleum Limited</h3>
                         </div>
                     </a>
@@ -567,7 +570,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-04.png" alt="UNICEF">
+                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-04.png" alt="UNICEF">
                             <h3>UNICEF</h3>
                         </div>
                     </a>
@@ -575,7 +578,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-05.png" alt="UNDP">
+                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-05.png" alt="UNDP">
                             <h3>UNDP</h3>
                         </div>
                     </a>
@@ -583,7 +586,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-06.png" alt="SIDA">
+                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-06.png" alt="SIDA">
                             <h3>Sindh Irrigation &amp; Development Authority</h3>
                         </div>
                     </a>
@@ -591,7 +594,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-07.png" alt="ACTED">
+                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-07.png" alt="ACTED">
                             <h3>ACTED</h3>
                         </div>
                     </a>
@@ -599,7 +602,7 @@
                 <div class="col-6 col-md-3">
                     <a href="projects.php" class="text-decoration-none text-reset">
                         <div class="home-partner-card">
-                            <img src="./assets/img/recent-work-08.png" alt="CARE">
+                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-08.png" alt="CARE">
                             <h3>CARE</h3>
                         </div>
                     </a>
@@ -725,56 +728,6 @@
             });
         })();
 
-        /* ---- Video thumbnail generator (canvas frame capture) ---- */
-        (function () {
-            var cache = {};
-            document.querySelectorAll('[data-home-video-open]').forEach(function (tile) {
-                var src = tile.getAttribute('data-video-src');
-                if (!src) return;
-                var img = tile.querySelector('.home-video-thumb');
-                if (!img || img.tagName !== 'IMG') return;
-
-                if (cache[src]) {
-                    if (typeof cache[src] === 'string') {
-                        img.src = cache[src];
-                    } else {
-                        cache[src].push(img);
-                    }
-                    return;
-                }
-
-                cache[src] = [img];
-
-                var vid = document.createElement('video');
-                vid.muted = true;
-                vid.playsInline = true;
-                vid.preload = 'auto';
-                vid.crossOrigin = 'anonymous';
-                vid.style.cssText = 'position:fixed;top:-9999px;left:-9999px;width:1px;height:1px;visibility:hidden;pointer-events:none';
-                document.body.appendChild(vid);
-
-                vid.addEventListener('seeked', function () {
-                    try {
-                        var c = document.createElement('canvas');
-                        c.width  = vid.videoWidth  || 640;
-                        c.height = vid.videoHeight || 360;
-                        c.getContext('2d').drawImage(vid, 0, 0, c.width, c.height);
-                        var dataUrl = c.toDataURL('image/jpeg', 0.85);
-                        cache[src].forEach(function (i) { i.src = dataUrl; });
-                        cache[src] = dataUrl;
-                    } catch (e) {}
-                    if (vid.parentNode) vid.parentNode.removeChild(vid);
-                }, { once: true });
-
-                vid.addEventListener('loadedmetadata', function () {
-                    vid.currentTime = 3;
-                }, { once: true });
-
-                vid.src = src;
-                vid.load();
-            });
-        })();
-
         document.querySelectorAll(".home-project-filter").forEach(function(btn) {
             btn.addEventListener("click", function() {
                 var f = btn.getAttribute("data-home-project-filter");
@@ -823,8 +776,6 @@ if (window.innerWidth < 992) {
 
     </script>
 
-    <!-- Templatemo -->
-    <script src="assets/js/templatemo.js"></script>
     <!-- Custom -->
     <script src="assets/js/custom.js"></script>
 

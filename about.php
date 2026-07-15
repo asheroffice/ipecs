@@ -11,7 +11,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/boxicon.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 </head>
@@ -498,8 +500,6 @@
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/isotope.pkgd.js"></script>
-    <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
 </body>
 

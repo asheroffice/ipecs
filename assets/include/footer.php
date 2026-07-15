@@ -4,7 +4,7 @@
         <div class="row gy-5">
             <div class="col-lg-4 col-md-6">
                 <div class="footer-logo-wrap">
-                    <img src="assets/img/logo.png" alt="IPECS logo">
+                    <img loading="lazy" decoding="async" src="assets/img/logo.png" alt="IPECS logo">
                 </div>
                 <p class="home-footer-follow mt-4 mb-2">Follow Us</p>
                 <ul class="list-inline footer-icons mb-0">

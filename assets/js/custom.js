@@ -31,21 +31,14 @@
     // ---- Preloader ----
     var pre = document.getElementById("home-preloader");
     if (pre) {
-        var start = Date.now();
-        var MIN_MS = 900; // feels modern without feeling slow
-
         document.body.classList.add("home-preloading");
 
         function hidePreloader() {
-            var elapsed = Date.now() - start;
-            var wait = Math.max(0, MIN_MS - elapsed);
+            pre.classList.add("is-hiding");
             window.setTimeout(function () {
-                pre.classList.add("is-hiding");
-                window.setTimeout(function () {
-                    pre.parentNode && pre.parentNode.removeChild(pre);
-                    document.body.classList.remove("home-preloading");
-                }, 520);
-            }, wait);
+                pre.parentNode && pre.parentNode.removeChild(pre);
+                document.body.classList.remove("home-preloading");
+            }, 300);
         }
 
         if (document.readyState !== "loading") {

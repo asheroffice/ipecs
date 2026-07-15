@@ -128,7 +128,7 @@ https://templatemo.com/tm-561-purple-buzz
     background-color: var(--ipecs-yellow-light);
     background-image: linear-gradient(180deg, #fdf8e4 0%, var(--ipecs-yellow-light) 45%, #f5e8a8 100%);
     opacity: 1;
-    transition: opacity 0.45s ease, visibility 0.45s ease;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .home-page .home-preloader.is-hiding {
@@ -2846,7 +2846,7 @@ https://templatemo.com/tm-561-purple-buzz
 .home-page .sector-hub-masthead__bg {
     position: absolute;
     inset: 0;
-    background: url("../img/about-img.jpg") center 30% / cover no-repeat;
+    background: url("../img/about-img.jpeg") center 30% / cover no-repeat;
     transform: scale(1.02);
 }
 
