@@ -1,19 +1,5 @@
 <!-- Header (shared) -->
 <div class="jugad">
-    <div class="home-topbar d-none d-md-block">
-        <div class="container d-flex flex-wrap align-items-center justify-content-between py-1">
-            <div class="home-topbar-contact d-flex flex-wrap align-items-center gap-3">
-                <a href="tel:+92213722542" class="text-decoration-none"><i class='bx bx-phone'></i> +92 213 722 542</a>
-                <a href="mailto:md@ipecs.org.pk" class="text-decoration-none"><i class='bx bx-envelope'></i> md@ipecs.org.pk</a>
-            </div>
-            <div class="home-topbar-social d-flex align-items-center gap-2">
-                <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
-                <a href="http://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
-                <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
-            </div>
-        </div>
-    </div>
     <nav id="main_nav" class="navbar navbar-expand-lg home-navbar shadow-none">
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand d-flex align-items-center" href="index.php">

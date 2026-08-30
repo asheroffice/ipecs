@@ -538,75 +538,28 @@
         </div>
     </section>
 
-    <!-- Partners -->
-    <section class="home-partners-section">
+    <!-- Partners slideshow (tiles come from assets/include/partner-logo-registry.php; second copy of the track makes the loop seamless) -->
+    <?php $homePartners = require __DIR__ . '/assets/include/partner-logo-registry.php'; ?>
+    <section class="home-partners-section" id="partners">
         <div class="container">
             <h2>Our Partners</h2>
-            <div class="row g-4">
-                <div class="col-6 col-md-3">
-                    <a href="projects.php" class="text-decoration-none text-reset">
-                        <div class="home-partner-card">
-                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-01.png" alt="Accelerated Action Plan">
-                            <h3>Accelerated action plan</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-md-3">
-                    <a href="projects.php" class="text-decoration-none text-reset">
-                        <div class="home-partner-card">
-                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-02.png" alt="Government of Sindh">
-                            <h3>Government of Sindh</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-md-3">
-                    <a href="projects.php" class="text-decoration-none text-reset">
-                        <div class="home-partner-card">
-                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-03.png" alt="Pakistan Petroleum Limited">
-                            <h3>Pakistan Petroleum Limited</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-md-3">
-                    <a href="projects.php" class="text-decoration-none text-reset">
-                        <div class="home-partner-card">
-                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-04.png" alt="UNICEF">
-                            <h3>UNICEF</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-md-3">
-                    <a href="projects.php" class="text-decoration-none text-reset">
-                        <div class="home-partner-card">
-                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-05.png" alt="UNDP">
-                            <h3>UNDP</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-md-3">
-                    <a href="projects.php" class="text-decoration-none text-reset">
-                        <div class="home-partner-card">
-                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-06.png" alt="SIDA">
-                            <h3>Sindh Irrigation &amp; Development Authority</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-md-3">
-                    <a href="projects.php" class="text-decoration-none text-reset">
-                        <div class="home-partner-card">
-                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-07.png" alt="ACTED">
-                            <h3>ACTED</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-md-3">
-                    <a href="projects.php" class="text-decoration-none text-reset">
-                        <div class="home-partner-card">
-                            <img loading="lazy" decoding="async" src="./assets/img/recent-work-08.png" alt="CARE">
-                            <h3>CARE</h3>
-                        </div>
-                    </a>
-                </div>
+        </div>
+        <div class="home-partners-marquee">
+            <div class="home-partners-track">
+                <?php foreach ($homePartners as $partner): ?>
+                <a href="projects.php" class="text-decoration-none text-reset home-partner-item" title="<?php echo htmlspecialchars($partner['name'], ENT_QUOTES); ?>">
+                    <div class="home-partner-card">
+                        <img decoding="async" src="./<?php echo htmlspecialchars($partner['img'], ENT_QUOTES); ?>" alt="<?php echo htmlspecialchars($partner['name'], ENT_QUOTES); ?>">
+                    </div>
+                </a>
+                <?php endforeach; ?>
+                <?php foreach ($homePartners as $partner): ?>
+                <a href="projects.php" class="text-decoration-none text-reset home-partner-item home-partner-item--dup" aria-hidden="true" tabindex="-1">
+                    <div class="home-partner-card">
+                        <img decoding="async" src="./<?php echo htmlspecialchars($partner['img'], ENT_QUOTES); ?>" alt="">
+                    </div>
+                </a>
+                <?php endforeach; ?>
             </div>
         </div>
     </section>

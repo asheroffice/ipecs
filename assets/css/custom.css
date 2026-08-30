@@ -600,6 +600,125 @@ https://templatemo.com/tm-561-purple-buzz
     opacity: 1;
 }
 
+/* Locations page - operational footprint map */
+.home-page .locations-map-section {
+    padding: var(--home-section-padding-y) 0;
+    background: #f3f7fb;
+}
+
+.home-page .locations-map-card {
+    background: #fff;
+    border: 1px solid rgba(11, 74, 140, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(8, 75, 130, 0.08);
+    padding: 1.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page .locations-map-img {
+    width: 100%;
+    height: auto;
+    max-height: 640px;
+    object-fit: contain;
+}
+
+.home-page .locations-office-panel {
+    background: var(--ipecs-navy);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(8, 75, 130, 0.18);
+    padding: 1.6rem 1.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page .locations-office-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin: 0 0 0.3rem;
+}
+
+.home-page .locations-office-sub {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.9rem;
+    margin: 0 0 1.1rem;
+}
+
+.home-page .locations-office-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.85rem;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.home-page .locations-office-item:last-of-type {
+    border-bottom: 0;
+}
+
+.home-page .locations-office-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--ipecs-yellow-bar);
+    box-shadow: 0 0 0 4px rgba(232, 199, 58, 0.22);
+    margin-top: 0.35rem;
+    flex-shrink: 0;
+}
+
+.home-page .locations-office-city {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.98rem;
+    color: #fff;
+    margin: 0;
+}
+
+.home-page .locations-office-type {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.home-page .locations-office-cta {
+    margin-top: auto;
+    padding-top: 1.25rem;
+}
+
+.home-page .locations-office-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--ipecs-navy);
+    background: #fff;
+    border-radius: 999px;
+    padding: 0.6rem 1.15rem;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.home-page .locations-office-btn:hover {
+    color: var(--ipecs-navy);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    transform: translateY(-1px);
+}
+
+@media (max-width: 991px) {
+    .home-page .locations-map-card {
+        padding: 1rem;
+    }
+}
+
 /* ============ About page (Figma / home theme) ============ */
 .home-page .about-doc-section[id],
 .home-page .about-foreword-section {
@@ -4302,7 +4421,7 @@ https://templatemo.com/tm-561-purple-buzz
     color: var(--ipecs-navy) !important;
 }
 
-/* Home: header in flow at top; on scroll, .home-nav-fixed pins bar + hides topbar (sticky fails when nav is inside short .jugad) */
+/* Home: header in flow at top; on scroll, .home-nav-fixed pins the nav bar (sticky fails when nav is inside short .jugad) */
 .home-page .jugad {
     position: relative;
     top: auto;
@@ -4321,10 +4440,6 @@ https://templatemo.com/tm-561-purple-buzz
     z-index: 1000;
 }
 
-.home-page.home-nav-fixed .home-topbar {
-    display: none !important;
-}
-
 .home-page #main_nav.home-navbar {
     transition: box-shadow 0.25s ease;
 }
@@ -4333,28 +4448,10 @@ https://templatemo.com/tm-561-purple-buzz
     box-shadow: 0 4px 20px rgba(8, 75, 130, 0.12);
 }
 
-.home-page .home-topbar {
-    background: var(--ipecs-yellow-bar);
-    color: var(--ipecs-navy);
-    font-family: "Montserrat", sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    padding: 0.4rem 1rem;
-    max-width: 100%;
-}
-
-.home-page .home-topbar a {
-    color: var(--ipecs-navy) !important;
-}
-
-.home-page .home-topbar a:hover {
-    color: var(--ipecs-blue) !important;
-}
-
 .home-page .home-navbar {
     background: var(--ipecs-yellow-light) !important;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
     border-bottom: 1px solid rgba(11, 74, 140, 0.1);
 }
 
@@ -4420,21 +4517,36 @@ https://templatemo.com/tm-561-purple-buzz
     display: none !important;
 }
 
-/* Fill viewport below header stack; --home-header-offset set in JS from .jugad height */
+/* Hero fills the viewport below the header (--home-header-offset is set in JS
+   from the measured .jugad height); on 16:9 screens that box is close to 2:1,
+   so slides cropped at 2:1 (e.g. 1280x640) fit laptops almost exactly */
 .home-page #index_banner .carousel-inner {
     height: auto !important;
-    min-height: min(750px, calc(100svh - var(--home-header-offset, 148px)));
+    min-height: calc(100svh - var(--home-header-offset, 88px));
 }
 
 .home-page #index_banner .carousel-item {
-    min-height: min(750px, calc(100svh - var(--home-header-offset, 148px))) !important;
+    min-height: calc(100svh - var(--home-header-offset, 88px)) !important;
 }
 
 .home-page .home-hero-slide {
-    min-height: min(750px, calc(100svh - var(--home-header-offset, 148px)));
+    height: calc(100svh - var(--home-header-offset, 88px));
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width: 767px) {
+    .home-page #index_banner .carousel-inner,
+    .home-page .home-hero-slide {
+        min-height: 340px;
+        height: 340px;
+    }
+
+    .home-page #index_banner .carousel-item {
+        min-height: 340px !important;
+    }
+}
+
 
 .home-page .home-hero .carousel-item {
     position: relative;
@@ -5462,12 +5574,59 @@ https://templatemo.com/tm-561-purple-buzz
     margin-bottom: 2.5rem;
 }
 
+/* Partners slideshow: track holds two copies of the tiles; sliding by -50%
+   then restarting is seamless. Spacing must come from the item margin (not
+   flex gap) so the -50% point lands exactly on the seam. */
+.home-page .home-partners-marquee {
+    overflow: hidden;
+    padding: 0.5rem 0 1rem;
+}
+
+.home-page .home-partners-track {
+    display: flex;
+    width: max-content;
+    animation: home-partners-scroll 80s linear infinite;
+}
+
+.home-page .home-partners-marquee:hover .home-partners-track,
+.home-page .home-partners-track:focus-within {
+    animation-play-state: paused;
+}
+
+@keyframes home-partners-scroll {
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.home-page .home-partner-item {
+    display: block;
+    width: 190px;
+    flex-shrink: 0;
+    margin-right: 1.25rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-page .home-partners-track {
+        animation: none;
+        width: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 1.25rem;
+        padding: 0 1rem;
+    }
+
+    .home-page .home-partner-item--dup {
+        display: none;
+    }
+}
+
 .home-page .home-partner-card {
     background: #fff;
     border-radius: 8px;
     padding: 1.25rem;
     height: 100%;
-    min-height: 152px;
+    min-height: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;

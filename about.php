@@ -37,7 +37,7 @@
             <div class="row align-items-center g-4 g-lg-5 about-hero-split">
                 <div class="col-lg-6 order-lg-2">
                     <div class="about-hero-img-wrap">
-                        <img src="assets/img/home-main-slider/slide-007.jpg" alt="IPECS field and institutional work" class="about-hero-img" width="800" height="520" loading="eager">
+                        <img src="assets/img/about-hero-solar.jpg" alt="Solar Home System distribution ceremony under the Sindh Solar Energy Project" class="about-hero-img" width="1280" height="847" loading="eager">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1 text-lg-start text-center">

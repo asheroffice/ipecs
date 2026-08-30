@@ -46,6 +46,10 @@
                 <p class="footer-heading">Contact</p>
                 <ul class="list-unstyled home-footer-contact">
                     <li class="d-flex gap-2 mb-3">
+                        <i class='bx bx-phone-call bx-sm flex-shrink-0 mt-1'></i>
+                        <span>UAN <a class="home-footer-link" href="tel:+9221111737467">+92 21 111 737467</a></span>
+                    </li>
+                    <li class="d-flex gap-2 mb-3">
                         <i class='bx bx-phone bx-sm flex-shrink-0 mt-1'></i>
                         <span><a class="home-footer-link" href="tel:+92213722542">+92 213 722 542</a></span>
                     </li>

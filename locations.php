@@ -71,6 +71,66 @@ $districts = [
         </div>
     </section>
 
+    <section class="locations-map-section">
+        <div class="container">
+            <h2 class="locations-section-heading">Our operational footprint</h2>
+            <div class="locations-intro">
+                <p>Active project districts across Sindh and Balochistan, anchored by our head office in Karachi and regional offices province-wide.</p>
+            </div>
+            <div class="row g-4 align-items-stretch">
+                <div class="col-lg-8">
+                    <figure class="locations-map-card mb-0">
+                        <img src="assets/img/map_image.webp" alt="Map of Pakistan highlighting IPECS active project districts across Sindh and Balochistan, with offices marked in Karachi, Hyderabad, Sukkur, Larkana and Quetta" class="locations-map-img" loading="lazy" decoding="async">
+                    </figure>
+                </div>
+                <div class="col-lg-4">
+                    <div class="locations-office-panel">
+                        <h3 class="locations-office-title">IPECS offices</h3>
+                        <p class="locations-office-sub">Permanent presence, ready to mobilise.</p>
+                        <div class="locations-office-item">
+                            <span class="locations-office-dot" aria-hidden="true"></span>
+                            <div>
+                                <p class="locations-office-city">Karachi</p>
+                                <p class="locations-office-type">Head Office</p>
+                            </div>
+                        </div>
+                        <div class="locations-office-item">
+                            <span class="locations-office-dot" aria-hidden="true"></span>
+                            <div>
+                                <p class="locations-office-city">Hyderabad</p>
+                                <p class="locations-office-type">Regional Office</p>
+                            </div>
+                        </div>
+                        <div class="locations-office-item">
+                            <span class="locations-office-dot" aria-hidden="true"></span>
+                            <div>
+                                <p class="locations-office-city">Sukkur</p>
+                                <p class="locations-office-type">Regional Office</p>
+                            </div>
+                        </div>
+                        <div class="locations-office-item">
+                            <span class="locations-office-dot" aria-hidden="true"></span>
+                            <div>
+                                <p class="locations-office-city">Larkana</p>
+                                <p class="locations-office-type">Regional Office</p>
+                            </div>
+                        </div>
+                        <div class="locations-office-item">
+                            <span class="locations-office-dot" aria-hidden="true"></span>
+                            <div>
+                                <p class="locations-office-city">Quetta</p>
+                                <p class="locations-office-type">Provincial Office</p>
+                            </div>
+                        </div>
+                        <div class="locations-office-cta">
+                            <a href="contact.php" class="locations-office-btn">Discuss an engagement <i class="bx bx-right-arrow-alt" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="contact-content">
         <div class="container">
             <h2 class="locations-section-heading">Districts &amp; areas</h2>
